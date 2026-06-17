@@ -147,13 +147,21 @@ let captures = {};
 
 function esc(s) { const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 
-function matchCapture(query) {
-  const q = query.toLowerCase().replace(/"/g, '');
+function matchCaptures(query) {
+  const q = query.toLowerCase().replace(/"/g, '').trim();
+  const matches = [];
   for (const entry of Object.values(captures)) {
-    const eq = (entry.q || '').toLowerCase().replace(/"/g, '');
-    if (eq === q || eq.includes(q) || q.includes(eq)) return entry;
+    const bk = (entry.battery_key || '').toLowerCase().trim();
+    const eq = (entry.q || '').toLowerCase().replace(/"/g, '').trim();
+    if (bk === q || eq === q) { matches.push(entry); }
   }
-  return null;
+  if (matches.length > 0) return matches;
+  // Fallback: substring match
+  for (const entry of Object.values(captures)) {
+    const eq = (entry.q || '').toLowerCase().replace(/"/g, '').trim();
+    if (eq.includes(q) || q.includes(eq)) { matches.push(entry); break; }
+  }
+  return matches;
 }
 
 function toggleDetail(el) {
@@ -171,8 +179,13 @@ async function init() {
 
     // Stats
     const framings = {};
+    const seenKeys = new Set();
     let captured = 0;
-    rf.entries.forEach(e => { framings[e.framing] = (framings[e.framing]||0)+1; captured++; });
+    rf.entries.forEach(e => {
+      framings[e.framing] = (framings[e.framing]||0)+1;
+      const key = e.battery_key || e.q;
+      if (!seenKeys.has(key)) { captured++; seenKeys.add(key); }
+    });
     const totalTerms = BATTERY.reduce((sum, cat) => sum + cat.terms.length, 0);
 
     document.getElementById('stats').innerHTML =
@@ -192,7 +205,8 @@ async function init() {
   for (const cat of BATTERY) {
     html += '<div class="cat-header">' + esc(cat.cat) + '</div>';
     for (const term of cat.terms) {
-      const cap = matchCapture(term.q);
+      const caps = matchCaptures(term.q);
+      const cap = caps.length > 0 ? caps[0] : null;
       const framing = cap ? cap.framing : 'UNCAPTURED';
       const badgeLabel = framing.replace(/_/g, ' ');
 
@@ -205,6 +219,9 @@ async function init() {
       html += '</div>';
 
       html += '<div class="term-detail">';
+      if (caps.length > 1) {
+        html += '<div style="font-size:0.72em;color:var(--accent2);margin-bottom:6px">' + caps.length + ' captures for this query</div>';
+      }
       if (cap) {
         html += '<div class="detail-label">Surface</div><div class="detail-text">' + esc(cap.surface || '') + ' · ' + esc(cap.date || '') + '</div>';
         if (cap.per !== null && cap.per !== undefined) {
@@ -219,6 +236,16 @@ async function init() {
         }
         if (cap.medium_post_visible) {
           html += '<div style="margin-top:4px;font-size:0.8em;color:var(--tested)">Medium post visible in organic results</div>';
+        }
+        if (caps.length > 1) {
+          for (let i = 1; i < caps.length; i++) {
+            const vc = caps[i];
+            html += '<div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--border)">';
+            html += '<div class="detail-label">Variant Capture (' + vc.id + ': ' + esc(vc.q) + ')</div>';
+            html += '<div class="detail-text">' + esc(vc.response_summary || '') + '</div>';
+            if (vc.notes) html += '<div class="detail-note">' + esc(vc.notes) + '</div>';
+            html += '</div>';
+          }
         }
       } else {
         html += '<div style="color:var(--dim)">No capture recorded yet. Click SEARCH to run the query, then bring results back for recording.</div>';
