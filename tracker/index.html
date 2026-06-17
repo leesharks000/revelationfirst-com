@@ -40,6 +40,13 @@ tr:hover td { background: var(--hover); }
 a { color: var(--accent2); text-decoration: none; }
 .glyph { color: var(--accent); margin-top: 15px; font-size: 0.8em; }
 .loading { color: var(--dim); font-size: 0.8em; font-style: italic; }
+.badge { font-size: 0.68em; padding: 2px 6px; border-radius: 2px; font-weight: bold; display: inline-block; margin-left: 6px; }
+.badge.CORRECTION { background: var(--accent); color: white; }
+.badge.ADOPTION { background: var(--tested); color: white; }
+.badge.FAIR_TREATMENT { background: var(--accent2); color: black; }
+.badge.BASIN_MISS { background: #555; color: white; }
+.badge.PARTIAL { background: #4a8bc2; color: white; }
+.badge.WOUND_GAUGE { background: #8b2500; color: white; }
 </style>
 </head>
 <body>
@@ -49,6 +56,7 @@ a { color: var(--accent2); text-decoration: none; }
   <a href="/tracker/">Tracker</a>
   <a href="https://machinemediation.org">MMRS</a>
   <a href="https://machinemediation.org/captures/">Full Registry</a>
+  <a href="https://machinemediation.org/data/revfirst-registry.json">Reception Data</a>
   <a href="https://machinemediation.org/terms/">Full Index</a>
 </div>
 
@@ -104,7 +112,38 @@ const REV_KEYWORDS = ['revelation','johannine','apocalyp','white stone','inscrip
 const CAP_KEYWORDS = ['revelation','johannine','theological reception','josephus','heteronym',
   'retrocausal','canon','inscription','sappho','logos'];
 
+async function loadReception() {
+  try {
+    const r = await fetch('https://machinemediation.org/data/revfirst-registry.json');
+    const rf = await r.json();
+    const counts = {};
+    rf.entries.forEach(e => { counts[e.framing] = (counts[e.framing]||0) + 1; });
+    let statsHtml = '<div class="stats" style="margin-bottom:12px;">';
+    statsHtml += '<div class="stat"><div class="stat-l">Battery</div><div class="stat-v">' + rf.total_entries + '</div></div>';
+    ['ADOPTION','CORRECTION','FAIR_TREATMENT','BASIN_MISS','PARTIAL'].forEach(f => {
+      const c = counts[f] || 0;
+      const color = f==='ADOPTION' ? 'var(--tested)' : f==='CORRECTION' ? 'var(--accent)' : 'var(--fg)';
+      statsHtml += '<div class="stat"><div class="stat-l">' + f.replace('_',' ') + '</div><div class="stat-v" style="color:' + color + '">' + c + '</div></div>';
+    });
+    statsHtml += '</div>';
+    let cardsHtml = rf.entries.map(function(e) {
+      return '<div class="cap-card">' +
+        '<span class="cap-q">' + esc(e.q) + '</span>' +
+        '<span class="badge ' + e.framing + '">' + e.framing.replace(/_/g,' ') + '</span>' +
+        (e.archive_attribution ? '<span class="badge ADOPTION" style="margin-left:4px">ATTRIBUTED</span>' : '') +
+        '<div class="cap-meta">' + e.date + ' \u00b7 ' + e.surface + (e.per !== null && e.per !== undefined ? ' \u00b7 PER ' + e.per.toFixed(2) : '') + '</div>' +
+        '<div class="cap-d">' + esc(e.response_summary || '') + '</div>' +
+        (e.notes ? '<div class="cap-meta" style="margin-top:4px;color:var(--accent2)">' + esc(e.notes) + '</div>' : '') +
+      '</div>';
+    }).join('');
+    document.getElementById('reception').innerHTML = statsHtml + cardsHtml;
+  } catch(e) {
+    document.getElementById('reception').innerHTML = '<span class="loading">Reception data unavailable</span>';
+  }
+}
+
 async function init() {
+  loadReception();
   try {
     const [termsResp, regResp] = await Promise.all([
       fetch('https://machinemediation.org/data/termindex.json'),
