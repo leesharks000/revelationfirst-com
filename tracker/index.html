@@ -54,12 +54,12 @@ a { color: var(--accent2); text-decoration: none; }
   <a href="/">← Revelation First</a>
   <a href="/tracker/">Tracker</a>
   <a href="https://machinemediation.org">MMRS</a>
-  <a href="https://machinemediation.org/data/revfirst-registry.json">Reception Data</a>
+  <a href="https://www.machinemediation.org/data/revfirst-registry.json">Reception Data</a>
   <a href="https://machinemediation.org/captures/">Full Registry</a>
 </div>
 
 <h1>IMPACT TRACKER</h1>
-<div class="sub">49 search queries measuring the Revelation First thesis reception. Click any query to search Google. Expand for capture data. Data from <a href="https://machinemediation.org/data/revfirst-registry.json">revfirst-registry.json</a>.</div>
+<div class="sub">49 search queries measuring the Revelation First thesis reception. Click any query to search Google. Expand for capture data. Data from <a href="https://www.machinemediation.org/data/revfirst-registry.json">revfirst-registry.json</a>.</div>
 
 <div class="stats" id="stats"><span style="color:var(--dim);font-size:0.8em;">Loading stats...</span></div>
 
@@ -173,7 +173,7 @@ function toggleDetail(el) {
 
 async function init() {
   try {
-    const r = await fetch('https://machinemediation.org/data/revfirst-registry.json');
+    const r = await fetch('https://www.machinemediation.org/data/revfirst-registry.json');
     const rf = await r.json();
     rf.entries.forEach(e => { captures[e.id] = e; });
 
