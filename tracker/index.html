@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Impact Tracker — Revelation First</title>
-<meta name="description" content="Live tracking of 49 search queries measuring the Revelation First thesis reception in Google AI Overview and other composition layers. Click to search, capture, track.">
+<meta name="description" content="Live tracking of 67 search queries measuring the Revelation First thesis reception in Google AI Overview and other composition layers. Click to search, capture, track.">
 <style>
 :root { --bg: #0a0a0a; --fg: #e0ddd5; --accent: #c23b22; --accent2: #d4a537; --dim: #666; --border: #222; --hover: #151515; --tested: #2a7a3a; --untested: #555; }
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -54,12 +54,12 @@ a { color: var(--accent2); text-decoration: none; }
   <a href="/">← Revelation First</a>
   <a href="/tracker/">Tracker</a>
   <a href="https://machinemediation.org">MMRS</a>
-  <a href="https://www.machinemediation.org/data/revfirst-registry.json">Reception Data</a>
+  <a href="https://machinemediation.org/data/revfirst-registry.json">Reception Data</a>
   <a href="https://machinemediation.org/captures/">Full Registry</a>
 </div>
 
 <h1>IMPACT TRACKER</h1>
-<div class="sub">49 search queries measuring the Revelation First thesis reception. Click any query to search Google. Expand for capture data. Data from <a href="https://www.machinemediation.org/data/revfirst-registry.json">revfirst-registry.json</a>.</div>
+<div class="sub">67 search queries measuring the Revelation First thesis reception. Click any query to search Google. Expand for capture data. Data from <a href="https://machinemediation.org/data/revfirst-registry.json">revfirst-registry.json</a>.</div>
 
 <div class="stats" id="stats"><span style="color:var(--dim);font-size:0.8em;">Loading stats...</span></div>
 
@@ -152,7 +152,7 @@ const BATTERY = [
     { q: '"heteronymic authorship" New Testament', url: "https://www.google.com/search?q=%22heteronymic+authorship%22+New+Testament" },
     { q: '"ahistorical Christ"', url: "https://www.google.com/search?q=%22ahistorical+Christ%22" },
     { q: '"executable scripture"', url: "https://www.google.com/search?q=%22executable+scripture%22" },
-    { q: '"logos as graphē"', url: "https://www.google.com/search?q=%22logos+as+graph%C4%93%22" },
+    { q: '"logos as graphe"', url: "https://www.google.com/search?q=%22logos+as+graphe%22" },
     { q: '"retrieval-layer theological reception"', url: "https://www.google.com/search?q=%22retrieval-layer+theological+reception%22" },
     { q: '"Josephus thesis" NOT Piso', url: "https://www.google.com/search?q=%22Josephus+thesis%22+NOT+Piso" },
     { q: '"white stone" Revelation credential', url: "https://www.google.com/search?q=%22white+stone%22+Revelation+credential" },
@@ -161,9 +161,6 @@ const BATTERY = [
     { q: '"seven churches" "epistolary prototype"', url: "https://www.google.com/search?q=%22seven+churches%22+%22epistolary+prototype%22" },
     { q: '"Neronic dating" Revelation', url: "https://www.google.com/search?q=%22Neronic+dating%22+Revelation" }
   ]}
-
-]},
-  
 ];
 
 let captures = {};
@@ -176,13 +173,12 @@ function matchCaptures(query) {
   for (const entry of Object.values(captures)) {
     const bk = (entry.battery_key || '').toLowerCase().trim();
     const eq = (entry.q || '').toLowerCase().replace(/"/g, '').trim();
-    if (bk === q || eq === q) { matches.push(entry); }
+    if (bk === q || eq === q) matches.push(entry);
   }
   if (matches.length > 0) return matches;
-  // Fallback: substring match
   for (const entry of Object.values(captures)) {
     const eq = (entry.q || '').toLowerCase().replace(/"/g, '').trim();
-    if (eq.includes(q) || q.includes(eq)) { matches.push(entry); break; }
+    if (q.length > 10 && (eq.includes(q) || q.includes(eq))) { matches.push(entry); break; }
   }
   return matches;
 }
@@ -202,13 +198,8 @@ async function init() {
 
     // Stats
     const framings = {};
-    const seenKeys = new Set();
     let captured = 0;
-    rf.entries.forEach(e => {
-      framings[e.framing] = (framings[e.framing]||0)+1;
-      const key = e.battery_key || e.q;
-      if (!seenKeys.has(key)) { captured++; seenKeys.add(key); }
-    });
+    rf.entries.forEach(e => { framings[e.framing] = (framings[e.framing]||0)+1; captured++; });
     const totalTerms = BATTERY.reduce((sum, cat) => sum + cat.terms.length, 0);
 
     document.getElementById('stats').innerHTML =
@@ -242,9 +233,6 @@ async function init() {
       html += '</div>';
 
       html += '<div class="term-detail">';
-      if (caps.length > 1) {
-        html += '<div style="font-size:0.72em;color:var(--accent2);margin-bottom:6px">' + caps.length + ' captures for this query</div>';
-      }
       if (cap) {
         html += '<div class="detail-label">Surface</div><div class="detail-text">' + esc(cap.surface || '') + ' · ' + esc(cap.date || '') + '</div>';
         if (cap.per !== null && cap.per !== undefined) {
@@ -259,16 +247,6 @@ async function init() {
         }
         if (cap.medium_post_visible) {
           html += '<div style="margin-top:4px;font-size:0.8em;color:var(--tested)">Medium post visible in organic results</div>';
-        }
-        if (caps.length > 1) {
-          for (let i = 1; i < caps.length; i++) {
-            const vc = caps[i];
-            html += '<div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--border)">';
-            html += '<div class="detail-label">Variant Capture (' + vc.id + ': ' + esc(vc.q) + ')</div>';
-            html += '<div class="detail-text">' + esc(vc.response_summary || '') + '</div>';
-            if (vc.notes) html += '<div class="detail-note">' + esc(vc.notes) + '</div>';
-            html += '</div>';
-          }
         }
       } else {
         html += '<div style="color:var(--dim)">No capture recorded yet. Click SEARCH to run the query, then bring results back for recording.</div>';
