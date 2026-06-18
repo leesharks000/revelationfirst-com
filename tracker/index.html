@@ -253,6 +253,9 @@ async function init() {
           html += '<div class="detail-label">PER</div><div class="detail-text">' + cap.per.toFixed(2) + '</div>';
         }
         html += '<div class="detail-label">Response</div><div class="detail-text">' + esc(cap.response_summary || '') + '</div>';
+        if (cap.transcript) {
+          html += '<div class="detail-label">Full Transcript</div><div class="detail-text" style="white-space:pre-wrap;font-size:0.72em;max-height:300px;overflow-y:auto;border:1px solid var(--border);padding:8px;margin-top:4px;background:#0a0a0a;">' + esc(cap.transcript) + '</div>';
+        }
         if (cap.notes) {
           html += '<div class="detail-label">Notes</div><div class="detail-note">' + esc(cap.notes) + '</div>';
         }
