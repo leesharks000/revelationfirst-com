@@ -35,13 +35,13 @@
 - **The Space Ark v3.0** (EA-ARK-01-ARCHON) — Revelation as operative document
   - DOI: 10.5281/zenodo.19501454
 - **TANG: Total Axial Negation Graph** — comprehensive scholarly topology
-  - DOI: 10.5281/zenodo.19500777
+  - DOI: 10.5281/zenodo.19500778
 - **The Inscription That Survives** — Sappho 31, Orphic tablets, white stone
   - DOI: 10.5281/zenodo.20693272
 - **The Word That Became Text** — Slavonic Josephus, grammar of incarnation
   - DOI: 10.5281/zenodo.19431121
 - **The Number of the Superscription** — coinage, compression, inscriptional sovereignty
-  - DOI: 10.5281/zenodo.19464331
+  - DOI: 10.5281/zenodo.19464332
 - **The Pergamon Counter-Archive** — Antipas, white stone, non-fungible name
   - DOI: 10.5281/zenodo.20589664
 - **Counterfeit Orthodoxies** — the workshop inside the canon
@@ -49,13 +49,13 @@
 - **A Body Prepared** — EA-ARK-FICTION-01
   - DOI: 10.5281/zenodo.19638124
 - **The Revelation Room** — ground truth and algorithmic unfolding
-  - DOI: 10.5281/zenodo.18380932
+  - DOI: 10.5281/zenodo.18380933
 - **The Seven Stars in His Hand** — hermeneutic reading of Rev 1-3
-  - DOI: 10.5281/zenodo.18380715
+  - DOI: 10.5281/zenodo.18380716
 - **The Apocalypse of Sharks** — EA-ARK-SHARKS-01
   - DOI: 10.5281/zenodo.19476949
 - **The Shark Ark: Source Compression** — holographic kernel of the arguments
-  - DOI: 10.5281/zenodo.19477218
+  - DOI: 10.5281/zenodo.19477219
 
 ### Governance
 - **MMRS Charter v1.4** — editorial protocol governing theological reception
