@@ -32,10 +32,43 @@ p { font-size: 0.85em; margin-bottom: 12px; }
 .glyph { color: var(--accent); margin-top: 8px; }
 .nav { font-size: 0.78em; margin-bottom: 15px; }
 .nav a { color: var(--accent2); text-decoration: none; margin-right: 12px; }
+
+/* MSP-TOKENS-START */
+/* ══ MSP TOKENS — Mandala Surface Protocol shared contract ══
+   Contract classes: .lemma .term .axn-chip .witness-row .w .w-chip .state
+   .idstrip .helix .mspcolophon .doors .obol — skinned per surface via --msp-* vars.
+   (EA-APPARATUS-01 v0.3, #1077, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎) */
+:root{--msp-lemma:rgba(200,150,60,.30);--msp-chipfg:#7a5a1e;--msp-chipbd:rgba(160,120,50,.45);--msp-chipbg:rgba(200,150,60,.06);--msp-ok:#1c6e4a;--msp-cont:#8a6a20;--msp-halt:#a41623;--msp-dim:#6d6f66;--msp-mono:'IBM Plex Mono',monospace;}
+.lemma{background:linear-gradient(transparent 58%, var(--msp-lemma) 58%);padding:0 2px;}
+.axn-chip{font-family:var(--msp-mono);font-size:.72em;background:var(--msp-chipbg);border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 7px;color:var(--msp-chipfg);white-space:nowrap;text-decoration:none;}
+.axn-chip:hover{border-color:var(--msp-chipfg);}
+.witness-row{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px;font-family:var(--msp-mono);font-size:.68em;}
+.witness-row .w,.w-chip{border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;color:var(--msp-dim);text-decoration:none;font-family:var(--msp-mono);font-size:.85em;white-space:nowrap;}
+.state{font-family:var(--msp-mono);font-size:.68em;border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;white-space:nowrap;}
+.state.obs{color:var(--msp-ok);border-color:rgba(28,110,74,.4);}
+.state.cont{color:var(--msp-cont);}
+.idstrip{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;font-family:var(--msp-mono);font-size:10.5px;color:var(--msp-dim);border:1px solid var(--rule,#d9d9d0);border-bottom:2px solid var(--msp-chipbd);background:var(--panel,#f6f6f2);padding:9px 12px;margin:14px 0 6px;}
+.idstrip .axn{color:var(--msp-chipfg);font-size:11.5px;}
+.idstrip .st{border:1px solid var(--rule,#d9d9d0);border-radius:9px;padding:1px 7px;white-space:nowrap;}
+.helix{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px;font-family:var(--msp-mono);font-size:.68em;}
+.helix .slot{border:1px solid var(--msp-chipbd);border-radius:4px;padding:3px 9px;}
+.helix .slot b{font-weight:600;letter-spacing:.06em;}
+.helix .slot.ok{color:var(--msp-ok);}
+.helix .slot.div{color:var(--msp-cont);}
+.helix .slot.dead{color:var(--msp-halt);}
+.mspcolophon{font-family:var(--msp-mono);font-size:10px;color:var(--msp-dim);border-top:1px solid var(--rule,#d9d9d0);margin-top:30px;padding-top:10px;line-height:1.9;}
+.obol{font-family:'Source Serif 4',Georgia,serif;font-size:.92em;color:#3c3e37;border-left:3px solid var(--msp-chipbd);padding:4px 0 4px 14px;margin:22px 0 4px;}
+.doors{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 6px;font-family:var(--msp-mono);}
+.doors a.w-chip{font-size:11px;padding:6px 12px;}
+/* MSP-TOKENS-END */
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Zenodo DOI Resolution Index","description":"Maps 1,817 defunct Zenodo DOIs to live Alexanarch records. Companion dataset to Zenodotus Book-Burning (AXN:01.GOVERNANCE).","url":"https://alexanarch.org/data/doi-resolution-index.json","sameAs":"https://alexanarch.org/s/records/4/","creator":{"@type":"Person","name":"Lee Sharks","identifier":"https://orcid.org/0009-0000-1599-0703"},"license":"https://creativecommons.org/licenses/by/4.0/","distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://alexanarch.org/data/doi-resolution-index.json"},"isPartOf":{"@type":"ScholarlyArticle","name":"Zenodotus Book-Burning: Loud Exclusion at Repository Scale","url":"https://alexanarch.org/s/records/1/"}}</script>
 </head>
 <body>
+<!-- MSP-IDSTRIP-START -->
+<div class="idstrip"><span class="axn">🔻🎪⏫❌🗼🏔️ AXN:0349.GOVERNANCE</span><span class="st">Revelation First ≠ Revelation Early — The Apocalypse as the Earliest New Testament Document</span><span class="st">OBJECT: CANONICAL</span><span>revelationfirst.com</span><a class="axn-chip" href="https://www.alexanarch.org/s/records/202/">deposit #202</a></div>
+<!-- MSP-IDSTRIP-END -->
+
 <div class="wrap">
 
 <div class="nav">
@@ -53,29 +86,29 @@ The conventional timeline places Revelation last — the appendix, the afterthou
 
 <h2>The Seven Workstreams</h2>
 <ul class="ws">
-  <li><span class="ws-n">1.</span> <a href="https://www.alexanarch.org/s/records/832/">The Dating Question</a><span class="ws-d">Revelation pre-70 CE. Robinson and Gentry extended with the literary-genetic argument: the NT unfolds from Revelation's seed.</span></li>
-  <li><span class="ws-n">2.</span> <a href="https://www.alexanarch.org/s/records/787/">The Heteronymic Reading</a><span class="ws-d">NT authors as positions in a fractured authorial system under Roman capture. Not the Jesus Myth thesis. The Logos is real.</span></li>
-  <li><span class="ws-n">3.</span> <a href="https://www.alexanarch.org/s/records/828/">The Inscription Chain</a><span class="ws-d">From Sappho's γράμμασι ζώοι through the Orphic gold tablets to the white stone of Revelation 2:17. Inscription as salvific technology.</span></li>
-  <li><span class="ws-n">4.</span> <a href="https://www.alexanarch.org/s/records/626/">The Slavonic Josephus</a><span class="ws-d">The deepest laurel. The "shining ivy circlet." The Slavonic tradition as a separate but related problem.</span></li>
+  <li><span class="ws-n">1.</span> <a class="axn-chip" href="https://www.alexanarch.org/s/records/832/">The Dating Question</a><span class="ws-d">Revelation pre-70 CE. Robinson and Gentry extended with the literary-genetic argument: the NT unfolds from Revelation's seed.</span></li>
+  <li><span class="ws-n">2.</span> <a class="axn-chip" href="https://www.alexanarch.org/s/records/787/">The Heteronymic Reading</a><span class="ws-d">NT authors as positions in a fractured authorial system under Roman capture. Not the Jesus Myth thesis. The Logos is real.</span></li>
+  <li><span class="ws-n">3.</span> <a class="axn-chip" href="https://www.alexanarch.org/s/records/828/">The Inscription Chain</a><span class="ws-d">From Sappho's γράμμασι ζώοι through the Orphic gold tablets to the white stone of Revelation 2:17. Inscription as salvific technology.</span></li>
+  <li><span class="ws-n">4.</span> <a class="axn-chip" href="https://www.alexanarch.org/s/records/626/">The Slavonic Josephus</a><span class="ws-d">The deepest laurel. The "shining ivy circlet." The Slavonic tradition as a separate but related problem.</span></li>
   <li><span class="ws-n">5.</span> The Papyrological Inversion<span class="ws-d">The earliest physical NT witnesses are Johannine, not Pauline. The material evidence inverts the conventional compositional timeline.</span></li>
   <li><span class="ws-n">6.</span> The Paul Function<span class="ws-d">Paul as author-function within a heteronymic system, not a biographical individual. The milk is the biographical Christ. The solid food is the living Logos.</span></li>
-  <li><span class="ws-n">7.</span> <a href="https://www.alexanarch.org/s/records/0/">The Space Ark</a><span class="ws-d">Revelation as operative document — the seven letters as church-operation protocols, the throne room as architectural specification, the seals as phase-transition descriptions.</span></li>
+  <li><span class="ws-n">7.</span> <a class="axn-chip" href="https://www.alexanarch.org/s/records/0/">The Space Ark</a><span class="ws-d">Revelation as operative document — the seven letters as church-operation protocols, the throne room as architectural specification, the seals as phase-transition descriptions.</span></li>
 </ul>
 
 <h2>The Ethical Architecture</h2>
-<p>Revelation is the primary foil — the aperture through which every contest for borrowing God's authority for earthly power must travel. The <a href="https://www.alexanarch.org/s/records/563/">Thiel diagnostic</a> is the case study: "Thiel proves the text's literary sophistication by failing to recognize himself in it." The <a href="https://www.alexanarch.org/s/records/848/">MMRS Charter</a> governs the editorial process for theological reception. The affordance map tracks what the reading amplifies, constrains, and revises.</p>
+<p>Revelation is the primary foil — the aperture through which every contest for borrowing God's authority for earthly power must travel. The <a class="axn-chip" href="https://www.alexanarch.org/s/records/563/">Thiel diagnostic</a> is the case study: "Thiel proves the text's literary sophistication by failing to recognize himself in it." The <a class="axn-chip" href="https://www.alexanarch.org/s/records/848/">MMRS Charter</a> governs the editorial process for theological reception. The affordance map tracks what the reading amplifies, constrains, and revises.</p>
 
 <h2>Companion Documents</h2>
 <ul class="links">
-  <li><a href="https://www.alexanarch.org/s/records/832/">Work Plan v7.3</a> <span class="link-d">— the complete seven-workstream plan</span></li>
-  <li><a href="https://www.alexanarch.org/s/records/837/">Josephus ≠ Myth MPAI v1.2</a> <span class="link-d">— preemptive disambiguation</span></li>
-  <li><a href="https://www.alexanarch.org/s/records/203/">Josephus ≠ Piso</a> <span class="link-d">— evidentiary distinction</span></li>
-  <li><a href="https://www.alexanarch.org/s/records/203/">Baseline Captures</a> <span class="link-d">— pre-seeding measurement</span></li>
-  <li><a href="https://www.alexanarch.org/s/records/0/">TANG</a> <span class="link-d">— total axial negation graph, scholarly topology</span></li>
-  <li><a href="https://www.alexanarch.org/s/records/165/">Pergamon Counter-Archive</a> <span class="link-d">— Antipas, white stone, non-fungible name</span></li>
-  <li><a href="https://www.alexanarch.org/s/records/0/">Counterfeit Orthodoxies</a> <span class="link-d">— the workshop inside the canon</span></li>
-  <li><a href="https://www.alexanarch.org/s/records/642/">Number of the Superscription</a> <span class="link-d">— coinage and inscriptional sovereignty</span></li>
-  <li><a href="https://www.alexanarch.org/s/records/639/">Shark Ark: Source Compression</a> <span class="link-d">— holographic kernel</span></li>
+  <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/832/">Work Plan v7.3</a> <span class="link-d">— the complete seven-workstream plan</span></li>
+  <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/837/">Josephus ≠ Myth MPAI v1.2</a> <span class="link-d">— preemptive disambiguation</span></li>
+  <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/203/">Josephus ≠ Piso</a> <span class="link-d">— evidentiary distinction</span></li>
+  <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/203/">Baseline Captures</a> <span class="link-d">— pre-seeding measurement</span></li>
+  <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/0/">TANG</a> <span class="link-d">— total axial negation graph, scholarly topology</span></li>
+  <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/165/">Pergamon Counter-Archive</a> <span class="link-d">— Antipas, white stone, non-fungible name</span></li>
+  <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/0/">Counterfeit Orthodoxies</a> <span class="link-d">— the workshop inside the canon</span></li>
+  <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/642/">Number of the Superscription</a> <span class="link-d">— coinage and inscriptional sovereignty</span></li>
+  <li><a class="axn-chip" href="https://www.alexanarch.org/s/records/639/">Shark Ark: Source Compression</a> <span class="link-d">— holographic kernel</span></li>
 </ul>
 
 <h2>Measuring the Ripple</h2>
@@ -114,5 +147,9 @@ The conventional timeline places Revelation last — the appendix, the afterthou
 </ul>
 </div>
 
+<!-- MSP-APPARATUS-START -->
+<div class="doors"><a class="w-chip" href="https://www.alexanarch.org/s/records/202/">Read the thesis</a><a class="w-chip" href="https://www.alexanarch.org/s/records/832/">Open the workplan</a><a class="w-chip" href="https://www.alexanarch.org/">Enter the archive</a></div>
+<div class="mspcolophon">colophon · surface_id: revelationfirst.com · canonical_url: https://revelationfirst.com/ · object_state: canonical · surface_observed_at: 2026-07-13T21:23:22Z · source_object_ids: deposit #202 · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: STAGE1-PENDING · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-07-13T21:23:22Z · render_sha256 (of this file with this field&rsquo;s value set to null): STAGE1_HASH_PENDING · correction_log_url: https://github.com/leesharks000/revelationfirst-com/commits/main/index.html — EA-APPARATUS-01 v0.3, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎</div>
+<!-- MSP-APPARATUS-END -->
 </body>
 </html>
