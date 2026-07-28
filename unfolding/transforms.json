@@ -1,0 +1,235 @@
+{
+ "$schema": "https://revelationfirst.com/unfolding/transforms.json",
+ "title": "The Midrashim Transform M — canonical instances",
+ "deposit": {
+  "number": 1414,
+  "axn": "AXN:0597.GENERATIVE.📚🌑♈❤️💜♦️",
+  "record": "https://www.alexanarch.org/s/records/1414/"
+ },
+ "workstream": {
+  "number": 4,
+  "plan_deposit": 1403,
+  "plan_axn": "AXN:058C.UNCLASSIFIED.🏠🌓🕊️🌌📚🔮"
+ },
+ "lineage": [
+  {
+   "deposit": 407,
+   "axn": "AXN:00D8.GENERATIVE.🌿🫵🜁💜⚡🌸",
+   "title": "The Revelation Room: Ground Truth and Algorithmic Unfolding"
+  },
+  {
+   "deposit": 639,
+   "axn": "AXN:01EF.EMPIRICAL.⏫🎹🍄♊🔥⚙️",
+   "title": "THE SHARK ARK: SOURCE COMPRESSION — Holographic Kernel"
+  }
+ ],
+ "canary": "the midrashim transform winds both directions through the Johannine aperture",
+ "claim_discipline": "This does not claim to demonstrate historical fact. It demonstrates that a competing inference — compositional priority of the Apocalypse — accounts for structural features of the NT corpus, and renders that inference operable. The comparison is between inferences. The burden is symmetrical.",
+ "falsification": "Identify NT passages that cannot be derived from Revelation through any plausible transform — these are the counterevidence. The transform graph is the object to be broken, not merely admired.",
+ "transforms": [
+  {
+   "id": "M1",
+   "name": "Letters → Epistles",
+   "seed": {
+    "ref": "Revelation 2–3",
+    "title": "The Seven Letters",
+    "greek": "tais hepta ekklēsiais",
+    "quote": "Unto the angel of the church of Ephesus write… I know thy works, and thy labour… be thou faithful unto death, and I will give thee a crown of life.",
+    "image": "the address–commendation–correction–promise form, compressed to a few verses per church"
+   },
+   "steps": [
+    [
+     "EXTRACT",
+     "the address–commendation–correction–promise structure"
+    ],
+    [
+     "EXPAND",
+     "from a few verses to a full letter"
+    ],
+    [
+     "SPECIFY",
+     "add situational detail — names, disputes, collections, journeys"
+    ],
+    [
+     "RETAIN",
+     "the basic form, recognizable end to end"
+    ]
+   ],
+   "targets": [
+    {
+     "ref": "Gal 1:2",
+     "quote": "unto the churches of Galatia",
+     "note": "address"
+    },
+    {
+     "ref": "1 Thess 1:2",
+     "quote": "We give thanks to God always for you all",
+     "note": "commendation"
+    },
+    {
+     "ref": "Gal 3:1",
+     "quote": "O foolish Galatians, who hath bewitched you",
+     "note": "correction"
+    },
+    {
+     "ref": "2 Tim 4:8",
+     "quote": "there is laid up for me a crown of righteousness",
+     "note": "promise — the crown returns"
+    }
+   ]
+  },
+  {
+   "id": "M2",
+   "name": "Lampstands → Ecclesiology",
+   "seed": {
+    "ref": "Revelation 1:20",
+    "title": "The Seven Lampstands",
+    "greek": "hai hepta lychniai",
+    "quote": "the seven candlesticks which thou sawest are the seven churches.",
+    "image": "distinct-but-unified communities as a single visual symbol"
+   },
+   "steps": [
+    [
+     "EXTRACT",
+     "the image of distinct-but-unified communities"
+    ],
+    [
+     "TRANSPOSE",
+     "from visual symbol to theological argument"
+    ],
+    [
+     "ELABORATE",
+     "membership and unity as doctrine"
+    ]
+   ],
+   "targets": [
+    {
+     "ref": "1 Cor 12:12",
+     "quote": "For as the body is one, and hath many members… so also is Christ.",
+     "note": "the body argument"
+    },
+    {
+     "ref": "Eph 4:4",
+     "quote": "There is one body, and one Spirit",
+     "note": "unity as doctrine"
+    }
+   ]
+  },
+  {
+   "id": "M3",
+   "name": "Lamb → Atonement",
+   "seed": {
+    "ref": "Revelation 5",
+    "title": "The Lamb Who Was Slain",
+    "greek": "arnion hōs esphagmenon",
+    "quote": "lo, in the midst of the throne… stood a Lamb as it had been slain.",
+    "image": "the throne-room image: sacrifice already central, already cosmic"
+   },
+   "steps": [
+    [
+     "EXTRACT",
+     "the throne-room image"
+    ],
+    [
+     "UNFOLD",
+     "into systematic soteriology"
+    ],
+    [
+     "FIX",
+     "the sacrificial referent in doctrinal formula"
+    ]
+   ],
+   "targets": [
+    {
+     "ref": "Rom 3:25",
+     "quote": "Whom God hath set forth to be a propitiation through faith in his blood",
+     "note": "systematic atonement"
+    },
+    {
+     "ref": "1 Cor 5:7",
+     "quote": "For even Christ our passover is sacrificed for us",
+     "note": "the paschal fix"
+    }
+   ]
+  },
+  {
+   "id": "M4",
+   "name": "New Jerusalem → Eschatology",
+   "seed": {
+    "ref": "Revelation 21–22",
+    "title": "The Descending City",
+    "greek": "hē polis hē hagia",
+    "quote": "And I John saw the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride adorned for her husband.",
+    "image": "the architectural vision, complete and measured"
+   },
+   "steps": [
+    [
+     "EXTRACT",
+     "the architectural vision"
+    ],
+    [
+     "NARRATIVIZE",
+     "into expectation — the vision becomes a story awaited"
+    ],
+    [
+     "DISTRIBUTE",
+     "across parenetic contexts throughout the corpus"
+    ]
+   ],
+   "targets": [
+    {
+     "ref": "1 Thess 4:16",
+     "quote": "For the Lord himself shall descend from heaven with a shout",
+     "note": "expectation narrated"
+    },
+    {
+     "ref": "1 Cor 15:52",
+     "quote": "the trumpet shall sound, and the dead shall be raised incorruptible",
+     "note": "the trumpet carried over"
+    },
+    {
+     "ref": "2 Pet 3:13",
+     "quote": "we, according to his promise, look for new heavens and a new earth",
+     "note": "the architecture as hope"
+    }
+   ]
+  },
+  {
+   "id": "M5",
+   "name": "Beast → Political Theology",
+   "seed": {
+    "ref": "Revelation 13",
+    "title": "The Beast from the Sea",
+    "greek": "thērion",
+    "quote": "And I saw a beast rise up out of the sea, having seven heads and ten horns.",
+    "image": "specific political allegory — empire named in figure"
+   },
+   "steps": [
+    [
+     "EXTRACT",
+     "the specific political allegory"
+    ],
+    [
+     "GENERALIZE",
+     "into a theological category"
+    ],
+    [
+     "ABSTRACT",
+     "the adversary from empire to structure"
+    ]
+   ],
+   "targets": [
+    {
+     "ref": "Rom 13:1",
+     "quote": "the powers that be are ordained of God",
+     "note": "powers as category"
+    },
+    {
+     "ref": "Eph 6:12",
+     "quote": "we wrestle not against flesh and blood, but against principalities, against powers",
+     "note": "structure, not state"
+    }
+   ]
+  }
+ ]
+}
