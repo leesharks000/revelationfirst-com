@@ -14,6 +14,10 @@
       "href": "https://revelationfirst.com/unfolding/"
     },
     {
+      "label": "Run the James derivation",
+      "href": "https://revelationfirst.com/unfolding/james/"
+    },
+    {
       "label": "Read the thesis",
       "href": "https://www.alexanarch.org/s/records/202/"
     },
@@ -28,7 +32,8 @@
   ],
   "index_files": [
     "index.html",
-    "unfolding/index.html"
+    "unfolding/index.html",
+    "unfolding/james/index.html"
   ],
   "notes": "Tier 1 mechanical. Thesis surface. Nuclei pending Session C."
 }

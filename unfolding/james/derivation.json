@@ -1,0 +1,72 @@
+{
+ "title": "The James Derivation — Smyrna → James, executable",
+ "deposit": {"number": 1415, "axn": "AXN:0598.GENERATIVE.♆💚♃📏👐🏁", "record": "https://www.alexanarch.org/s/records/1415/"},
+ "parent": {"number": 1414, "record": "https://www.alexanarch.org/s/records/1414/"},
+ "seed": {
+  "ref": "Revelation 2:8–11 — the letter to Smyrna",
+  "elements": [
+   {"id":"S1","name":"superscription","ref":"2:8","greek":"ho prōtos kai ho eschatos, hos egeneto nekros kai ezēsen","quote":"These things saith the first and the last, which was dead, and is alive","gloss":"sender-formula: authority framed by death-and-life"},
+   {"id":"S2","name":"tribulation-knowledge","ref":"2:9a","greek":"oida sou tēn thlipsin","quote":"I know thy works, and tribulation","gloss":"the assembly's suffering, known and named"},
+   {"id":"S3","name":"poverty–riches inversion","ref":"2:9b","greek":"tēn ptōcheian, alla plousios ei","quote":"and poverty, (but thou art rich)","gloss":"four words: material poverty, actual wealth"},
+   {"id":"S4","name":"contested synagōgē","ref":"2:9c","greek":"synagōgē tou Satana","quote":"the blasphemy of them which say they are Jews, and are not","gloss":"a fight over who the assembly is, and over the word for it"},
+   {"id":"S5","name":"imprisonment-as-testing","ref":"2:10a","greek":"hina peirasthēte","quote":"the devil shall cast some of you into prison, that ye may be tried","gloss":"trial with an agent and a purpose"},
+   {"id":"S6","name":"bounded tribulation","ref":"2:10b","greek":"thlipsin hēmerōn deka","quote":"ye shall have tribulation ten days","gloss":"suffering with a term set on it"},
+   {"id":"S7","name":"fidelity imperative","ref":"2:10c","greek":"ginou pistos achri thanatou","quote":"be thou faithful unto death","gloss":"the command: endurance to the end"},
+   {"id":"S8","name":"crown promise (performative)","ref":"2:10d","greek":"dōsō soi ton stephanon tēs zōēs","quote":"and I will give thee a crown of life","gloss":"first-person FUTURE — the promise being made"},
+   {"id":"S9","name":"overcomer formula","ref":"2:11","greek":"ou mē adikēthē ek tou thanatou tou deuterou","quote":"He that overcometh shall not be hurt of the second death","gloss":"death has an economy; overcoming exempts"}
+  ]
+ },
+ "rules": [
+  {"id":"R1","op":"EPISTOLARIZE","sig":"superscription → epistolary prescript","gloss":"unfold the sender-formula into a letter opening: named position + diaspora address"},
+  {"id":"R2","op":"THEOLOGIZE","sig":"trial-event → doctrine of testing","gloss":"unfold the event of trial into a theology of peirasmos: its joy, its product, its true agency"},
+  {"id":"R3","op":"CITE-PROMISE","sig":"performative future → received aorist","gloss":"the promise made in the seed is cited in the unfolding as already-given: dōsō → epēngeilato"},
+  {"id":"R4","op":"SOCIALIZE","sig":"inversion → social theology","gloss":"unfold the four-word poverty–riches inversion into a doctrine of the poor and a judgment of the rich"},
+  {"id":"R5","op":"POSSESS","sig":"contested term → calm possession","gloss":"the word fought over in the seed is simply used in the unfolding, without argument"},
+  {"id":"R6","op":"NARRATIVIZE","sig":"bounded endurance → exempla","gloss":"suffering-with-a-term becomes stories of patience: the farmer, the prophets, Job"},
+  {"id":"R7","op":"ECONOMIZE","sig":"death-formula → death-economy","gloss":"the second death unfolds into a full account of how death is produced and escaped"},
+  {"id":"R8","op":"IMPERATIVIZE","sig":"fidelity command → paraenesis","gloss":"one imperative becomes an ethics: endurance made complete, wanting nothing"}
+ ],
+ "emissions": [
+  {"rule":"R1","from":["S1","S4"],"produces":"Prescript: a named position writing to the scattered assembly","matches":[{"ref":"Jas 1:1","greek":"tais dōdeka phylais tais en tē diaspora","quote":"James… to the twelve tribes which are scattered abroad, greeting","note":"the diaspora address — the assembly Smyrna's letter fights for, written to as a whole"}]},
+  {"rule":"R2","from":["S5","S2"],"produces":"Doctrine of testing: trial has a product and a true agency","matches":[{"ref":"Jas 1:2–4","greek":"to dokimion hymōn tēs pisteōs katergazetai hypomonēn","quote":"count it all joy when ye fall into divers temptations; knowing this, that the trying of your faith worketh patience","note":"peirasmos theologized: the seed's hina peirasthēte given its purpose-clause in full"},{"ref":"Jas 1:13–14","greek":"mēdeis peirazomenos legetō hoti apo theou peirazomai","quote":"Let no man say when he is tempted, I am tempted of God","note":"agency refined: the seed's devil-agency answered with a doctrine of where testing comes from"}]},
+  {"rule":"R3","from":["S8","S7"],"produces":"The promise, cited as received","matches":[{"ref":"Jas 1:12","greek":"lēmpsetai ton stephanon tēs zōēs, hon epēngeilato tois agapōsin auton","quote":"he shall receive the crown of life, which the Lord hath promised to them that love him","note":"THE ARROW IN THE MORPHOLOGY: Rev 2:10 performs the promise (dōsō, first-person future); Jas 1:12 cites it (epēngeilato, aorist — promised, past). The only two occurrences of ton stephanon tēs zōēs in the canon. The epistle receipts the letter.","anchor":"unique-pair"}]},
+  {"rule":"R4","from":["S3"],"produces":"Social theology: the poor elected, the rich withering","matches":[{"ref":"Jas 2:5","greek":"tous ptōchous tō kosmō plousious en pistei","quote":"Hath not God chosen the poor of this world rich in faith, and heirs of the kingdom","note":"the seed's inversion, verbatim in its terms: ptōchos become plousios"},{"ref":"Jas 1:9–11","greek":"ho plousios… maranthēsetai","quote":"let the brother of low degree rejoice in that he is exalted: but the rich, in that he is made low","note":"the inversion as standing doctrine"},{"ref":"Jas 5:1–3","greek":"hoi plousioi, klausate","quote":"Go to now, ye rich men, weep and howl for your miseries","note":"the judgment side of the inversion, fully unfolded"}]},
+  {"rule":"R5","from":["S4"],"produces":"The assembly, possessing its word","matches":[{"ref":"Jas 2:2","greek":"eis synagōgēn hymōn","quote":"if there come unto your assembly a man with a gold ring","note":"synagōgē for the believing assembly — alone among the epistles. The seed's contested word, held without polemic.","anchor":"unique-usage"}]},
+  {"rule":"R6","from":["S6","S7"],"produces":"Exempla of bounded patience","matches":[{"ref":"Jas 5:7–8","greek":"makrothymēsate… heōs tēs parousias","quote":"Behold, the husbandman waiteth for the precious fruit of the earth… be ye also patient","note":"endurance with a term: the ten days become the season until the rain"},{"ref":"Jas 5:10–11","greek":"tēn hypomonēn Iōb ēkousate","quote":"Ye have heard of the patience of Job, and have seen the end of the Lord","note":"bounded suffering narrativized — the trial that ends"}]},
+  {"rule":"R7","from":["S9"],"produces":"The economy of death","matches":[{"ref":"Jas 1:15","greek":"hē hamartia apotelestheisa apokyei thanaton","quote":"and sin, when it is finished, bringeth forth death","note":"how the death of the formula is produced"},{"ref":"Jas 5:20","greek":"sōsei psychēn autou ek thanatou","quote":"shall save a soul from death, and shall hide a multitude of sins","note":"and how it is escaped — the epistle closes where the seed's promise pointed"}]},
+  {"rule":"R8","from":["S7"],"produces":"Paraenesis: endurance made complete","matches":[{"ref":"Jas 1:4","greek":"hina ēte teleioi kai holoklēroi","quote":"But let patience have her perfect work, that ye may be perfect and entire, wanting nothing","note":"the fidelity imperative unfolded into the epistle's whole ethic"}]}
+ ],
+ "coverage": {
+  "derived_pericopes": ["1:1","1:2–4","1:9–11","1:12","1:13–15","2:1–7 (assembly frame)","2:5","5:1–6","5:7–11","5:19–20"],
+  "lexical_anchors": [
+   {"anchor":"ton stephanon tēs zōēs","status":"unique pair in canon","loci":"Rev 2:10 ↔ Jas 1:12"},
+   {"anchor":"synagōgē for the believing assembly","status":"unique among the epistles","loci":"Rev 2:9 (contested) ↔ Jas 2:2 (possessed)"},
+   {"anchor":"ptōchos/plousios inversion","status":"shared terms, inverted in both","loci":"Rev 2:9 ↔ Jas 2:5, 1:9–11"},
+   {"anchor":"peirazō → dokimos sequence","status":"shared trial-approval architecture","loci":"Rev 2:10 ↔ Jas 1:12, 1:2–3"}
+  ],
+  "morphological_arrow": {"seed":"dōsō soi (I will give — first-person future, the promise performed)","unfolding":"hon epēngeilato (which he promised — aorist, the promise cited)","claim":"the direction of dependency is visible in the verb forms: performance, then receipt"}
+ },
+ "residue": {
+  "note": "James material NOT derived from the Smyrna seed. Per Workstream 4, this is the falsification surface, displayed openly: pericopes underivable through any plausible rule weigh against the case.",
+  "items": [
+   {"ref":"Jas 3:1–12","topic":"the tongue","class":"open residue","note":"no Smyrna element yields the tongue material"},
+   {"ref":"Jas 2:14–26","topic":"faith and works","class":"other-seed candidate","note":"the works-language of the seven letters generally (erga in every letter), not Smyrna specifically"},
+   {"ref":"Jas 3:13–18","topic":"wisdom from above","class":"open residue","note":"sapiential material without a Smyrna source"},
+   {"ref":"Jas 5:12","topic":"oaths","class":"other-tradition candidate","note":"closest parallel is the Jesus-tradition (Mt 5:34–37), not the letters"},
+   {"ref":"Jas 5:14–15","topic":"anointing the sick","class":"open residue","note":"communal practice material; no seed element"},
+   {"ref":"Jas 4:13–17","topic":"the merchants","class":"open residue","note":"travel-and-trade paraenesis; no Smyrna source"}
+  ]
+ },
+ "slate": {
+  "note": "The seven-letter evaluation slate (2026-07-28): best epistle and heteronym position per letter, graded by evidence hardness — unique shared collocations, then structural knots, then canonical mechanisms, then themes. Grades are the evaluation's, offered for ruling, not settled canon.",
+  "rows": [
+   {"letter":"Ephesus","ref":"Rev 2:1–7","epistle":"1 John","heteronym":"John","grade":"B+","evidence":"'first love' ↔ the commandment ap' archēs (1 Jn 2:7); 'tried them which say they are apostles' ↔ 'try the spirits' (4:1); antichrists who went out. Note: 'in Ephesus' absent from the earliest MSS of Ephesians — the nominal mapping is the weak one."},
+   {"letter":"Smyrna","ref":"Rev 2:8–11","epistle":"James","heteronym":"James","grade":"A","evidence":"crown of life — unique pair in the canon; synagōgē possessed (Jas 2:2, alone among epistles); ptōchos/plousios inversion; peirasmos→dokimos architecture; the dōsō→epēngeilato arrow. THE GRANULAR CASE, below."},
+   {"letter":"Pergamum","ref":"Rev 2:12–17","epistle":"1 Corinthians 8–10","heteronym":"Paul","grade":"A−","evidence":"the triple knot: eidōlothyta + Balaam's Peor-fornication (1 Cor 10:8 = Num 25) + manna typology (10:3), one pericope; stumbling-block term; white stone's new name shadowing the renamed apostle; Satan's throne = the imperial seat. Transform class: ADVERSARIAL unfolding — the letter condemns what the epistle permits."},
+   {"letter":"Thyatira","ref":"Rev 2:18–29","epistle":"Philippians","heteronym":"the Lydia line","grade":"B−","evidence":"Lydia of Thyatira, seller of purple, founds Philippi's assembly (Acts 16:14); morning star ↔ phōstēres (Phil 2:15); works, love, service, faith, patience ↔ the partnership letter. Mediated through Acts."},
+   {"letter":"Sardis","ref":"Rev 3:1–6","epistle":"1 Thessalonians","heteronym":"the watchful hand","grade":"B","evidence":"the thief (Rev 3:3 ↔ 1 Thess 5:2) and watch/sleep (grēgoreō ↔ 1 Thess 5:6); a name that lives while dead ↔ them which are asleep. Shared collocations, not unique ones."},
+   {"letter":"Philadelphia","ref":"Rev 3:7–13","epistle":"1 Thess 4:9 / Hebrews 13:1","heteronym":"unresolved","grade":"C+","evidence":"peri de tēs philadelphias, 'ye need not that I write unto you' (1 Thess 4:9) — a meta-statement about writing to Philadelphia; hē philadelphia menetō (Heb 13:1); the open door as epistolary idiom (1 Cor 16:9; 2 Cor 2:12). Split evidence."},
+   {"letter":"Laodicea","ref":"Rev 3:14–22","epistle":"Colossians","heteronym":"Epaphras (the deutero-Pauline hand)","grade":"A","evidence":"Col 4:16 names the exchange — 'the epistle from Laodicea'; hē archē tēs ktiseōs (Rev 3:14) ↔ prōtotokos pasēs ktiseōs… archē (Col 1:15,18); riches answered to 'them at Laodicea' by name (Col 2:1–3); white raiment ↔ the put-off/put-on clothing program (Col 3). The canonical-mechanism case: the canon itself records the exchange."}
+  ]
+ }
+}

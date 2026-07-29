@@ -76,7 +76,13 @@
      "quote": "there is laid up for me a crown of righteousness",
      "note": "promise — the crown returns"
     }
-   ]
+   ],
+   "granular_case": {
+    "route": "Smyrna → James",
+    "url": "https://revelationfirst.com/unfolding/james/",
+    "data": "https://revelationfirst.com/unfolding/james/derivation.json",
+    "deposit": 1415
+   }
   },
   {
    "id": "M2",
@@ -231,5 +237,6 @@
     }
    ]
   }
- ]
+ ],
+ "evaluation_slate": "https://revelationfirst.com/unfolding/james/derivation.json#slate"
 }
