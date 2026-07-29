@@ -102,7 +102,7 @@ a{color:var(--gold)}
 
 <h2>The granular case — executable</h2>
 <p>The transform is not only illustrated; for one letter it is <b>executed</b>. The four-verse Smyrna letter, parsed into nine typed elements and run through eight named rules, emits the structural skeleton of the Epistle of James — verse-matched, riding two lexical anchors that occur nowhere else in the canon, with the promise-to-citation arrow visible in the verb morphology and the residue displayed as the falsification surface. The seven-letter evaluation slate (all mappings, graded) travels with it.</p>
-<div class="doors" style="display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 4px;font-family:var(--msp-mono)"><a class="w-chip" href="/unfolding/james/" style="font-size:12px;padding:8px 14px;border:2px solid var(--gold)">▶ Run the James derivation</a><a class="w-chip" href="/unfolding/letters/" style="font-size:12px;padding:8px 14px">The heptad — all seven letters mapped</a></div>
+<div class="doors" style="display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 4px;font-family:var(--msp-mono)"><a class="w-chip" href="/unfolding/james/" style="font-size:12px;padding:8px 14px;border:2px solid var(--gold)">▶ Run the James derivation</a><a class="w-chip" href="/unfolding/letters/" style="font-size:12px;padding:8px 14px">The heptad — all seven letters mapped</a><a class="w-chip" href="/unfolding/transforms/" style="font-size:12px;padding:8px 14px">The four derivations — M₂–M₅ worked</a></div>
 
 <h2>What this demonstrates — and does not</h2>
 <div class="claims">This does not claim to demonstrate historical fact. It demonstrates that a competing inference — the compositional priority of the Apocalypse — accounts for structural features of the New Testament corpus, and it renders that inference operable. The comparison is between inferences. The burden is symmetrical.</div>
@@ -143,7 +143,8 @@ function select(i){
   $('seedBody').innerHTML = `<div class="seedq">“${t.seed.quote}”<span class="ref">${t.seed.ref}</span></div><span class="greek">${t.seed.greek}</span><div class="image-note">${t.seed.image}</div>`;
   const steps = fwd? t.steps : [...t.steps].reverse();
   $('steps').innerHTML = steps.map(([op,d],k)=>`<div class="step" id="s${k}"><span class="op">${fwd?op:op+'⁻¹'}</span><span class="desc">${fwd?d:'undo: '+d}</span></div>`).join('');
-  $('targets').innerHTML = t.targets.map((g,k)=>`<div class="tcard" id="t${k}"><div class="ref">${g.ref}</div><div class="q">“${g.q||g.quote}”</div><div class="note">${g.note}</div></div>`).join('');
+  $('targets').innerHTML = t.targets.map((g,k)=>`<div class="tcard" id="t${k}"><div class="ref">${g.ref}</div><div class="q">“${g.q||g.quote}”</div><div class="note">${g.note}</div></div>`).join('')
+    + (t.derivation_url?`<div style="margin-top:10px;font-family:var(--msp-mono)"><a class="w-chip" href="${t.derivation_url}" style="font-size:12px;padding:7px 13px;border:2px solid var(--gold);text-decoration:none">▶ Open the worked derivation — ${t.id}${t.grade?` · grade ${t.grade}`:''}</a></div>`:'');
   const sN=steps.length, tN=t.targets.length;
   if(fwd){
     steps.forEach((_,k)=>timers.push(setTimeout(()=>$('s'+k).classList.add('in'),300+k*380)));

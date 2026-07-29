@@ -22,6 +22,10 @@
       "href": "https://revelationfirst.com/unfolding/letters/"
     },
     {
+      "label": "The four derivations",
+      "href": "https://revelationfirst.com/unfolding/transforms/"
+    },
+    {
       "label": "Read the thesis",
       "href": "https://www.alexanarch.org/s/records/202/"
     },
@@ -38,7 +42,8 @@
     "index.html",
     "unfolding/index.html",
     "unfolding/james/index.html",
-    "unfolding/letters/index.html"
+    "unfolding/letters/index.html",
+    "unfolding/transforms/index.html"
   ],
   "notes": "Tier 1 mechanical. Thesis surface. Nuclei pending Session C."
 }

@@ -82,7 +82,10 @@
     "url": "https://revelationfirst.com/unfolding/james/",
     "data": "https://revelationfirst.com/unfolding/james/derivation.json",
     "deposit": 1415
-   }
+   },
+   "class": "M",
+   "grade": "A",
+   "derivation_url": "/unfolding/james/"
   },
   {
    "id": "M2",
@@ -119,7 +122,113 @@
      "quote": "There is one body, and one Spirit",
      "note": "unity as doctrine"
     }
-   ]
+   ],
+   "class": "M",
+   "grade": "B+",
+   "derivation": {
+    "seed": [
+     {
+      "id": "L1",
+      "name": "the mystery of the lampstands",
+      "ref": "Rev 1:20",
+      "greek": "to mystērion tōn hepta asterōn… hai hepta lychniai hepta ekklēsiai eisin",
+      "quote": "the mystery of the seven stars… the seven candlesticks which thou sawest are the seven churches"
+     },
+     {
+      "id": "L2",
+      "name": "one amid the lampstands",
+      "ref": "Rev 1:13",
+      "greek": "en mesō tōn lychniōn homoion huion anthrōpou",
+      "quote": "in the midst of the seven candlesticks one like unto the Son of man"
+     },
+     {
+      "id": "L3",
+      "name": "walking among",
+      "ref": "Rev 2:1",
+      "greek": "ho peripatōn en mesō tōn hepta lychniōn",
+      "quote": "who walketh in the midst of the seven golden candlesticks"
+     }
+    ],
+    "rules": [
+     {
+      "op": "MYSTERIZE",
+      "sig": "mystery-formula → mystery-ecclesiology",
+      "gloss": "the one place Revelation resolves a mystērion to the churches unfolds into the epistle where mystērion becomes the church's own category"
+     },
+     {
+      "op": "EMBODY",
+      "sig": "one-amid-many → head-and-body",
+      "gloss": "the figure of one presence among seven distinct stands becomes the organism argument"
+     },
+     {
+      "op": "INDWELL",
+      "sig": "walking-among → dwelling-in",
+      "gloss": "the seen walking becomes the cited walking"
+     }
+    ],
+    "emissions": [
+     {
+      "rule": "MYSTERIZE",
+      "from": [
+       "L1"
+      ],
+      "produces": "The mystery that is the church",
+      "matches": [
+       {
+        "ref": "Eph 5:32",
+        "greek": "to mystērion touto mega estin… eis tēn ekklēsian",
+        "quote": "This is a great mystery: but I speak concerning Christ and the church",
+        "note": "mystērion applied to Christ-and-church — the seed's formula become the epistle's category",
+        "anchor": "collocation"
+       },
+       {
+        "ref": "Eph 3:9–10",
+        "greek": "hē oikonomia tou mystēriou… dia tēs ekklēsias",
+        "quote": "the fellowship of the mystery… known by the church the manifold wisdom of God",
+        "note": "the mystery administered THROUGH the church — ecclesiology as revelation-structure"
+       }
+      ]
+     },
+     {
+      "rule": "EMBODY",
+      "from": [
+       "L2"
+      ],
+      "produces": "One body, many members; the head amid them",
+      "matches": [
+       {
+        "ref": "1 Cor 12:12",
+        "greek": "kathaper gar to sōma hen estin kai melē polla echei",
+        "quote": "For as the body is one, and hath many members… so also is Christ",
+        "note": "distinct-but-unified argued as organism"
+       },
+       {
+        "ref": "Col 1:18",
+        "greek": "autos estin hē kephalē tou sōmatos, tēs ekklēsias",
+        "quote": "And he is the head of the body, the church",
+        "note": "the one-amid-the-stands as head of the body"
+       }
+      ]
+     },
+     {
+      "rule": "INDWELL",
+      "from": [
+       "L3"
+      ],
+      "produces": "The walking, cited",
+      "matches": [
+       {
+        "ref": "2 Cor 6:16",
+        "greek": "enoikēsō en autois kai emperipatēsō",
+        "quote": "I will dwell in them, and walk in them",
+        "note": "Paul cites the walking-among as the word of God to the temple-community; Rev 2:1 shows that walking, present tense, amid the stands"
+       }
+      ]
+     }
+    ],
+    "honesty": "The walking-among is Leviticus 26:12's in origin — 2 Cor 6:16 cites it as scripture, and the shared-source reading (both texts drawing the same well) stands as the standing alternative. The angels of the churches find no epistolary unfold; the episkopos suggestion is speculation and stays out. Grade B+: the mystērion-ekklēsia collocation is the anchor; the rest is architecture."
+   },
+   "derivation_url": "/unfolding/transforms/#m2"
   },
   {
    "id": "M3",
@@ -156,7 +265,103 @@
      "quote": "For even Christ our passover is sacrificed for us",
      "note": "the paschal fix"
     }
-   ]
+   ],
+   "class": "M",
+   "grade": "A−",
+   "derivation": {
+    "seed": [
+     {
+      "id": "A1",
+      "name": "the Lamb as slain, standing",
+      "ref": "Rev 5:6",
+      "greek": "arnion hestēkos hōs esphagmenon",
+      "quote": "stood a Lamb as it had been slain"
+     },
+     {
+      "id": "A2",
+      "name": "purchase by blood",
+      "ref": "Rev 5:9",
+      "greek": "esphagēs kai ēgorasas tō theō en tō haimati sou",
+      "quote": "thou wast slain, and hast redeemed us to God by thy blood"
+     },
+     {
+      "id": "A3",
+      "name": "loosed and washed in blood",
+      "ref": "Rev 1:5; 7:14",
+      "greek": "lysanti hēmas ek tōn hamartiōn hēmōn en tō haimati autou",
+      "quote": "loosed us from our sins in his own blood… washed their robes… in the blood of the Lamb"
+     }
+    ],
+    "rules": [
+     {
+      "op": "PRICE",
+      "sig": "purchase-verb → ransom-doctrine",
+      "gloss": "agorazō held from the hymn to the imperative"
+     },
+     {
+      "op": "SPOTLESS",
+      "sig": "slain lamb → unblemished-lamb formula",
+      "gloss": "figure, blood, and purchase fused into one doctrinal verse"
+     },
+     {
+      "op": "PERPETUATE",
+      "sig": "slain-yet-standing → the living priest",
+      "gloss": "the paradox of the standing slain becomes once-for-all-yet-ever-living"
+     }
+    ],
+    "emissions": [
+     {
+      "rule": "PRICE",
+      "from": [
+       "A2"
+      ],
+      "produces": "Bought with a price",
+      "matches": [
+       {
+        "ref": "1 Cor 6:20",
+        "greek": "ēgorasthēte gar timēs",
+        "quote": "For ye are bought with a price",
+        "note": "the same commercial verb, agorazō, as redemption — Rev 5:9/14:3–4 and 1 Cor 6:20/7:23 hold it across; 2 Pet 2:1 keeps it (the Lord that bought them)",
+        "anchor": "verb-held"
+       }
+      ]
+     },
+     {
+      "rule": "SPOTLESS",
+      "from": [
+       "A1",
+       "A2",
+       "A3"
+      ],
+      "produces": "Lamb, blood, ransom — fused",
+      "matches": [
+       {
+        "ref": "1 Pet 1:18–19",
+        "greek": "elytrōthēte… timiō haimati hōs amnou amōmou kai aspilou Christou",
+        "quote": "redeemed… with the precious blood of Christ, as of a lamb without blemish and without spot",
+        "note": "the seed's three elements — lamb-figure, blood, purchase — in a single doctrinal sentence"
+       }
+      ]
+     },
+     {
+      "rule": "PERPETUATE",
+      "from": [
+       "A1"
+      ],
+      "produces": "Slain once, living always",
+      "matches": [
+       {
+        "ref": "Heb 9:12",
+        "greek": "dia de tou idiou haimatos… aiōnian lytrōsin",
+        "quote": "by his own blood he entered in once into the holy place, having obtained eternal redemption",
+        "note": "the standing slain as the priest who lives — hestēkos hōs esphagmenon become pantote zōn (7:25)"
+       }
+      ]
+     }
+    ],
+    "honesty": "Revelation says arnion (28 times); the epistles say amnos (1 Pet 1:19; cf. Jn 1:29, Acts 8:32). The anchor is figure-plus-function and the held purchase-verb, not the noun — and Isaiah 53 stands behind the epistolary lamb as the shared prophetic source. Grade A−."
+   },
+   "derivation_url": "/unfolding/transforms/#m3"
   },
   {
    "id": "M4",
@@ -198,7 +403,123 @@
      "quote": "we, according to his promise, look for new heavens and a new earth",
      "note": "the architecture as hope"
     }
-   ]
+   ],
+   "class": "M",
+   "grade": "A",
+   "derivation": {
+    "seed": [
+     {
+      "id": "N1",
+      "name": "new heaven, new earth",
+      "ref": "Rev 21:1",
+      "greek": "ouranon kainon kai gēn kainēn",
+      "quote": "And I saw a new heaven and a new earth"
+     },
+     {
+      "id": "N2",
+      "name": "the bride-city descending",
+      "ref": "Rev 21:2",
+      "greek": "tēn polin tēn hagian Ierousalēm kainēn… hōs nymphēn",
+      "quote": "the holy city, new Jerusalem, coming down from God out of heaven, prepared as a bride"
+     },
+     {
+      "id": "N3",
+      "name": "the making-new, performed",
+      "ref": "Rev 21:5",
+      "greek": "idou kaina poiō panta",
+      "quote": "Behold, I make all things new"
+     },
+     {
+      "id": "N4",
+      "name": "twelve foundations",
+      "ref": "Rev 21:14",
+      "greek": "to teichos tēs poleōs echōn themelious dōdeka",
+      "quote": "the wall of the city had twelve foundations"
+     }
+    ],
+    "rules": [
+     {
+      "op": "CITE-PROMISE",
+      "sig": "performative → per-the-promise citation",
+      "gloss": "the arrow again: the throne performs; the epistle cites"
+     },
+     {
+      "op": "MOTHER",
+      "sig": "bride-city → the Jerusalem above",
+      "gloss": "the descending city already functioning as origin"
+     },
+     {
+      "op": "APPROACH",
+      "sig": "city descending → city come-to and sought",
+      "gloss": "the seen city as the addressee's present tense and future quest"
+     }
+    ],
+    "emissions": [
+     {
+      "rule": "CITE-PROMISE",
+      "from": [
+       "N1",
+       "N3"
+      ],
+      "produces": "The new creation, cited as promised",
+      "matches": [
+       {
+        "ref": "2 Pet 3:13",
+        "greek": "kainous de ouranous kai gēn kainēn kata to epangelma autou prosdokōmen",
+        "quote": "Nevertheless we, according to his promise, look for new heavens and a new earth",
+        "note": "THE ARROW: the epistle looks kata to epangelma — per the promise. The canon's first-person making-new is Rev 21:5, spoken from the throne. Promise performed; promise cited.",
+        "anchor": "citation-arrow"
+       }
+      ]
+     },
+     {
+      "rule": "MOTHER",
+      "from": [
+       "N2"
+      ],
+      "produces": "Jerusalem above, our mother",
+      "matches": [
+       {
+        "ref": "Gal 4:26",
+        "greek": "hē de anō Ierousalēm eleuthera estin, hētis estin mētēr hēmōn",
+        "quote": "But Jerusalem which is above is free, which is the mother of us all",
+        "note": "the bride-city above, already doctrine — an above-Jerusalem presupposed, not argued"
+       }
+      ]
+     },
+     {
+      "rule": "APPROACH",
+      "from": [
+       "N2",
+       "N4"
+      ],
+      "produces": "The foundations-city, come to and sought",
+      "matches": [
+       {
+        "ref": "Heb 12:22",
+        "greek": "proselēlythate… Ierousalēm epouraniō",
+        "quote": "But ye are come… unto the heavenly Jerusalem",
+        "note": "the descending city as perfect-tense arrival"
+       },
+       {
+        "ref": "Heb 11:10",
+        "greek": "exedecheto gar tēn tous themelious echousan polin",
+        "quote": "For he looked for a city which hath foundations, whose builder and maker is God",
+        "note": "the city defined by its FOUNDATIONS — Rev 21:14 counts them, twelve, and names them",
+        "anchor": "collocation"
+       },
+       {
+        "ref": "Heb 13:14",
+        "greek": "tēn mellousan epizētoumen",
+        "quote": "here have we no continuing city, but we seek one to come",
+        "note": "the quest-form of the same city"
+       }
+      ]
+     }
+    ],
+    "honesty": "Isaiah 65:17 and 66:22 are the prophetic source of new-heavens-new-earth, and the shared-source reading of 2 Pet 3:13 stands as the standing alternative; the claim rides the citation-grammar (epangelma — whose direct-speech promising, within the canon, is the throne's) plus the foundations collocation. Grade A."
+   },
+   "derivation_url": "/unfolding/transforms/#m4"
   },
   {
    "id": "M5",
@@ -235,8 +556,130 @@
      "quote": "we wrestle not against flesh and blood, but against principalities, against powers",
      "note": "structure, not state"
     }
-   ]
+   ],
+   "class": "M+M̄",
+   "grade": "A−",
+   "derivation": {
+    "seed": [
+     {
+      "id": "B1",
+      "name": "authority from the dragon",
+      "ref": "Rev 13:2",
+      "greek": "edōken autō ho drakōn tēn dynamin autou… kai exousian megalēn",
+      "quote": "the dragon gave him his power, and his seat, and great authority"
+     },
+     {
+      "id": "B2",
+      "name": "the deceiving signs",
+      "ref": "Rev 13:13–14",
+      "greek": "poiei sēmeia megala… planā tous katoikountas",
+      "quote": "he doeth great wonders… and deceiveth them that dwell on the earth"
+     },
+     {
+      "id": "B3",
+      "name": "worship of the image",
+      "ref": "Rev 13:8, 15",
+      "greek": "proskynēsousin autō",
+      "quote": "all that dwell upon the earth shall worship him"
+     },
+     {
+      "id": "B4",
+      "name": "the mark and the market",
+      "ref": "Rev 13:16–17",
+      "greek": "hina mē tis dynētai agorasai ē pōlēsai",
+      "quote": "that no man might buy or sell, save he that had the mark"
+     }
+    ],
+    "rules": [
+     {
+      "op": "CITE-TEACHING",
+      "sig": "the beast-expectation → received doctrine",
+      "gloss": "the epistle cites what was heard: the adversary comes"
+     },
+     {
+      "op": "PERSONALIZE",
+      "sig": "beast → the lawless man",
+      "gloss": "the throne-claiming image becomes a person seated in the temple"
+     },
+     {
+      "op": "INVERT⁻",
+      "sig": "adversarial (M̄): dragon's grant → God's ordinance",
+      "gloss": "the same political exousia, the ruling inverted — the Pergamum structure at empire scale"
+     }
+    ],
+    "emissions": [
+     {
+      "rule": "CITE-TEACHING",
+      "from": [
+       "B1",
+       "B3"
+      ],
+      "produces": "As ye have heard: the adversary comes",
+      "matches": [
+       {
+        "ref": "1 Jn 2:18",
+        "greek": "kathōs ēkousate hoti antichristos erchetai",
+        "quote": "as ye have heard that antichrist shall come",
+        "note": "THE ARROW: the epistle cites received teaching of a coming adversary — and antichristos appears in the canon only in the Johannine epistles. Under the thesis, the heard-teaching is the seen beast.",
+        "anchor": "citation-arrow"
+       }
+      ]
+     },
+     {
+      "rule": "PERSONALIZE",
+      "from": [
+       "B2",
+       "B3"
+      ],
+      "produces": "The lawless man, enthroned and sign-working",
+      "matches": [
+       {
+        "ref": "2 Thess 2:3–4",
+        "greek": "ho anthrōpos tēs anomias… apodeiknynta heauton hoti estin theos",
+        "quote": "that man of sin… sitteth in the temple of God, shewing himself that he is God",
+        "note": "the worshipped image become a seated person"
+       },
+       {
+        "ref": "2 Thess 2:9",
+        "greek": "kat' energeian tou Satana en pasē dynamei kai sēmeiois",
+        "quote": "whose coming is after the working of Satan with all power and signs and lying wonders",
+        "note": "the dragon-given dynamis and the deceiving sēmeia, carried as a unit"
+       }
+      ]
+     },
+     {
+      "rule": "INVERT⁻",
+      "from": [
+       "B1",
+       "B4"
+      ],
+      "produces": "The powers, re-ruled (class M̄)",
+      "matches": [
+       {
+        "ref": "Rom 13:1",
+        "greek": "ou gar estin exousia ei mē hypo theou",
+        "quote": "For there is no power but of God: the powers that be are ordained of God",
+        "note": "the SAME subject — political exousia — with the ruling inverted: the seed says the throne's authority is the dragon's gift; the epistle says it is God's ordinance. The adversarial unfolding, exactly the Pergamum structure.",
+        "anchor": "adversarial"
+       },
+       {
+        "ref": "1 Pet 2:13, 17",
+        "greek": "hypotagēte… ton basilea timate",
+        "quote": "Submit yourselves to every ordinance of man… Honour the king",
+        "note": "the accommodation extended to the imperial person the seed's Babylon indicts"
+       }
+      ]
+     }
+    ],
+    "honesty": "Daniel 7 is the beast's iconographic source, and the shared-apocalyptic reading stands. The 2 Thessalonians relation is argued in both directions in the scholarship, and the claim-discipline governs: priority here is a competing inference, not asserted fact. The M̄ class is the finding: whichever direction one runs the dependency, Rev 13 and Rom 13 rule the same exousia oppositely, and only one order makes the polemic prophetic rather than corrective. Grade A−."
+   },
+   "derivation_url": "/unfolding/transforms/#m5"
   }
  ],
- "evaluation_slate": "https://revelationfirst.com/unfolding/james/derivation.json#slate"
+ "evaluation_slate": "https://revelationfirst.com/unfolding/james/derivation.json#slate",
+ "demo04_deposit": {
+  "number": 1418,
+  "axn": "AXN:059B.GENERATIVE.🦋🌱🕛🗝️🧲🕕",
+  "record": "https://www.alexanarch.org/s/records/1418/"
+ }
 }
