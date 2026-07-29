@@ -18,6 +18,10 @@
       "href": "https://revelationfirst.com/unfolding/james/"
     },
     {
+      "label": "The seven unfoldings",
+      "href": "https://revelationfirst.com/unfolding/letters/"
+    },
+    {
       "label": "Read the thesis",
       "href": "https://www.alexanarch.org/s/records/202/"
     },
@@ -33,7 +37,8 @@
   "index_files": [
     "index.html",
     "unfolding/index.html",
-    "unfolding/james/index.html"
+    "unfolding/james/index.html",
+    "unfolding/letters/index.html"
   ],
   "notes": "Tier 1 mechanical. Thesis surface. Nuclei pending Session C."
 }

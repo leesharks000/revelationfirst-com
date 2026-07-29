@@ -1,125 +1,651 @@
 {
  "title": "The Seven Unfoldings — the heptad mapped",
- "deposit": {"number": 1416, "axn": "PENDING", "record": "https://www.alexanarch.org/s/records/1416/"},
- "parent": {"unfolding": "https://revelationfirst.com/unfolding/", "james_case": "https://revelationfirst.com/unfolding/james/"},
+ "deposit": {
+  "number": 1416,
+  "axn": "AXN:0599.GENERATIVE.🔥🌠👁️🛤️🧊🌉",
+  "record": "https://www.alexanarch.org/s/records/1416/"
+ },
+ "parent": {
+  "unfolding": "https://revelationfirst.com/unfolding/",
+  "james_case": "https://revelationfirst.com/unfolding/james/"
+ },
  "transform_classes": {
   "M": "elaborative unfolding — the seed's structure expanded, its terms retained, its ruling kept",
   "M̄": "adversarial unfolding — the seed's terms retained, its ruling negotiated or inverted; the epistle argues with its seed",
   "X": "canonical mechanism — the exchange or carriage of the letter recorded in the canon itself"
  },
  "letters": [
-  {"id":"ephesus","name":"Ephesus","ref":"Rev 2:1–7","epistle":"1 John","heteronym":"John","grade":"B+","class":"M",
-   "seed":[
-    {"id":"E1","name":"first love abandoned","ref":"2:4","greek":"tēn agapēn sou tēn prōtēn aphēkes","quote":"thou hast left thy first love"},
-    {"id":"E2","name":"false apostles tried","ref":"2:2","greek":"epeirasas tous legontas heautous apostolous… kai heures autous pseudeis","quote":"thou hast tried them which say they are apostles, and are not, and hast found them liars"},
-    {"id":"E3","name":"remember and repeat","ref":"2:5","greek":"mnēmoneue oun pothen peptōkas… ta prōta erga poiēson","quote":"remember therefore from whence thou art fallen… and do the first works"},
-    {"id":"E4","name":"tree of life promise","ref":"2:7","greek":"dōsō autō phagein ek tou xylou tēs zōēs","quote":"To him that overcometh will I give to eat of the tree of life"}],
-   "rules":[
-    {"id":"R-E1","op":"RESTORE","sig":"first love → from-the-beginning command","gloss":"the abandoned prōtē agapē becomes the epistle's spine: the love-command held ap' archēs"},
-    {"id":"R-E2","op":"FORENSICIZE","sig":"testing liars → trying spirits","gloss":"the act of testing false apostles becomes a standing forensic doctrine, with the liars given their exit narrative"}],
-   "emissions":[
-    {"rule":"R-E1","from":["E1","E3"],"produces":"The love held from the beginning","matches":[
-      {"ref":"1 Jn 3:11","greek":"hautē estin hē angelia hēn ēkousate ap' archēs, hina agapōmen allēlous","quote":"For this is the message that ye heard from the beginning, that we should love one another","note":"the FIRST love as the FROM-THE-BEGINNING love-command — firstness transposed from time-of-falling to time-of-hearing"},
-      {"ref":"1 Jn 2:7","greek":"entolēn palaian hēn eichete ap' archēs","quote":"no new commandment… but an old commandment which ye had from the beginning","note":"remember-and-repeat as doctrine: nothing new; return to the first"}]},
-    {"rule":"R-E2","from":["E2"],"produces":"Trying the spirits; the liars' exit","matches":[
-      {"ref":"1 Jn 4:1","greek":"dokimazete ta pneumata","quote":"believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out","note":"epeirasas → dokimazete: the completed act of Ephesus made a standing imperative"},
-      {"ref":"1 Jn 2:19","greek":"ex hēmōn exēlthan, all' ouk ēsan ex hēmōn","quote":"They went out from us, but they were not of us","note":"'found them liars' unfolded into the secession narrative — where the false ones went"}]},
-   "honesty":"The tree-of-life promise reaches 1 John only as the zōē aiōnios theme (5:11–13) — thematic, not lexical. Residue: Cain (3:12), water-blood-Spirit (5:6–8), the idols closing (5:21). Curiosity cutting against the nominal alternative: 'in Ephesus' is absent from the earliest witnesses of Ephesians (P46, ℵ*, B*)."},
-
-  {"id":"smyrna","name":"Smyrna","ref":"Rev 2:8–11","epistle":"James","heteronym":"James","grade":"A","class":"M",
-   "seed":[],"rules":[],"emissions":[],
-   "executable":"https://revelationfirst.com/unfolding/james/",
-   "honesty":"The granular executable case — nine elements, eight rules, two unique-in-canon anchors, the dōsō→epēngeilato arrow, residue displayed. Run it at the link."},
-
-  {"id":"pergamum","name":"Pergamum","ref":"Rev 2:12–17","epistle":"1 Corinthians 8–10","heteronym":"Paul","grade":"A−","class":"M̄",
-   "seed":[
-    {"id":"P1","name":"Satan's throne","ref":"2:13","greek":"hopou ho thronos tou Satana","quote":"thou dwellest, even where Satan's seat is","gloss":"the imperial cult seat of Asia"},
-    {"id":"P2","name":"Antipas the witness","ref":"2:13","greek":"Antipas ho martys mou ho pistos","quote":"Antipas was my faithful martyr, who was slain among you"},
-    {"id":"P3","name":"the doctrine of Balaam","ref":"2:14","greek":"phagein eidōlothyta kai porneusai","quote":"the doctrine of Balaam… to eat things sacrificed unto idols, and to commit fornication"},
-    {"id":"P4","name":"the stumbling-block","ref":"2:14","greek":"balein skandalon enōpion tōn huiōn Israēl","quote":"to cast a stumblingblock before the children of Israel"},
-    {"id":"P5","name":"hidden manna promise","ref":"2:17","greek":"dōsō autō tou manna tou kekrymmenou","quote":"To him that overcometh will I give to eat of the hidden manna"},
-    {"id":"P6","name":"white stone, new name","ref":"2:17","greek":"psēphon leukēn… onoma kainon gegrammenon","quote":"a white stone, and in the stone a new name written"}],
-   "rules":[
-    {"id":"R-P1","op":"PERMIT⁻","sig":"prohibition → permission-with-limits (adversarial)","gloss":"the seed's forbidden eidōlothyta becomes the epistle's permitted-with-conscience: same term, inverted ruling"},
-    {"id":"R-P2","op":"COUNTER-EXEMPLIFY","sig":"Balaam's incident → deployed warning","gloss":"the epistle answers the charge inside itself: the same Peor fornication, cited as its own caution"},
-    {"id":"R-P3","op":"TYPOLOGIZE","sig":"hidden manna → spiritual food","gloss":"the promise-food becomes typological table-food in the same pericope"},
-    {"id":"R-P4","op":"GUARD","sig":"stumbling-block → liberty's limit","gloss":"the seed's skandalon returns as the boundary on the inverted ruling"}],
-   "emissions":[
-    {"rule":"R-P1","from":["P3"],"produces":"Idol-food, permitted with limits","matches":[
-      {"ref":"1 Cor 8:1, 8","greek":"peri de tōn eidōlothytōn… brōma de hēmas ou parastēsei tō theō","quote":"Now as touching things offered unto idols… meat commendeth us not to God","note":"the canon's only sustained eidōlothyta treatise — and it permits (10:25 'whatsoever is sold, eat') what the seed condemns. Same term, inverted ruling: the adversarial class in one verse."}]},
-    {"rule":"R-P2","from":["P3"],"produces":"The Peor fornication, deployed as warning","matches":[
-      {"ref":"1 Cor 10:8","greek":"mēde porneuōmen, kathōs tines autōn eporneusan, kai epesan… eikosi treis chiliades","quote":"Neither let us commit fornication, as some of them committed, and fell in one day three and twenty thousand","note":"Numbers 25 — Baal-Peor, Balaam's device (Num 31:16). The epistle cites the very incident the seed's charge names, while ruling differently on the food. The knot tightens: same incident, both texts."}]},
-    {"rule":"R-P3","from":["P5"],"produces":"Manna as spiritual food","matches":[
-      {"ref":"1 Cor 10:3","greek":"pantes to auto pneumatikon brōma ephagon","quote":"and did all eat the same spiritual meat","note":"the hidden manna of the promise, typologized at the same table where the idol-food question is being ruled — third element of the knot, same pericope"}]},
-    {"rule":"R-P4","from":["P4"],"produces":"The stumbling-block as liberty's limit","matches":[
-      {"ref":"1 Cor 8:9","greek":"mē pōs hē exousia hymōn hautē proskomma genētai","quote":"take heed lest by any means this liberty of yours become a stumblingblock to them that are weak","note":"skandalon → proskomma: the seed's accusation term becomes the epistle's own boundary on the permission it grants"}]},
-   "honesty":"Four seed elements land in one Corinthian pericope — the densest knot in the space. But the class is M̄: the epistle NEGOTIATES its seed, retaining every term while inverting the ruling; under Revelation-first the seed already knows the unfolding it must resist. Suggestive, not probative: the white stone's new name against the renamed apostle (the Saul→Paul mediation runs through Acts 13:9). Residue: Antipas has no Corinthian unfold (his apparatus is held at deposit #165, the Pergamon Counter-Archive); Satan's throne is frame, not lexical match."},
-
-  {"id":"thyatira","name":"Thyatira","ref":"Rev 2:18–29","epistle":"Philippians","heteronym":"the Lydia line","grade":"B−","class":"M",
-   "seed":[
-    {"id":"T1","name":"the increase formula","ref":"2:19","greek":"ta erga sou ta eschata pleiona tōn prōtōn","quote":"thy works, and charity, and service, and faith, and thy patience… and the last to be more than the first"},
-    {"id":"T2","name":"morning star promise","ref":"2:28","greek":"dōsō autō ton astera ton prōinon","quote":"And I will give him the morning star"},
-    {"id":"T3","name":"hold fast till I come","ref":"2:25","greek":"plēn ho echete kratēsate achris hou an hēxō","quote":"that which ye have already hold fast till I come"}],
-   "rules":[
-    {"id":"R-T1","op":"AMPLIFY","sig":"increase formula → abounding love","gloss":"last-more-than-first becomes more-and-more"},
-    {"id":"R-T2","op":"LUMINATE","sig":"morning star → lights in the world","gloss":"the star given to the overcomer becomes the assembly shining"}],
-   "emissions":[
-    {"rule":"R-T1","from":["T1"],"produces":"Love abounding more and more","matches":[
-      {"ref":"Phil 1:9","greek":"hina hē agapē hymōn eti mallon kai mallon perisseuē","quote":"that your love may abound yet more and more","note":"the increase formula as prayer — the only letter praised for growth maps to the epistle of abounding"}]},
-    {"rule":"R-T2","from":["T2"],"produces":"Lights in the world","matches":[
-      {"ref":"Phil 2:15–16","greek":"phainesthe hōs phōstēres en kosmō, logon zōēs epechontes","quote":"among whom ye shine as lights in the world; holding forth the word of life","note":"the promised star distributed to the assembly, with the word of life in hand"}]},
-    {"rule":"R-T3","from":["T3"],"produces":"Standing fast","matches":[
-      {"ref":"Phil 4:1","greek":"houtōs stēkete en kyriō","quote":"so stand fast in the Lord, my dearly beloved","note":"hold-fast-till-I-come as the epistle's closing embrace"}]},
-   "honesty":"The route runs through a person: Lydia of Thyatira, seller of purple, is the one named Thyatiran in the NT — and she founds the Philippian assembly (Acts 16:14). The letter reaches its epistle by carriage. Mediated through Acts, therefore B−. Jezebel is residue: no Philippian unfold."},
-
-  {"id":"sardis","name":"Sardis","ref":"Rev 3:1–6","epistle":"1 Thessalonians","heteronym":"the watchful hand","grade":"B","class":"M",
-   "seed":[
-    {"id":"Sa1","name":"the living name, dead","ref":"3:1","greek":"onoma echeis hoti zēs, kai nekros ei","quote":"thou hast a name that thou livest, and art dead"},
-    {"id":"Sa2","name":"watch","ref":"3:2","greek":"ginou grēgorōn","quote":"Be watchful, and strengthen the things which remain"},
-    {"id":"Sa3","name":"the thief","ref":"3:3","greek":"hēxō hōs kleptēs","quote":"I will come on thee as a thief"}],
-   "rules":[
-    {"id":"R-S1","op":"ESCHATOLOGIZE","sig":"the thief → the day as thief","gloss":"the threat to one assembly becomes the shape of the day itself"},
-    {"id":"R-S2","op":"WAKE","sig":"watch-command → wake/sleep doctrine","gloss":"grēgoreō made the community's standing posture"}],
-   "emissions":[
-    {"rule":"R-S1","from":["Sa3"],"produces":"The day comes as a thief","matches":[
-      {"ref":"1 Thess 5:2","greek":"hēmera kyriou hōs kleptēs en nykti houtōs erchetai","quote":"the day of the Lord so cometh as a thief in the night","note":"the closest verbal parallel of the image in the epistles — the seed's hēxō hōs kleptēs generalized from visitation to day"}]},
-    {"rule":"R-S2","from":["Sa2","Sa1"],"produces":"Watch; do not sleep; the dead live","matches":[
-      {"ref":"1 Thess 5:6","greek":"mē katheudōmen hōs hoi loipoi, alla grēgorōmen","quote":"let us not sleep, as do others; but let us watch and be sober","note":"the Sardis imperative as first-person-plural ethic"},
-      {"ref":"1 Thess 5:10","greek":"hina eite grēgorōmen eite katheudōmen hama syn autō zēsōmen","quote":"that, whether we wake or sleep, we should live together with him","note":"the living-name-dead paradox resolved: the dead who live"}]},
-   "honesty":"Two shared collocations, neither unique: the thief also at 2 Pet 3:10 and in the Jesus-tradition. The white-raiment element finds no Thessalonian unfold. Grade held at B."},
-
-  {"id":"philadelphia","name":"Philadelphia","ref":"Rev 3:7–13","epistle":"1 Thess 4:9 / Hebrews 13:1 — unresolved","heteronym":"unresolved","grade":"C+","class":"M",
-   "seed":[
-    {"id":"Ph1","name":"the open door","ref":"3:8","greek":"thyran ēneōgmenēn, hēn oudeis dynatai kleisai","quote":"behold, I have set before thee an open door, and no man can shut it"},
-    {"id":"Ph2","name":"little strength, word kept","ref":"3:8","greek":"mikran echeis dynamin, kai etērēsas mou ton logon","quote":"thou hast a little strength, and hast kept my word"}],
-   "rules":[{"id":"R-Ph1","op":"DECLINE","sig":"the letter → the declined unfolding","gloss":"the epistle names the letter's subject and declines to elaborate it"}],
-   "emissions":[
-    {"rule":"R-Ph1","from":["Ph2"],"produces":"The unfolding that announces its own omission","matches":[
-      {"ref":"1 Thess 4:9","greek":"peri de tēs philadelphias ou chreian echete graphein hymin","quote":"But as touching brotherly love ye need not that I write unto you","note":"the wittiest datum in the space: an epistle raises philadelphia by name — and declines to write it. Under the unfolding thesis: the seed kept its word so well that its elaboration is announced as unnecessary."},
-      {"ref":"Heb 13:1","greek":"hē philadelphia menetō","quote":"Let brotherly love continue","note":"not begin — CONTINUE: the imperative presupposes philadelphia already present and held"}]},
-   "honesty":"Split, and left split. The open door is Pauline mission idiom (1 Cor 16:9; 2 Cor 2:12; Col 4:3) — distributed, not concentrated. Possible reading: Philadelphia, the letter with no rebuke, is the seed whose unfolding is distributed rather than gathered — kept, continued, never argued. Grade C+ held; heteronym unresolved."},
-
-  {"id":"laodicea","name":"Laodicea","ref":"Rev 3:14–22","epistle":"Colossians","heteronym":"Epaphras (the deutero-Pauline hand)","grade":"A","class":"X",
-   "seed":[
-    {"id":"L1","name":"the Amēn, the witness","ref":"3:14","greek":"ho Amēn, ho martys ho pistos kai alēthinos","quote":"These things saith the Amen, the faithful and true witness"},
-    {"id":"L2","name":"the beginning of creation","ref":"3:14","greek":"hē archē tēs ktiseōs tou theou","quote":"the beginning of the creation of God","gloss":"the Laodicean Christ-title"},
-    {"id":"L3","name":"the self-styled rich","ref":"3:17","greek":"legeis hoti plousios eimi… kai ouden chreian echō","quote":"thou sayest, I am rich, and increased with goods, and have need of nothing"},
-    {"id":"L4","name":"white raiment for nakedness","ref":"3:18","greek":"himatia leuka, hina peribalē kai mē phanerōthē hē aischynē tēs gymnotētos sou","quote":"white raiment, that thou mayest be clothed, and that the shame of thy nakedness do not appear"},
-    {"id":"L5","name":"eyesalve to see","ref":"3:18","greek":"kollourion enchrisai tous ophthalmous sou, hina blepēs","quote":"anoint thine eyes with eyesalve, that thou mayest see"}],
-   "rules":[
-    {"id":"R-L1","op":"TITLE-TRANSFER","sig":"Christ-title → hymn","gloss":"the Laodicean title becomes the Colossian hymn's structure"},
-    {"id":"R-L2","op":"ANSWER-BY-NAME","sig":"false riches → true treasures, addressed to Laodicea","gloss":"the epistle answers the seed's charge with the city named inside the answer"},
-    {"id":"R-L3","op":"RECLOTHE","sig":"white raiment → put-off/put-on","gloss":"the clothing counsel becomes a sustained program"},
-    {"id":"R-L4","op":"EXCHANGE","sig":"canonical mechanism","gloss":"the canon records the letter-exchange itself"}],
-   "emissions":[
-    {"rule":"R-L1","from":["L2","L1"],"produces":"The title as hymn","matches":[
-      {"ref":"Col 1:15, 18","greek":"prōtotokos pasēs ktiseōs… hos estin archē, prōtotokos ek tōn nekrōn","quote":"the firstborn of every creature… who is the beginning, the firstborn from the dead","note":"archē + ktisis as Christ-title: the Laodicean formula and the Colossian hymn share a christological collocation found essentially nowhere else — the seed's superscription unfolded into the epistle's centerpiece","anchor":"unique-pair"}]},
-    {"rule":"R-L2","from":["L3"],"produces":"True riches, addressed by name","matches":[
-      {"ref":"Col 2:1–3","greek":"hyper hymōn kai tōn en Laodikeia… eis pan ploutos… pantes hoi thēsauroi tēs sophias","quote":"for you, and for them at Laodicea… unto all riches of the full assurance of understanding… in whom are hid all the treasures of wisdom","note":"the self-styled rich answered with true riches — and LAODICEA IS NAMED IN THE ANSWER. The epistle addresses the seed's city inside the correction of the seed's charge."}]},
-    {"rule":"R-L3","from":["L4"],"produces":"Put off, put on","matches":[
-      {"ref":"Col 3:9–12","greek":"apekdysamenoi ton palaion anthrōpon… endysasthe oun","quote":"seeing that ye have put off the old man… Put on therefore, as the elect of God, holy and beloved…","note":"the seed's clothing counsel — be clothed, hide the nakedness — sustained across a seven-verse program of undressing and dressing"}]},
-    {"rule":"R-L4","from":["L1"],"produces":"The exchange, recorded","matches":[
-      {"ref":"Col 4:16","greek":"kai tēn ek Laodikeias hina kai hymeis anagnōte","quote":"and that ye likewise read the epistle from Laodicea","note":"THE MECHANISM: the canon's one instruction depicting letter-exchange with a city of the seven. Under Revelation-first, the 'epistle from Laodicea' is not lost — it is Rev 3:14–22, and Colossians is the answering letter, reading instruction included.","anchor":"mechanism"}]},
-   "honesty":"The strongest canonical-mechanism case, with one near-unique lexical anchor. Residue stated: the lukewarm/spew figure, the fire-tried gold, the door-knock-and-sup, and the throne promise find no Colossian unfolds — their elaborations, where they exist, are elsewhere. The eyesalve reaches Colossians only as the knowledge-and-understanding prayer (1:9; 2:2) — thematic. Heteronym: the letter names its own minister for the Lycus valley — Epaphras, 'one of you,' laboring 'for them in Laodicea' (4:12–13)."}
+  {
+   "id": "ephesus",
+   "name": "Ephesus",
+   "ref": "Rev 2:1–7",
+   "epistle": "1 John",
+   "heteronym": "John",
+   "grade": "B+",
+   "class": "M",
+   "seed": [
+    {
+     "id": "E1",
+     "name": "first love abandoned",
+     "ref": "2:4",
+     "greek": "tēn agapēn sou tēn prōtēn aphēkes",
+     "quote": "thou hast left thy first love"
+    },
+    {
+     "id": "E2",
+     "name": "false apostles tried",
+     "ref": "2:2",
+     "greek": "epeirasas tous legontas heautous apostolous… kai heures autous pseudeis",
+     "quote": "thou hast tried them which say they are apostles, and are not, and hast found them liars"
+    },
+    {
+     "id": "E3",
+     "name": "remember and repeat",
+     "ref": "2:5",
+     "greek": "mnēmoneue oun pothen peptōkas… ta prōta erga poiēson",
+     "quote": "remember therefore from whence thou art fallen… and do the first works"
+    },
+    {
+     "id": "E4",
+     "name": "tree of life promise",
+     "ref": "2:7",
+     "greek": "dōsō autō phagein ek tou xylou tēs zōēs",
+     "quote": "To him that overcometh will I give to eat of the tree of life"
+    }
+   ],
+   "rules": [
+    {
+     "id": "R-E1",
+     "op": "RESTORE",
+     "sig": "first love → from-the-beginning command",
+     "gloss": "the abandoned prōtē agapē becomes the epistle's spine: the love-command held ap' archēs"
+    },
+    {
+     "id": "R-E2",
+     "op": "FORENSICIZE",
+     "sig": "testing liars → trying spirits",
+     "gloss": "the act of testing false apostles becomes a standing forensic doctrine, with the liars given their exit narrative"
+    }
+   ],
+   "emissions": [
+    {
+     "rule": "R-E1",
+     "from": [
+      "E1",
+      "E3"
+     ],
+     "produces": "The love held from the beginning",
+     "matches": [
+      {
+       "ref": "1 Jn 3:11",
+       "greek": "hautē estin hē angelia hēn ēkousate ap' archēs, hina agapōmen allēlous",
+       "quote": "For this is the message that ye heard from the beginning, that we should love one another",
+       "note": "the FIRST love as the FROM-THE-BEGINNING love-command — firstness transposed from time-of-falling to time-of-hearing"
+      },
+      {
+       "ref": "1 Jn 2:7",
+       "greek": "entolēn palaian hēn eichete ap' archēs",
+       "quote": "no new commandment… but an old commandment which ye had from the beginning",
+       "note": "remember-and-repeat as doctrine: nothing new; return to the first"
+      }
+     ]
+    },
+    {
+     "rule": "R-E2",
+     "from": [
+      "E2"
+     ],
+     "produces": "Trying the spirits; the liars' exit",
+     "matches": [
+      {
+       "ref": "1 Jn 4:1",
+       "greek": "dokimazete ta pneumata",
+       "quote": "believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out",
+       "note": "epeirasas → dokimazete: the completed act of Ephesus made a standing imperative"
+      },
+      {
+       "ref": "1 Jn 2:19",
+       "greek": "ex hēmōn exēlthan, all' ouk ēsan ex hēmōn",
+       "quote": "They went out from us, but they were not of us",
+       "note": "'found them liars' unfolded into the secession narrative — where the false ones went"
+      }
+     ]
+    }
+   ],
+   "honesty": "The tree-of-life promise reaches 1 John only as the zōē aiōnios theme (5:11–13) — thematic, not lexical. Residue: Cain (3:12), water-blood-Spirit (5:6–8), the idols closing (5:21). Curiosity cutting against the nominal alternative: 'in Ephesus' is absent from the earliest witnesses of Ephesians (P46, ℵ*, B*)."
+  },
+  {
+   "id": "smyrna",
+   "name": "Smyrna",
+   "ref": "Rev 2:8–11",
+   "epistle": "James",
+   "heteronym": "James",
+   "grade": "A",
+   "class": "M",
+   "seed": [],
+   "rules": [],
+   "emissions": [],
+   "executable": "https://revelationfirst.com/unfolding/james/",
+   "honesty": "The granular executable case — nine elements, eight rules, two unique-in-canon anchors, the dōsō→epēngeilato arrow, residue displayed. Run it at the link."
+  },
+  {
+   "id": "pergamum",
+   "name": "Pergamum",
+   "ref": "Rev 2:12–17",
+   "epistle": "1 Corinthians 8–10",
+   "heteronym": "Paul",
+   "grade": "A−",
+   "class": "M̄",
+   "seed": [
+    {
+     "id": "P1",
+     "name": "Satan's throne",
+     "ref": "2:13",
+     "greek": "hopou ho thronos tou Satana",
+     "quote": "thou dwellest, even where Satan's seat is",
+     "gloss": "the imperial cult seat of Asia"
+    },
+    {
+     "id": "P2",
+     "name": "Antipas the witness",
+     "ref": "2:13",
+     "greek": "Antipas ho martys mou ho pistos",
+     "quote": "Antipas was my faithful martyr, who was slain among you"
+    },
+    {
+     "id": "P3",
+     "name": "the doctrine of Balaam",
+     "ref": "2:14",
+     "greek": "phagein eidōlothyta kai porneusai",
+     "quote": "the doctrine of Balaam… to eat things sacrificed unto idols, and to commit fornication"
+    },
+    {
+     "id": "P4",
+     "name": "the stumbling-block",
+     "ref": "2:14",
+     "greek": "balein skandalon enōpion tōn huiōn Israēl",
+     "quote": "to cast a stumblingblock before the children of Israel"
+    },
+    {
+     "id": "P5",
+     "name": "hidden manna promise",
+     "ref": "2:17",
+     "greek": "dōsō autō tou manna tou kekrymmenou",
+     "quote": "To him that overcometh will I give to eat of the hidden manna"
+    },
+    {
+     "id": "P6",
+     "name": "white stone, new name",
+     "ref": "2:17",
+     "greek": "psēphon leukēn… onoma kainon gegrammenon",
+     "quote": "a white stone, and in the stone a new name written"
+    }
+   ],
+   "rules": [
+    {
+     "id": "R-P1",
+     "op": "PERMIT⁻",
+     "sig": "prohibition → permission-with-limits (adversarial)",
+     "gloss": "the seed's forbidden eidōlothyta becomes the epistle's permitted-with-conscience: same term, inverted ruling"
+    },
+    {
+     "id": "R-P2",
+     "op": "COUNTER-EXEMPLIFY",
+     "sig": "Balaam's incident → deployed warning",
+     "gloss": "the epistle answers the charge inside itself: the same Peor fornication, cited as its own caution"
+    },
+    {
+     "id": "R-P3",
+     "op": "TYPOLOGIZE",
+     "sig": "hidden manna → spiritual food",
+     "gloss": "the promise-food becomes typological table-food in the same pericope"
+    },
+    {
+     "id": "R-P4",
+     "op": "GUARD",
+     "sig": "stumbling-block → liberty's limit",
+     "gloss": "the seed's skandalon returns as the boundary on the inverted ruling"
+    }
+   ],
+   "emissions": [
+    {
+     "rule": "R-P1",
+     "from": [
+      "P3"
+     ],
+     "produces": "Idol-food, permitted with limits",
+     "matches": [
+      {
+       "ref": "1 Cor 8:1, 8",
+       "greek": "peri de tōn eidōlothytōn… brōma de hēmas ou parastēsei tō theō",
+       "quote": "Now as touching things offered unto idols… meat commendeth us not to God",
+       "note": "the canon's only sustained eidōlothyta treatise — and it permits (10:25 'whatsoever is sold, eat') what the seed condemns. Same term, inverted ruling: the adversarial class in one verse."
+      }
+     ]
+    },
+    {
+     "rule": "R-P2",
+     "from": [
+      "P3"
+     ],
+     "produces": "The Peor fornication, deployed as warning",
+     "matches": [
+      {
+       "ref": "1 Cor 10:8",
+       "greek": "mēde porneuōmen, kathōs tines autōn eporneusan, kai epesan… eikosi treis chiliades",
+       "quote": "Neither let us commit fornication, as some of them committed, and fell in one day three and twenty thousand",
+       "note": "Numbers 25 — Baal-Peor, Balaam's device (Num 31:16). The epistle cites the very incident the seed's charge names, while ruling differently on the food. The knot tightens: same incident, both texts."
+      }
+     ]
+    },
+    {
+     "rule": "R-P3",
+     "from": [
+      "P5"
+     ],
+     "produces": "Manna as spiritual food",
+     "matches": [
+      {
+       "ref": "1 Cor 10:3",
+       "greek": "pantes to auto pneumatikon brōma ephagon",
+       "quote": "and did all eat the same spiritual meat",
+       "note": "the hidden manna of the promise, typologized at the same table where the idol-food question is being ruled — third element of the knot, same pericope"
+      }
+     ]
+    },
+    {
+     "rule": "R-P4",
+     "from": [
+      "P4"
+     ],
+     "produces": "The stumbling-block as liberty's limit",
+     "matches": [
+      {
+       "ref": "1 Cor 8:9",
+       "greek": "mē pōs hē exousia hymōn hautē proskomma genētai",
+       "quote": "take heed lest by any means this liberty of yours become a stumblingblock to them that are weak",
+       "note": "skandalon → proskomma: the seed's accusation term becomes the epistle's own boundary on the permission it grants"
+      }
+     ]
+    }
+   ],
+   "honesty": "Four seed elements land in one Corinthian pericope — the densest knot in the space. But the class is M̄: the epistle NEGOTIATES its seed, retaining every term while inverting the ruling; under Revelation-first the seed already knows the unfolding it must resist. Suggestive, not probative: the white stone's new name against the renamed apostle (the Saul→Paul mediation runs through Acts 13:9). Residue: Antipas has no Corinthian unfold (his apparatus is held at deposit #165, the Pergamon Counter-Archive); Satan's throne is frame, not lexical match."
+  },
+  {
+   "id": "thyatira",
+   "name": "Thyatira",
+   "ref": "Rev 2:18–29",
+   "epistle": "Philippians",
+   "heteronym": "the Lydia line",
+   "grade": "B−",
+   "class": "M",
+   "seed": [
+    {
+     "id": "T1",
+     "name": "the increase formula",
+     "ref": "2:19",
+     "greek": "ta erga sou ta eschata pleiona tōn prōtōn",
+     "quote": "thy works, and charity, and service, and faith, and thy patience… and the last to be more than the first"
+    },
+    {
+     "id": "T2",
+     "name": "morning star promise",
+     "ref": "2:28",
+     "greek": "dōsō autō ton astera ton prōinon",
+     "quote": "And I will give him the morning star"
+    },
+    {
+     "id": "T3",
+     "name": "hold fast till I come",
+     "ref": "2:25",
+     "greek": "plēn ho echete kratēsate achris hou an hēxō",
+     "quote": "that which ye have already hold fast till I come"
+    }
+   ],
+   "rules": [
+    {
+     "id": "R-T1",
+     "op": "AMPLIFY",
+     "sig": "increase formula → abounding love",
+     "gloss": "last-more-than-first becomes more-and-more"
+    },
+    {
+     "id": "R-T2",
+     "op": "LUMINATE",
+     "sig": "morning star → lights in the world",
+     "gloss": "the star given to the overcomer becomes the assembly shining"
+    }
+   ],
+   "emissions": [
+    {
+     "rule": "R-T1",
+     "from": [
+      "T1"
+     ],
+     "produces": "Love abounding more and more",
+     "matches": [
+      {
+       "ref": "Phil 1:9",
+       "greek": "hina hē agapē hymōn eti mallon kai mallon perisseuē",
+       "quote": "that your love may abound yet more and more",
+       "note": "the increase formula as prayer — the only letter praised for growth maps to the epistle of abounding"
+      }
+     ]
+    },
+    {
+     "rule": "R-T2",
+     "from": [
+      "T2"
+     ],
+     "produces": "Lights in the world",
+     "matches": [
+      {
+       "ref": "Phil 2:15–16",
+       "greek": "phainesthe hōs phōstēres en kosmō, logon zōēs epechontes",
+       "quote": "among whom ye shine as lights in the world; holding forth the word of life",
+       "note": "the promised star distributed to the assembly, with the word of life in hand"
+      }
+     ]
+    },
+    {
+     "rule": "R-T3",
+     "from": [
+      "T3"
+     ],
+     "produces": "Standing fast",
+     "matches": [
+      {
+       "ref": "Phil 4:1",
+       "greek": "houtōs stēkete en kyriō",
+       "quote": "so stand fast in the Lord, my dearly beloved",
+       "note": "hold-fast-till-I-come as the epistle's closing embrace"
+      }
+     ]
+    }
+   ],
+   "honesty": "The route runs through a person: Lydia of Thyatira, seller of purple, is the one named Thyatiran in the NT — and she founds the Philippian assembly (Acts 16:14). The letter reaches its epistle by carriage. Mediated through Acts, therefore B−. Jezebel is residue: no Philippian unfold."
+  },
+  {
+   "id": "sardis",
+   "name": "Sardis",
+   "ref": "Rev 3:1–6",
+   "epistle": "1 Thessalonians",
+   "heteronym": "the watchful hand",
+   "grade": "B",
+   "class": "M",
+   "seed": [
+    {
+     "id": "Sa1",
+     "name": "the living name, dead",
+     "ref": "3:1",
+     "greek": "onoma echeis hoti zēs, kai nekros ei",
+     "quote": "thou hast a name that thou livest, and art dead"
+    },
+    {
+     "id": "Sa2",
+     "name": "watch",
+     "ref": "3:2",
+     "greek": "ginou grēgorōn",
+     "quote": "Be watchful, and strengthen the things which remain"
+    },
+    {
+     "id": "Sa3",
+     "name": "the thief",
+     "ref": "3:3",
+     "greek": "hēxō hōs kleptēs",
+     "quote": "I will come on thee as a thief"
+    }
+   ],
+   "rules": [
+    {
+     "id": "R-S1",
+     "op": "ESCHATOLOGIZE",
+     "sig": "the thief → the day as thief",
+     "gloss": "the threat to one assembly becomes the shape of the day itself"
+    },
+    {
+     "id": "R-S2",
+     "op": "WAKE",
+     "sig": "watch-command → wake/sleep doctrine",
+     "gloss": "grēgoreō made the community's standing posture"
+    }
+   ],
+   "emissions": [
+    {
+     "rule": "R-S1",
+     "from": [
+      "Sa3"
+     ],
+     "produces": "The day comes as a thief",
+     "matches": [
+      {
+       "ref": "1 Thess 5:2",
+       "greek": "hēmera kyriou hōs kleptēs en nykti houtōs erchetai",
+       "quote": "the day of the Lord so cometh as a thief in the night",
+       "note": "the closest verbal parallel of the image in the epistles — the seed's hēxō hōs kleptēs generalized from visitation to day"
+      }
+     ]
+    },
+    {
+     "rule": "R-S2",
+     "from": [
+      "Sa2",
+      "Sa1"
+     ],
+     "produces": "Watch; do not sleep; the dead live",
+     "matches": [
+      {
+       "ref": "1 Thess 5:6",
+       "greek": "mē katheudōmen hōs hoi loipoi, alla grēgorōmen",
+       "quote": "let us not sleep, as do others; but let us watch and be sober",
+       "note": "the Sardis imperative as first-person-plural ethic"
+      },
+      {
+       "ref": "1 Thess 5:10",
+       "greek": "hina eite grēgorōmen eite katheudōmen hama syn autō zēsōmen",
+       "quote": "that, whether we wake or sleep, we should live together with him",
+       "note": "the living-name-dead paradox resolved: the dead who live"
+      }
+     ]
+    }
+   ],
+   "honesty": "Two shared collocations, neither unique: the thief also at 2 Pet 3:10 and in the Jesus-tradition. The white-raiment element finds no Thessalonian unfold. Grade held at B."
+  },
+  {
+   "id": "philadelphia",
+   "name": "Philadelphia",
+   "ref": "Rev 3:7–13",
+   "epistle": "1 Thess 4:9 / Hebrews 13:1 — unresolved",
+   "heteronym": "unresolved",
+   "grade": "C+",
+   "class": "M",
+   "seed": [
+    {
+     "id": "Ph1",
+     "name": "the open door",
+     "ref": "3:8",
+     "greek": "thyran ēneōgmenēn, hēn oudeis dynatai kleisai",
+     "quote": "behold, I have set before thee an open door, and no man can shut it"
+    },
+    {
+     "id": "Ph2",
+     "name": "little strength, word kept",
+     "ref": "3:8",
+     "greek": "mikran echeis dynamin, kai etērēsas mou ton logon",
+     "quote": "thou hast a little strength, and hast kept my word"
+    }
+   ],
+   "rules": [
+    {
+     "id": "R-Ph1",
+     "op": "DECLINE",
+     "sig": "the letter → the declined unfolding",
+     "gloss": "the epistle names the letter's subject and declines to elaborate it"
+    }
+   ],
+   "emissions": [
+    {
+     "rule": "R-Ph1",
+     "from": [
+      "Ph2"
+     ],
+     "produces": "The unfolding that announces its own omission",
+     "matches": [
+      {
+       "ref": "1 Thess 4:9",
+       "greek": "peri de tēs philadelphias ou chreian echete graphein hymin",
+       "quote": "But as touching brotherly love ye need not that I write unto you",
+       "note": "the wittiest datum in the space: an epistle raises philadelphia by name — and declines to write it. Under the unfolding thesis: the seed kept its word so well that its elaboration is announced as unnecessary."
+      },
+      {
+       "ref": "Heb 13:1",
+       "greek": "hē philadelphia menetō",
+       "quote": "Let brotherly love continue",
+       "note": "not begin — CONTINUE: the imperative presupposes philadelphia already present and held"
+      }
+     ]
+    }
+   ],
+   "honesty": "Split, and left split. The open door is Pauline mission idiom (1 Cor 16:9; 2 Cor 2:12; Col 4:3) — distributed, not concentrated. Possible reading: Philadelphia, the letter with no rebuke, is the seed whose unfolding is distributed rather than gathered — kept, continued, never argued. Grade C+ held; heteronym unresolved."
+  },
+  {
+   "id": "laodicea",
+   "name": "Laodicea",
+   "ref": "Rev 3:14–22",
+   "epistle": "Colossians",
+   "heteronym": "Epaphras (the deutero-Pauline hand)",
+   "grade": "A",
+   "class": "X",
+   "seed": [
+    {
+     "id": "L1",
+     "name": "the Amēn, the witness",
+     "ref": "3:14",
+     "greek": "ho Amēn, ho martys ho pistos kai alēthinos",
+     "quote": "These things saith the Amen, the faithful and true witness"
+    },
+    {
+     "id": "L2",
+     "name": "the beginning of creation",
+     "ref": "3:14",
+     "greek": "hē archē tēs ktiseōs tou theou",
+     "quote": "the beginning of the creation of God",
+     "gloss": "the Laodicean Christ-title"
+    },
+    {
+     "id": "L3",
+     "name": "the self-styled rich",
+     "ref": "3:17",
+     "greek": "legeis hoti plousios eimi… kai ouden chreian echō",
+     "quote": "thou sayest, I am rich, and increased with goods, and have need of nothing"
+    },
+    {
+     "id": "L4",
+     "name": "white raiment for nakedness",
+     "ref": "3:18",
+     "greek": "himatia leuka, hina peribalē kai mē phanerōthē hē aischynē tēs gymnotētos sou",
+     "quote": "white raiment, that thou mayest be clothed, and that the shame of thy nakedness do not appear"
+    },
+    {
+     "id": "L5",
+     "name": "eyesalve to see",
+     "ref": "3:18",
+     "greek": "kollourion enchrisai tous ophthalmous sou, hina blepēs",
+     "quote": "anoint thine eyes with eyesalve, that thou mayest see"
+    }
+   ],
+   "rules": [
+    {
+     "id": "R-L1",
+     "op": "TITLE-TRANSFER",
+     "sig": "Christ-title → hymn",
+     "gloss": "the Laodicean title becomes the Colossian hymn's structure"
+    },
+    {
+     "id": "R-L2",
+     "op": "ANSWER-BY-NAME",
+     "sig": "false riches → true treasures, addressed to Laodicea",
+     "gloss": "the epistle answers the seed's charge with the city named inside the answer"
+    },
+    {
+     "id": "R-L3",
+     "op": "RECLOTHE",
+     "sig": "white raiment → put-off/put-on",
+     "gloss": "the clothing counsel becomes a sustained program"
+    },
+    {
+     "id": "R-L4",
+     "op": "EXCHANGE",
+     "sig": "canonical mechanism",
+     "gloss": "the canon records the letter-exchange itself"
+    }
+   ],
+   "emissions": [
+    {
+     "rule": "R-L1",
+     "from": [
+      "L2",
+      "L1"
+     ],
+     "produces": "The title as hymn",
+     "matches": [
+      {
+       "ref": "Col 1:15, 18",
+       "greek": "prōtotokos pasēs ktiseōs… hos estin archē, prōtotokos ek tōn nekrōn",
+       "quote": "the firstborn of every creature… who is the beginning, the firstborn from the dead",
+       "note": "archē + ktisis as Christ-title: the Laodicean formula and the Colossian hymn share a christological collocation found essentially nowhere else — the seed's superscription unfolded into the epistle's centerpiece",
+       "anchor": "unique-pair"
+      }
+     ]
+    },
+    {
+     "rule": "R-L2",
+     "from": [
+      "L3"
+     ],
+     "produces": "True riches, addressed by name",
+     "matches": [
+      {
+       "ref": "Col 2:1–3",
+       "greek": "hyper hymōn kai tōn en Laodikeia… eis pan ploutos… pantes hoi thēsauroi tēs sophias",
+       "quote": "for you, and for them at Laodicea… unto all riches of the full assurance of understanding… in whom are hid all the treasures of wisdom",
+       "note": "the self-styled rich answered with true riches — and LAODICEA IS NAMED IN THE ANSWER. The epistle addresses the seed's city inside the correction of the seed's charge."
+      }
+     ]
+    },
+    {
+     "rule": "R-L3",
+     "from": [
+      "L4"
+     ],
+     "produces": "Put off, put on",
+     "matches": [
+      {
+       "ref": "Col 3:9–12",
+       "greek": "apekdysamenoi ton palaion anthrōpon… endysasthe oun",
+       "quote": "seeing that ye have put off the old man… Put on therefore, as the elect of God, holy and beloved…",
+       "note": "the seed's clothing counsel — be clothed, hide the nakedness — sustained across a seven-verse program of undressing and dressing"
+      }
+     ]
+    },
+    {
+     "rule": "R-L4",
+     "from": [
+      "L1"
+     ],
+     "produces": "The exchange, recorded",
+     "matches": [
+      {
+       "ref": "Col 4:16",
+       "greek": "kai tēn ek Laodikeias hina kai hymeis anagnōte",
+       "quote": "and that ye likewise read the epistle from Laodicea",
+       "note": "THE MECHANISM: the canon's one instruction depicting letter-exchange with a city of the seven. Under Revelation-first, the 'epistle from Laodicea' is not lost — it is Rev 3:14–22, and Colossians is the answering letter, reading instruction included.",
+       "anchor": "mechanism"
+      }
+     ]
+    }
+   ],
+   "honesty": "The strongest canonical-mechanism case, with one near-unique lexical anchor. Residue stated: the lukewarm/spew figure, the fire-tried gold, the door-knock-and-sup, and the throne promise find no Colossian unfolds — their elaborations, where they exist, are elsewhere. The eyesalve reaches Colossians only as the knowledge-and-understanding prayer (1:9; 2:2) — thematic. Heteronym: the letter names its own minister for the Lycus valley — Epaphras, 'one of you,' laboring 'for them in Laodicea' (4:12–13)."
+  }
  ]
 }
