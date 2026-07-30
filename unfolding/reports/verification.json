@@ -1,0 +1,23 @@
+{
+  "file": "unfolding/transforms.json",
+  "bytes": 22866,
+  "sha256": "03bf1cb38a74c451a4e2c3f7756a0215da3767be287bf8add3aa4e21f478e2cc",
+  "parses_as_json": true,
+  "top_level": {
+    "$schema": "str",
+    "title": "str",
+    "deposit": "dict",
+    "workstream": "dict",
+    "lineage": 2,
+    "canary": "str",
+    "claim_discipline": "str",
+    "falsification": "str",
+    "transforms": 5,
+    "evaluation_slate": "str",
+    "demo04_deposit": "dict"
+  },
+  "pinned_commit": "2e65c0648ac3ead64fced5c963569aa221a9dc4a",
+  "validated_at": "2026-07-30T08:35:26Z",
+  "scope": "structural: parse, size, hash, and top-level shape of the pinned file; content claims are governed by the page's own claim discipline",
+  "result": "structurally_recorded"
+}

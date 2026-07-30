@@ -1,0 +1,28 @@
+{
+  "site": "https://revelationfirst.com/",
+  "repository": "https://github.com/leesharks000/revelationfirst-com",
+  "remotes": [
+    "https://github.com/leesharks000/revelationfirst-com",
+    "MIRROR: to be added \u2014 multi-remote requirement per EA-SURFACE-BINDING; no single host may be the operative stratum's only home"
+  ],
+  "version": "1.0.0",
+  "pinned_commit": "2e65c0648ac3ead64fced5c963569aa221a9dc4a",
+  "surfaces": [
+    {
+      "public_url": "https://revelationfirst.com/unfolding/",
+      "source": "unfolding/index.html",
+      "data": "unfolding/transforms.json",
+      "frozen_data": "https://github.com/leesharks000/revelationfirst-com/blob/2e65c0648ac3ead64fced5c963569aa221a9dc4a/unfolding/transforms.json",
+      "verification": "unfolding/reports/verification.json",
+      "deposit": "https://www.alexanarch.org/s/records/1414/"
+    },
+    {
+      "public_url": "https://revelationfirst.com/unfolding/james/",
+      "source": "unfolding/james/index.html",
+      "data": "unfolding/james/derivation.json",
+      "frozen_data": "https://github.com/leesharks000/revelationfirst-com/blob/2e65c0648ac3ead64fced5c963569aa221a9dc4a/unfolding/james/derivation.json",
+      "verification": "unfolding/james/verification.json",
+      "deposit": "https://www.alexanarch.org/s/records/1415/"
+    }
+  ]
+}

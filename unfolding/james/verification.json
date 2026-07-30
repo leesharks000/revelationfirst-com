@@ -1,0 +1,21 @@
+{
+  "file": "unfolding/james/derivation.json",
+  "bytes": 12890,
+  "sha256": "ca953d4ff405565b1285fa3f141e9930f5929a1c13bffdccbc37a34c6d7ec8e0",
+  "parses_as_json": true,
+  "top_level": {
+    "title": "str",
+    "deposit": "dict",
+    "parent": "dict",
+    "seed": "dict",
+    "rules": 8,
+    "emissions": 8,
+    "coverage": "dict",
+    "residue": "dict",
+    "slate": "dict"
+  },
+  "pinned_commit": "2e65c0648ac3ead64fced5c963569aa221a9dc4a",
+  "validated_at": "2026-07-30T08:35:26Z",
+  "scope": "structural: parse, size, hash, and top-level shape of the pinned file; content claims are governed by the page's own claim discipline",
+  "result": "structurally_recorded"
+}
