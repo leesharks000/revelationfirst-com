@@ -1,0 +1,30 @@
+/* ══════════════════════════════════════════════════════════════════════════
+   REVELATIONFIRST.COM — TYPE LAYER
+
+   Loaded BEFORE each page's own <style> block. Additive only.
+
+   The site declared 'IBM Plex Mono' and 'Source Serif 4' and shipped no
+   @font-face. Neither is a system font, so every page fell back to a default
+   on nearly every machine. Same diagnosis as the Restored Academy and
+   spxi.dev; third site, same defect.
+
+   No colour is declared. The dark ground with crimson and gold is this site's
+   own — only the faces are the fleet's.
+   ══════════════════════════════════════════════════════════════════════════ */
+@font-face{font-family:'IBM Plex Mono';src:url('/assets/fonts/IBMPlexMono-400.woff2')format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('/assets/fonts/IBMPlexMono-600.woff2')format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:'IBM Plex Serif';src:url('/assets/fonts/IBMPlexSerif-400.woff2')format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'IBM Plex Serif';src:url('/assets/fonts/IBMPlexSerif-400i.woff2')format('woff2');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:'IBM Plex Sans';src:url('/assets/fonts/IBMPlexSans-400.woff2')format('woff2');font-weight:400;font-display:swap}
+:root{
+  --serif:'IBM Plex Serif',Georgia,'Times New Roman',serif;
+  --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --sans:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;
+  --msp-mono:var(--mono);
+  --fs-micro:10px; --fs-fine:11.5px; --fs-small:13px; --fs-body:17px;
+  --fs-lead:19px; --fs-h3:21px; --fs-h2:27px; --fs-h1:clamp(30px,5.8vw,54px);
+  --lh-tight:1.16; --lh-body:1.62; --tr-wide:.16em; --tr-mid:.08em;
+}
+body{font-family:var(--serif);font-size:var(--fs-body);line-height:var(--lh-body);
+-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+code,kbd,samp,pre{font-family:var(--mono)}

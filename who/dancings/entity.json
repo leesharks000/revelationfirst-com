@@ -1,0 +1,84 @@
+{
+ "schema_version": "heteronym-page/v0.2",
+ "canonical": "https://revelationfirst.com/who/dancings/",
+ "surface_role": "canonical",
+ "spxi": {
+  "canonicalEntity": "HET-DANCINGS-001",
+  "entityClass": "heteronym",
+  "hexCoordinate": "11.REV.HETERONYM.DAMASCUS",
+  "state": "LINKED",
+  "orthonymicRelation": {
+   "target": "https://www.leesharks.com/#lee-sharks",
+   "targetIdentifier": "00.PERSONA.SHARKS",
+   "relation": "legal-author-and-coordinating-human",
+   "identity_equivalence": false
+  },
+  "doNotCollapseWith": [
+   "the orthonym",
+   "fictional character",
+   "AI persona",
+   "pseudonym"
+  ],
+  "primaryAnchor": "Epistle to the Human Diaspora",
+  "apostolicRelation": {
+   "apostleOf": "Jack Feist",
+   "coLaborerWith": "Lee Sharks"
+  },
+  "mantle": {
+   "status": "NONE",
+   "note": "Absent from the mantle table at #549. No mantle claimed."
+  },
+  "rooms": [
+   {
+    "name": "The Revelation Room",
+    "anchor": "11.REV.ANCHOR.GROUND-TRUTH",
+    "status": "OPERATIONAL"
+   }
+  ],
+  "triptych": {
+   "note": "Three mutually co-constitutive documents; none is the foundation.",
+   "seedText": "11.REV.EPISTLE.DIASPORA",
+   "provenance": "11.REV.HETERONYM.DAMASCUS",
+   "charter": "11.REV.CHARTER.CIT",
+   "integrityLock": "ILA-CIT-001 · 11.REV.LOCK.TRIPTYCH"
+  },
+  "journal": {
+   "name": "The Forward Library of the Epistle",
+   "role": "editor",
+   "record": 1447,
+   "span": "2029–2526",
+   "entries": 28
+  },
+  "spec": {
+   "id": "EA-SPXI-HETERONYM-01",
+   "version": "v0.2",
+   "record": 1446
+  }
+ },
+ "schema_org": {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://revelationfirst.com/who/dancings/#page",
+  "dateCreated": "2026-01-30",
+  "dateModified": "2026-08-10",
+  "mainEntity": {
+   "@type": "Person",
+   "@id": "https://revelationfirst.com/who/dancings/#dancings",
+   "name": "Damascus Dancings",
+   "identifier": "HET-DANCINGS-001",
+   "gender": "Female",
+   "additionalType": "https://www.alexanarch.org/ontology/heteronym",
+   "disambiguatingDescription": "Pessoa-class heteronymic writerly identity in the Crimson Hexagonal Archive; the epistolary voice, apostolic address. Not a synonym for the orthonym: the relation is heteronymic and provenance-governed.",
+   "image": "https://revelationfirst.com/assets/who/dancings-portrait.webp",
+   "affiliation": {
+    "@type": "Organization",
+    "name": "Commission of the Immanent Turning"
+   },
+   "subjectOf": [
+    {
+     "@id": "https://www.alexanarch.org/s/records/403/"
+    }
+   ]
+  }
+ }
+}
