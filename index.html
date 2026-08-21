@@ -79,6 +79,28 @@ p { font-size: 0.85em; margin-bottom: 12px; }
   --msp-dim:#7a7770;
 }
 /* MSP-SKIN-END */
+
+.l-lede{color:var(--dim);max-width:60ch;line-height:1.65;margin:0 0 22px}
+ol.ladder{list-style:none;padding:0;margin:0 0 34px;counter-reset:none}
+.rung{border-left:2px solid var(--border);padding:0 0 0 18px;margin:0 0 22px;position:relative}
+.rung:hover{border-left-color:var(--accent)}
+.r-h{display:flex;gap:12px;align-items:baseline;text-decoration:none}
+.r-n{font-family:var(--msp-mono);font-size:12px;letter-spacing:.14em;color:var(--accent);min-width:26px}
+.r-t{font-size:1.02rem;color:var(--fg);line-height:1.35;border-bottom:1px solid transparent}
+.r-h:hover .r-t{border-bottom-color:var(--accent)}
+.r-b{color:var(--dim);line-height:1.65;margin:.5em 0 .5em;max-width:64ch}
+.r-d{font-family:var(--msp-mono);font-size:11.5px;line-height:1.7;color:var(--msp-dim);margin:0;max-width:64ch}
+.r-d b{color:var(--msp-halt)}
+ul.notclaim{list-style:square;padding-left:18px;margin:0 0 34px;max-width:64ch}
+ul.notclaim li{color:var(--dim);line-height:1.65;margin-bottom:.55em}
+ul.notclaim b{color:var(--fg)}
+.folds{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:0 0 12px}
+.fold{display:block;text-decoration:none;border:1px solid var(--border);padding:14px 16px;background:var(--panel)}
+.fold:hover{border-color:var(--accent)}
+.f-k{display:block;font-family:var(--msp-mono);font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.f-t{display:block;font-size:1rem;color:var(--fg);margin-bottom:8px}
+.f-d{display:block;color:var(--dim);font-size:.88rem;line-height:1.6}
+.f-note{color:var(--msp-dim);font-size:.86rem;line-height:1.65;max-width:64ch;margin:0 0 34px}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Zenodo DOI Resolution Index","description":"Maps 1,817 defunct Zenodo DOIs to live Alexanarch records. Companion dataset to Zenodotus Book-Burning (AXN:01.GOVERNANCE).","url":"https://alexanarch.org/data/doi-resolution-index.json","sameAs":"https://alexanarch.org/s/records/4/","creator":{"@type":"Person","name":"Lee Sharks","identifier":"https://orcid.org/0009-0000-1599-0703"},"license":"https://creativecommons.org/licenses/by/4.0/","distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://alexanarch.org/data/doi-resolution-index.json"},"citation":{"@type":"ScholarlyArticle","name":"Zenodotus Book-Burning: Loud Exclusion at Repository Scale","url":"https://alexanarch.org/s/records/1/"},"isPartOf":"https://www.alexanarch.org/"}</script>
 
@@ -437,7 +459,43 @@ p { font-size: 0.85em; margin-bottom: 12px; }
 <div class="thesis">
 The conventional timeline places Revelation last — the appendix, the afterthought, the sealed book at the end of the canon. The Revelation First thesis inverts this: Revelation was the seed from which the rest of the New Testament grew. The epistles, the Gospels, the Pastorals unfold from the Apocalypse through what this thesis calls the <em>midrashim transform</em> — the process by which a cryptic, operative text is expanded, explained, and applied by the community that received it. The argument is old (Robinson, 1976; Gentry, 1989). The channel is new. The reception has never been measured.
 </div>
-<h2>The Seven Workstreams</h2>
+<h2 id="ladder">The Argument, in Six Rungs</h2>
+<p class="l-lede">Five claims are usually collapsed into one. They are separable, they carry different burdens,
+and they fail independently. <b>The ladder is load-bearing in one direction only:</b> each rung stands
+without the ones above it. A reader who stops at III has not stopped short of the argument &mdash; III is a
+finding in its own right. Each rung opens onto its evidence.</p>
+<ol class="ladder"><li class="rung"><a class="r-h" href="/ladder/dating/"><span class="r-n">I</span><span class="r-t">The Domitianic date is not settled</span></a><p class="r-b">Its primary external anchor is a late and ambiguous reception-history witness. The internal evidence of Revelation permits, and in several places favours, a pre-70 reading. A Neronian or Galban date persists as a serious minority position; Trajanic and composite datings remain available.</p><p class="r-d"><b>Defeat condition.</b> Defeated by an external or material anchor fixing the received form after 70 CE.</p></li><li class="rung"><a class="r-h" href="/ladder/priority/"><span class="r-n">II</span><span class="r-t">Pauline priority is reconstructed, not material</span></a><p class="r-b">It is built from Acts, internal sequencing, received scholarly habit and later corpus formation. The Delphi inscription is a material anchor for Gallio&rsquo;s tenure; it is <i>not</i> such an anchor for 1 Thessalonians, which it reaches only through Acts. The load-bearing link is of the same inferential class as the evidence it is asked to overrule.</p><p class="r-d"><b>Defeat condition.</b> Defeated by a material anchor placing any Pauline letter before Revelation&rsquo;s earliest plausible form &mdash; not by the corpus&rsquo;s self-narrated chronology.</p></li><li class="rung"><a class="r-h" href="/ladder/corpus/"><span class="r-n">III</span><span class="r-t">Revelation constructs the earliest extant seven-church corpus</span></a><p class="r-b">The sevenfold address preceded and helped generate the later construal of Paul&rsquo;s letters as a closed corpus to seven churches. The Muratorian Fragment says Paul follows John&rsquo;s order. A recent Pauline-priority account concedes that no evidence survives for a first-century sevenfold Pauline collection. <b>This rung stands whether or not the rungs above it do.</b></p><p class="r-d"><b>Defeat condition.</b> Defeated by evidence of a sevenfold Pauline collection demonstrably circulating before Revelation, or by a demonstration that Revelation&rsquo;s number, order and single-book architecture depend on such a collection. The mere prior existence of Pauline letters does not meet that burden.</p></li><li class="rung"><a class="r-h" href="/unfolding/"><span class="r-n">IV</span><span class="r-t">Later New Testament forms elaborate structures compressed in Revelation</span></a><p class="r-b">Letters become epistles; Lamb becomes atonement; New Jerusalem becomes ecclesiology and eschatology; operative apocalypse becomes gospel narrative. The midrashim transform is the mechanism, and it is executable: eight named rules emit the structural skeleton of the Epistle of James, verse-matched, on two lexical anchors occurring nowhere else in the canon.</p><p class="r-d"><b>Defeat condition.</b> Defeated by showing the transform&rsquo;s outputs are recoverable from a shared source neither text depends on, or that the rules overfit. The residue is published as the falsification surface.</p></li><li class="rung"><a class="r-h" href="/ladder/heteronyms/"><span class="r-n">V</span><span class="r-t">The heteronym cluster is an available reading, not the first burden of proof</span></a><p class="r-b">John, James, Paul, Peter and Luke as author-functions within a fractured literary system under Roman capture. <b>The Revelation First thesis does not require this reading to stand</b> &mdash; but this reading becomes newly intelligible if Revelation stands first.</p><p class="r-d"><b>Defeat condition.</b> This rung is contingent by construction. It is defeated without disturbing rungs I&ndash;IV.</p></li><li class="rung"><a class="r-h" href="/ladder/logos/"><span class="r-n">VI</span><span class="r-t">The historical Christ is itself an inferential settlement</span></a><p class="r-b">Every pillar is inferential; not one is direct material evidence of a historical person. Josephus as external witness collapses if Josephus is the source of the heteronymic system rather than an independent corroborator. <b>This is not a negation.</b> The reading does not deny that a historical person could have existed; it denies that the textual evidence requires one &mdash; and it deepens rather than diminishes what people of the Book hold close. The incarnation is not a single historical event. It is the permanent condition of the Logos in the world: the Word becoming flesh wherever flesh is faithful enough to receive it.</p><p class="r-d"><b>Defeat condition.</b> This rung depends on V. It is defeated without disturbing rungs I&ndash;IV.</p></li></ol>
+
+<h2>What this does not claim</h2>
+<ul class="notclaim">
+ <li><b>Not the Jesus Myth thesis.</b> The Logos is real, and is a living being.</li>
+ <li><b>Manuscript attestation is not composition date.</b> Where composition dates are themselves
+ inferential, material attestation is allowed to unsettle inherited priority &mdash; not to settle it.</li>
+ <li><b>The maximal claim carries a named cost.</b> A Neronian reading of 666 places Revelation after
+ 54&nbsp;CE; the Gallio synchronism places 1&nbsp;Thessalonians around 50&ndash;51. That cost is priced,
+ not hidden: the synchronism&rsquo;s one material element dates Gallio, and its link to the letters runs
+ through Acts.</li>
+ <li><b>The heteronym reading is not required.</b> Rungs I&ndash;IV stand without it.</li>
+ <li><b>This is a research programme, not a redating decree.</b> Every rung carries a defeat condition.</li>
+</ul>
+
+<h2 id="foldings">The Foldings &mdash; two directions, one apparatus</h2>
+<div class="folds">
+ <a class="fold" href="/upstream/"><span class="f-k">Foldings in</span>
+  <span class="f-t">The Upstream Unfoldings</span>
+  <span class="f-d">Six operable transforms carrying Sappho 31 into the Apocalypse&rsquo;s channel &mdash;
+  Longinus, Philo, the Greek Esther and canonical Josephus, the contested Slavonic carrier, and
+  Revelation 12 as the sign under test. Where the operator comes from.</span></a>
+ <a class="fold" href="/unfolding/"><span class="f-k">Foldings out</span>
+  <span class="f-t">The Unfoldings</span>
+  <span class="f-d">The midrashim transform run forward: eight named rules emitting the structural
+  skeleton of the Epistle of James, and the heptad across all seven letters, graded. What the operator
+  emits. <b>The heart of the argument.</b></span></a>
+</div>
+<p class="f-note">The two have parallel standing. Neither is prior; the Apocalypse receives an operator and
+then emits with it. Read <i>in</i> first for the operator, <i>out</i> first for the evidence.</p>
+<h2 id="tracks">Seven Research Tracks</h2>
+<p class="l-lede">Parallel workstreams, not ordered premises. The numbering is a division of labour; the argument is the ladder above.</p>
 <ul class="ws">
 <li><span class="ws-n">1.</span> <a class="axn-chip" href="https://www.alexanarch.org/s/records/1217/" data-axn="AXN:04D2.UNCLASSIFIED.💛🔵☀️🛤️🌄📏">#1217 &middot; AXN:04D2.UNCLASSIFIED.💛🔵☀️🛤️🌄📏</a><span class="ws-d"><span class="lemma msp-auto">Revelation pre-70 CE. Robinson and Gentry extended with the literary-genetic argument: the NT unfolds</span> from Revelation's seed.</span></li>
 <li><span class="ws-n">2.</span> <a class="axn-chip" href="https://www.alexanarch.org/s/records/787/">The Heteronymic Reading</a><span class="ws-d"><span class="lemma msp-auto">NT authors as positions in a fractured authorial system under Roman capture. Not the Jesus</span> Myth thesis. The Logos is real.</span></li>
