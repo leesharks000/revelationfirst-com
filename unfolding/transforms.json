@@ -1,5 +1,5 @@
 {
- "$schema": "https://revelationfirst.com/unfolding/transforms.json",
+ "$schema": "https://www.revelationfirst.com/unfolding/transforms.json",
  "title": "The Midrashim Transform M — canonical instances",
  "deposit": {
   "number": 1414,
@@ -79,8 +79,8 @@
    ],
    "granular_case": {
     "route": "Smyrna → James",
-    "url": "https://revelationfirst.com/unfolding/james/",
-    "data": "https://revelationfirst.com/unfolding/james/derivation.json",
+    "url": "https://www.revelationfirst.com/unfolding/james/",
+    "data": "https://www.revelationfirst.com/unfolding/james/derivation.json",
     "deposit": 1415
    },
    "class": "M",
@@ -676,7 +676,7 @@
    "derivation_url": "/unfolding/transforms/#m5"
   }
  ],
- "evaluation_slate": "https://revelationfirst.com/unfolding/james/derivation.json#slate",
+ "evaluation_slate": "https://www.revelationfirst.com/unfolding/james/derivation.json#slate",
  "demo04_deposit": {
   "number": 1418,
   "axn": "AXN:059B.GENERATIVE.🦋🌱🕛🗝️🧲🕕",

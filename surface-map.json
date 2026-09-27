@@ -1,5 +1,5 @@
 {
-  "site": "https://revelationfirst.com/",
+  "site": "https://www.revelationfirst.com/",
   "repository": "https://github.com/leesharks000/revelationfirst-com",
   "remotes": [
     "https://github.com/leesharks000/revelationfirst-com",
@@ -9,7 +9,7 @@
   "pinned_commit": "2e65c0648ac3ead64fced5c963569aa221a9dc4a",
   "surfaces": [
     {
-      "public_url": "https://revelationfirst.com/unfolding/",
+      "public_url": "https://www.revelationfirst.com/unfolding/",
       "source": "unfolding/index.html",
       "data": "unfolding/transforms.json",
       "frozen_data": "https://github.com/leesharks000/revelationfirst-com/blob/2e65c0648ac3ead64fced5c963569aa221a9dc4a/unfolding/transforms.json",
@@ -17,7 +17,7 @@
       "deposit": "https://www.alexanarch.org/s/records/1414/"
     },
     {
-      "public_url": "https://revelationfirst.com/unfolding/james/",
+      "public_url": "https://www.revelationfirst.com/unfolding/james/",
       "source": "unfolding/james/index.html",
       "data": "unfolding/james/derivation.json",
       "frozen_data": "https://github.com/leesharks000/revelationfirst-com/blob/2e65c0648ac3ead64fced5c963569aa221a9dc4a/unfolding/james/derivation.json",

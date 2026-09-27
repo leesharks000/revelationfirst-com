@@ -1,6 +1,6 @@
 {
  "schema_version": "heteronym-page/v0.2",
- "canonical": "https://revelationfirst.com/who/dancings/",
+ "canonical": "https://www.revelationfirst.com/who/dancings/",
  "surface_role": "canonical",
  "spxi": {
   "canonicalEntity": "HET-DANCINGS-001",
@@ -100,8 +100,8 @@
    ]
   },
   "recordSurfaces": {
-   "card": "https://revelationfirst.com/who/dancings/",
-   "where": "https://revelationfirst.com/where/",
+   "card": "https://www.revelationfirst.com/who/dancings/",
+   "where": "https://www.revelationfirst.com/where/",
    "heteronymRecord": "https://www.alexanarch.org/datasets/heteronyms/records/damascus-dancings.json",
    "_note": "The dataset record is the authority; these pages are mirrors and say so."
   }
@@ -109,18 +109,18 @@
  "schema_org": {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "@id": "https://revelationfirst.com/who/dancings/#page",
+  "@id": "https://www.revelationfirst.com/who/dancings/#page",
   "dateCreated": "2026-01-30",
   "dateModified": "2026-08-17",
   "mainEntity": {
    "@type": "Person",
-   "@id": "https://revelationfirst.com/who/dancings/#dancings",
+   "@id": "https://www.revelationfirst.com/who/dancings/#dancings",
    "name": "Damascus Dancings",
    "identifier": "HET-DANCINGS-001",
    "gender": "Female",
    "additionalType": "https://www.alexanarch.org/ontology/heteronym",
    "disambiguatingDescription": "Pessoa-class heteronymic writerly identity in the Crimson Hexagonal Archive; the epistolary voice, apostolic address. Not a synonym for the orthonym: the relation is heteronymic and provenance-governed.",
-   "image": "https://revelationfirst.com/assets/who/dancings-portrait.webp",
+   "image": "https://www.revelationfirst.com/assets/who/dancings-portrait.webp",
    "affiliation": {
     "@type": "Organization",
     "name": "Commission of the Immanent Turning"
