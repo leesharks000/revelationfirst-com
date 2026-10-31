@@ -16,11 +16,12 @@ row(slug="bodmer-lab", name="Bodmer Lab", aka=["Bodmer Papyri constellation", "F
     rf_intersection=("Papyrological inversion: the Bodmer papyri include some of the earliest New Testament papyri. The saved pages do not name them; "
                      "the bearing is the archive's reading, to be checked against the catalogue."),
     data_access="online catalogue and images (not opened)",
-    license="not stated in the saved pages",
+    license="CC BY-NC 4.0 unless otherwise stated, as the site gives it",
     lifecycle={"state": "active", "detail": "the papyri constellation is described as in production"},
     version_and_time={"read": "2026-10-30"},
     negative_tags=["NOT a papyrus database: the papyri are one constellation of a library of world literature"],
     evidence={
+      "licence": Q("bodmer-lab--home", "Sauf indication contraire, les contenus de ce site sont publiés sous une licence Creative commons CC-BY-NC, 4.0."),
       "partnership": Q("bodmer-lab--home", "Le Bodmer Lab est un projet de recherche et de numérisation issu d'un partenariat entre la Faculté des lettres de l'Université de Genève et la Fondation Martin Bodmer."),
       "library": Q("bodmer-lab--home", "Une bibliothèque numérique de la littérature mondiale"),
       "papyri_aim": Q("bodmer-lab--home", "The aim of this constellation is to produce a detailed, online catalog of the papyrus and parchment manuscripts at the Fondation Martin Bodmer."),

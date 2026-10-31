@@ -1,6 +1,6 @@
 row(slug="early-christian-writings", name="Early Christian Writings", aka=["earlychristianwritings.com"],
     url="https://www.earlychristianwritings.com/",
-    operator="not stated in the saved pages",
+    operator="Peter Kirby, named on the site as its copyright holder",
     kind="an online collection of early Christian texts (New Testament, apocrypha, Gnostic texts, Church Fathers), browsable by range of dating",
     intersections=["nt-scholarship"],
     evidence_kind=["dating table", "transcription or edition", "bibliography or directory"],
@@ -17,11 +17,13 @@ row(slug="early-christian-writings", name="Early Christian Writings", aka=["earl
     rf_intersection=("Dating, as the received order: Paul at 50-60 and Revelation at 90-95, the late date and the order Revelation First contests, "
                      "laid out as a table. A worked comparison point for the thesis's ladder of claims."),
     data_access="open web pages",
-    license="not stated in the saved pages",
+    license="copyright Peter Kirby; permission given to link to any HTML file on the site",
     lifecycle={"state": "active", "detail": "site with blog and forum links"},
     version_and_time={"read": "2026-10-30"},
     negative_tags=["NOT an edition: it compiles translations and published introductions", "NOT a scholarly consensus statement: one site's estimated ranges"],
     evidence={
+      "copyright": Q("early-christian-writings--home", "Early Christian Writings is copyright © Peter Kirby < E-Mail > ."),
+      "linking": Q("early-christian-writings--home", "Permission is given to link to any HTML file on the Early Christian Writings site."),
       "browse": Q("early-christian-writings--home", "Browse by range of dating or by category, New Testament — Apocrypha — Gnostics — Church Fathers — Other"),
       "paul": Q("early-christian-writings--home", "50-60 1 Thessalonians"),
       "rev_range": Q("early-christian-writings--revelation", "Estimated Range of Dating: 90-95 A.D."),

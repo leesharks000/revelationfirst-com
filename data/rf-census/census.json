@@ -462,7 +462,7 @@
    ],
    "rf_intersection": "Papyrological inversion: the Bodmer papyri include some of the earliest New Testament papyri. The saved pages do not name them; the bearing is the archive's reading, to be checked against the catalogue.",
    "data_access": "online catalogue and images (not opened)",
-   "license": "not stated in the saved pages",
+   "license": "CC BY-NC 4.0 unless otherwise stated, as the site gives it",
    "lifecycle": {
     "state": "active",
     "detail": "the papyri constellation is described as in production"
@@ -474,6 +474,11 @@
     "NOT a papyrus database: the papyri are one constellation of a library of world literature"
    ],
    "evidence": {
+    "licence": {
+     "src": "bodmer-lab--home",
+     "basis": "operator",
+     "quote": "Sauf indication contraire, les contenus de ce site sont publiés sous une licence Creative commons CC-BY-NC, 4.0."
+    },
     "partnership": {
      "src": "bodmer-lab--home",
      "basis": "operator",
@@ -658,7 +663,7 @@
     "earlychristianwritings.com"
    ],
    "url": "https://www.earlychristianwritings.com/",
-   "operator": "not stated in the saved pages",
+   "operator": "Peter Kirby, named on the site as its copyright holder",
    "kind": "an online collection of early Christian texts (New Testament, apocrypha, Gnostic texts, Church Fathers), browsable by range of dating",
    "intersections": [
     "nt-scholarship"
@@ -695,7 +700,7 @@
    ],
    "rf_intersection": "Dating, as the received order: Paul at 50-60 and Revelation at 90-95, the late date and the order Revelation First contests, laid out as a table. A worked comparison point for the thesis's ladder of claims.",
    "data_access": "open web pages",
-   "license": "not stated in the saved pages",
+   "license": "copyright Peter Kirby; permission given to link to any HTML file on the site",
    "lifecycle": {
     "state": "active",
     "detail": "site with blog and forum links"
@@ -708,6 +713,16 @@
     "NOT a scholarly consensus statement: one site's estimated ranges"
    ],
    "evidence": {
+    "copyright": {
+     "src": "early-christian-writings--home",
+     "basis": "operator",
+     "quote": "Early Christian Writings is copyright © Peter Kirby < E-Mail > ."
+    },
+    "linking": {
+     "src": "early-christian-writings--home",
+     "basis": "operator",
+     "quote": "Permission is given to link to any HTML file on the Early Christian Writings site."
+    },
     "browse": {
      "src": "early-christian-writings--home",
      "basis": "operator",
