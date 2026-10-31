@@ -8,7 +8,7 @@ row(slug="aeneas", name="Aeneas", aka=["Aeneas (Google DeepMind)", "Predicting t
     text_object="Latin inscriptions; stated to be adaptable to other ancient languages, scripts and media, from papyri to coinage",
     method="a generative model reasoning across thousands of Latin inscriptions to retrieve parallels",
     coverage={"geography": "the Roman world", "period": "as its corpus (not stated in the saved post)"},
-    count={"value": "thousands of Latin inscriptions", "as_of": "2026-10-30"},
+    count={"value": "over 176,000 Latin inscriptions in the Latin Epigraphic Dataset", "as_of": "2026-10-31"},
     findings=["it retrieves textual and contextual parallels in seconds, work historians do by expertise and specialized resources"],
     stated_limits=["Latin inscriptions in the published model; other languages and media stated as possible adaptations"],
     answers=["which inscriptions share wording, syntax, formulas or provenance with a given inscription"],
@@ -22,6 +22,7 @@ row(slug="aeneas", name="Aeneas", aka=["Aeneas (Google DeepMind)", "Predicting t
     version_and_time={"read": "2026-10-30"},
     negative_tags=["NOT a dating model alone: it retrieves parallels", "NOT trained on Greek or on papyri in the published version"],
     evidence={
+      "led": Q("aeneas--blog", "comprising over 176,000 Latin inscriptions"),
       "intro": Q("aeneas--blog", "Today, we’re publishing a paper in Nature introducing Aeneas , the first artificial intelligence (AI) model for contextualizing ancient inscriptions."),
       "parallels": Q("aeneas--blog", "historians traditionally rely on their expertise and specialized resources to identify “parallels” — which are texts that share similarities in wording, syntax, standardized formulas or provenance."),
       "reasons": Q("aeneas--blog", "It reasons across thousands of Latin inscriptions, retrieving textual and contextual parallels in seconds"),

@@ -16,11 +16,14 @@ row(slug="vesuvius-challenge", name="Vesuvius Challenge", aka=["Scroll Prize"],
     rf_intersection=("None direct. It shows machine reading recovering text from papyri that cannot be opened, the kind of result that would change "
                      "what the papyrological record can contain."),
     data_access="open data and code (GitHub, Hugging Face), community on Discord",
-    license="not read",
+    license="content CC BY-NC 4.0 unless otherwise specified, as the site gives it",
     lifecycle={"state": "active", "detail": "Grand Prize deadline 25 June 2027"},
     version_and_time={"grand_prize_deadline": "2027-06-25", "read": "2026-10-30"},
     negative_tags=["NOT a Christian or biblical corpus", "NOT a finished edition"],
     evidence={
+      "grand_total": Q("vesuvius-challenge--home", "Win the $1,000,000 Grand Prize"),
+      "grand_split": Q("vesuvius-challenge--overview", "— $1,000,000 in total."),
+      "licence": Q("vesuvius-challenge--home", "Content licensed CC BY-NC 4.0 unless otherwise specified"),
       "self": Q("vesuvius-challenge--home", "Vesuvius Challenge is an open science research organization reading the carbonized Herculaneum scrolls without unrolling them."),
       "buried": Q("vesuvius-challenge--home", "Buried in 79 AD, now being revealed."),
       "letters": Q("vesuvius-challenge--home", "First Letters Found in New Scroll"),
@@ -31,4 +34,4 @@ row(slug="vesuvius-challenge", name="Vesuvius Challenge", aka=["Scroll Prize"],
       "deadline": Q("vesuvius-challenge--overview", "Grand Prize deadline June 25th, 2027"),
     },
     relations=[],
-    unchecked=["the data releases", "the licence of the data"])
+    unchecked=["the data releases"])

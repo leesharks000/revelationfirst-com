@@ -949,8 +949,8 @@
     "period": "as its training corpus (not stated in the abstract)"
    },
    "count": {
-    "value": "not stated in the saved abstract",
-    "as_of": "2026-10-30"
+    "value": "78,608 inscriptions in I.PHI, the training dataset",
+    "as_of": "2026-10-31"
    },
    "findings": [
     "62% accuracy restoring damaged texts alone; historians' accuracy rose from 25% to 72% with it",
@@ -968,7 +968,7 @@
    ],
    "rf_intersection": "Machine dating of Greek text: inscriptions, not manuscripts. A method the dating workstream can watch; it bears on the thesis only as machine dating moves toward literary and papyrus evidence.",
    "data_access": "an interactive interface (the saved page is a JavaScript application); the paper is open in Nature",
-   "license": "not read",
+   "license": "code Apache License 2.0; trained weights CC BY-SA 4.0 (the paper's statement)",
    "lifecycle": {
     "state": "active",
     "detail": "published 2022; interface online"
@@ -982,6 +982,16 @@
     "NOT a New Testament resource"
    ],
    "evidence": {
+    "dataset": {
+     "src": "ithaca--nature",
+     "basis": "operator",
+     "quote": "containing 78,608 inscriptions."
+    },
+    "licence": {
+     "src": "ithaca--nature",
+     "basis": "operator",
+     "quote": "under Apache License 2.0, along with the trained weights, licensed under Creative Commons Attribution-ShareAlike 4.0 International."
+    },
     "what": {
      "src": "ithaca--nature",
      "basis": "operator",
@@ -1020,8 +1030,7 @@
     }
    ],
    "unchecked": [
-    "the interface (JavaScript)",
-    "the training corpus"
+    "the interface (JavaScript)"
    ],
    "sources": {
     "ithaca--nature": {
@@ -1060,8 +1069,8 @@
     "period": "as its corpus (not stated in the saved post)"
    },
    "count": {
-    "value": "thousands of Latin inscriptions",
-    "as_of": "2026-10-30"
+    "value": "over 176,000 Latin inscriptions in the Latin Epigraphic Dataset",
+    "as_of": "2026-10-31"
    },
    "findings": [
     "it retrieves textual and contextual parallels in seconds, work historians do by expertise and specialized resources"
@@ -1092,6 +1101,11 @@
     "NOT trained on Greek or on papyri in the published version"
    ],
    "evidence": {
+    "led": {
+     "src": "aeneas--blog",
+     "basis": "operator",
+     "quote": "comprising over 176,000 Latin inscriptions"
+    },
     "intro": {
      "src": "aeneas--blog",
      "basis": "operator",
@@ -1193,7 +1207,7 @@
    ],
    "rf_intersection": "None direct. It shows machine reading recovering text from papyri that cannot be opened, the kind of result that would change what the papyrological record can contain.",
    "data_access": "open data and code (GitHub, Hugging Face), community on Discord",
-   "license": "not read",
+   "license": "content CC BY-NC 4.0 unless otherwise specified, as the site gives it",
    "lifecycle": {
     "state": "active",
     "detail": "Grand Prize deadline 25 June 2027"
@@ -1207,6 +1221,21 @@
     "NOT a finished edition"
    ],
    "evidence": {
+    "grand_total": {
+     "src": "vesuvius-challenge--home",
+     "basis": "operator",
+     "quote": "Win the $1,000,000 Grand Prize"
+    },
+    "grand_split": {
+     "src": "vesuvius-challenge--overview",
+     "basis": "operator",
+     "quote": "— $1,000,000 in total."
+    },
+    "licence": {
+     "src": "vesuvius-challenge--home",
+     "basis": "operator",
+     "quote": "Content licensed CC BY-NC 4.0 unless otherwise specified"
+    },
     "self": {
      "src": "vesuvius-challenge--home",
      "basis": "operator",
@@ -1260,8 +1289,7 @@
     }
    ],
    "unchecked": [
-    "the data releases",
-    "the licence of the data"
+    "the data releases"
    ],
    "sources": {
     "vesuvius-challenge--home": {
@@ -1320,7 +1348,7 @@
    ],
    "rf_intersection": "none stated",
    "data_access": "open articles and podcast",
-   "license": "not stated",
+   "license": "Copyright © 2026 AI and Faith, all rights reserved",
    "lifecycle": {
     "state": "active",
     "detail": "network with current events and newsletters"
@@ -1333,6 +1361,11 @@
     "NOT a single tradition"
    ],
    "evidence": {
+    "copyright": {
+     "src": "ai-and-faith--home",
+     "basis": "operator",
+     "quote": "Copyright © 2026 AI and Faith, All rights reserved."
+    },
     "self": {
      "src": "ai-and-faith--about",
      "basis": "operator",
@@ -1374,16 +1407,16 @@
     "its research publications"
    ],
    "sources": {
-    "ai-and-faith--about": {
-     "url": "https://aiandfaith.org/about-us/",
-     "read": "2026-10-31",
-     "sha256": "9a6532fa95f32d93a7dff6c5de867d81ec221261c115b5bf63c013d12f505ef3",
-     "http": "200"
-    },
     "ai-and-faith--home": {
      "url": "https://aiandfaith.org/",
      "read": "2026-10-31",
      "sha256": "e76f31e524d6e3c3437e5e855123c22e30f5ae708f631fe9155e772cc73d48d8",
+     "http": "200"
+    },
+    "ai-and-faith--about": {
+     "url": "https://aiandfaith.org/about-us/",
+     "read": "2026-10-31",
+     "sha256": "9a6532fa95f32d93a7dff6c5de867d81ec221261c115b5bf63c013d12f505ef3",
      "http": "200"
     }
    },
