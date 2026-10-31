@@ -10,7 +10,7 @@ row(slug="early-christian-writings", name="Early Christian Writings", aka=["earl
     coverage={"geography": "early Christianity", "period": "first and second centuries chiefly"},
     count={"value": "not stated", "as_of": "2026-10-30"},
     findings=["its dating table places Paul's earliest letters at 50-60 (1 Thessalonians, Galatians, 1 Corinthians)",
-              "it gives Revelation an estimated range of 90-95 A.D. and quotes an introduction placing it toward the end of Domitian's reign"],
+              "it gives Revelation an estimated range of 90-95 A.D. and quotes Kümmel's Introduction to the New Testament (pp. 466-8) placing it toward the end of Domitian's reign"],
     stated_limits=["its dates are given as an 'Estimated Range of Dating'"],
     answers=["the received dating of each New Testament writing, as one widely used site sets it out"],
     does_not_answer=["the grounds of each date beyond the quoted introductions", "the priority question: the table orders writings by date, not by derivation"],
@@ -22,6 +22,7 @@ row(slug="early-christian-writings", name="Early Christian Writings", aka=["earl
     version_and_time={"read": "2026-10-30"},
     negative_tags=["NOT an edition: it compiles translations and published introductions", "NOT a scholarly consensus statement: one site's estimated ranges"],
     evidence={
+      "kummel": Q("early-christian-writings--revelation", "Kummel provides the following information on dating the Apocalypse of John ( Introduction to the New Testament , pp. 466-8):"),
       "copyright": Q("early-christian-writings--home", "Early Christian Writings is copyright © Peter Kirby < E-Mail > ."),
       "linking": Q("early-christian-writings--home", "Permission is given to link to any HTML file on the Early Christian Writings site."),
       "browse": Q("early-christian-writings--home", "Browse by range of dating or by category, New Testament — Apocrypha — Gnostics — Church Fathers — Other"),
@@ -31,4 +32,4 @@ row(slug="early-christian-writings", name="Early Christian Writings", aka=["earl
       "rev_nero": Q("early-christian-writings--revelation", "Nero's mad acts in Rome against the Christians had nothing to do with the imperial cult."),
     },
     relations=[],
-    unchecked=["the provenance of the quoted introductions", "the site's operator"])
+    unchecked=["the provenance of the quoted introductions beyond the one named"])

@@ -686,7 +686,7 @@
    },
    "findings": [
     "its dating table places Paul's earliest letters at 50-60 (1 Thessalonians, Galatians, 1 Corinthians)",
-    "it gives Revelation an estimated range of 90-95 A.D. and quotes an introduction placing it toward the end of Domitian's reign"
+    "it gives Revelation an estimated range of 90-95 A.D. and quotes Kümmel's Introduction to the New Testament (pp. 466-8) placing it toward the end of Domitian's reign"
    ],
    "stated_limits": [
     "its dates are given as an 'Estimated Range of Dating'"
@@ -713,6 +713,11 @@
     "NOT a scholarly consensus statement: one site's estimated ranges"
    ],
    "evidence": {
+    "kummel": {
+     "src": "early-christian-writings--revelation",
+     "basis": "operator",
+     "quote": "Kummel provides the following information on dating the Apocalypse of John ( Introduction to the New Testament , pp. 466-8):"
+    },
     "copyright": {
      "src": "early-christian-writings--home",
      "basis": "operator",
@@ -761,20 +766,19 @@
     }
    ],
    "unchecked": [
-    "the provenance of the quoted introductions",
-    "the site's operator"
+    "the provenance of the quoted introductions beyond the one named"
    ],
    "sources": {
-    "early-christian-writings--home": {
-     "url": "https://www.earlychristianwritings.com/",
-     "read": "2026-10-31",
-     "sha256": "b386cdf3f2957036601cdfe55dae930c6363f32bb05bc905fee0fffdecfd5cbc",
-     "http": "200"
-    },
     "early-christian-writings--revelation": {
      "url": "https://www.earlychristianwritings.com/revelation.html",
      "read": "2026-10-31",
      "sha256": "a5be64dbf07d9ae46a87f6ea35ef01c293bf41d843f405101ac79a6ae75c31da",
+     "http": "200"
+    },
+    "early-christian-writings--home": {
+     "url": "https://www.earlychristianwritings.com/",
+     "read": "2026-10-31",
+     "sha256": "b386cdf3f2957036601cdfe55dae930c6363f32bb05bc905fee0fffdecfd5cbc",
      "http": "200"
     }
    },
