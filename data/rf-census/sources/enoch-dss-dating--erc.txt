@@ -1,0 +1,377 @@
+Unlocking the timecode of the Dead Sea Scrolls |ERC 
+
+ Skip to main content
+
+ Search 
+
+ Main navigation
+
+ Home 
+
+ Apply for a grant 
+
+ Starting Grant 
+
+ Consolidator Grant 
+
+ Advanced Grant 
+
+ Proof of Concept 
+
+ Synergy Grant 
+
+ ERC Plus Grant 
+
+ For Non-European Researchers 
+
+ Panel members 
+
+ Independent observers 
+
+ Additional opportunities 
+
+ Science Journalism Initiative 
+
+ ERC for Ukraine 
+
+ Manage your project 
+
+ Set-up & develop your team 
+
+ Project Reporting 
+
+ Open Science 
+
+ Ethics guidance 
+
+ Intellectual property rights 
+
+ Communicate your research 
+
+ Public engagement with research 
+
+ Projects & statistics 
+
+ ERC dashboard 
+
+ ERC Research Information System 
+
+ Science stories 
+
+ Mapping ERC frontier research: an overview 
+
+ Scientific prizes 
+
+ News & events 
+
+ News 
+
+ Events 
+
+ Magazine 
+
+ ERC publications 
+
+ Support 
+
+ Contact us 
+
+ Document library 
+
+ Logos 
+
+ Public access to documents 
+
+ About the ERC 
+
+ ERC at a glance 
+
+ ERC President & Scientific Council 
+
+ Ambassadors for the ERC 
+
+ Thematic working groups 
+
+ Standing committees 
+
+ ERC Executive Agency 
+
+ Work with us 
+
+ Tender opportunities 
+
+ ERC legal basis 
+
+ Search
+
+ Main navigation MOBILE
+
+ Home 
+
+ Apply for a grant 
+
+ Starting Grant 
+
+ Consolidator Grant 
+
+ Advanced Grant 
+
+ Proof of Concept 
+
+ Synergy Grant 
+
+ ERC Plus Grant 
+
+ Panel members 
+
+ Independent observers 
+
+ For non-EU researchers 
+
+ Additional opportunities 
+
+ Science Journalism Initiative 
+
+ ERC for Ukraine 
+
+ Manage your project 
+
+ Set-up & develop your team 
+
+ Project Reporting 
+
+ Open Science 
+
+ Ethics guidance 
+
+ Intellectual property rights 
+
+ Communicate your research 
+
+ Public Engagement with Research Award 
+
+ News & events 
+
+ News 
+
+ Events 
+
+ Magazine 
+
+ ERC publications 
+
+ Projects & statistics 
+
+ ERC dashboard 
+
+ ERC Research Information System 
+
+ Science stories 
+
+ Scientific prizes 
+
+ Mapping ERC frontier research 
+
+ Support 
+
+ Contact us 
+
+ Document library 
+
+ Logos 
+
+ Public access to documents 
+
+ About the ERC 
+
+ ERC at a glance 
+
+ ERC President & Scientific Council 
+
+ Ambassadors for the ERC 
+
+ Thematic working groups 
+
+ Standing committees 
+
+ ERC Executive Agency 
+
+ Work with us 
+
+ Tender opportunities 
+
+ ERC legal basis 
+
+ Breadcrumb
+
+ Homepage 
+
+ News & events 
+
+ News 
+
+ Unlocking the timecode of the Dead Sea Scrolls
+
+ Host institution science news 
+
+ #ARCHEOLOGY 
+
+ #ARTIFICIAL INTELLIGENCE 
+
+ Unlocking the timecode of the Dead Sea Scrolls 
+
+ 5 June 2025
+
+ Using artificial intelligence and radiocarbon dating to date ancient manuscripts 
+
+ Social Media Share 
+
+ Share this page
+
+ Photo credit
+
+ © Image courtesy of the Israel Antiquities Authority; photographer: Shai Halevi
+
+ An international research team led by the University of Groningen has developed a new method to date individual Dead Sea scrolls more precisely by combining radiocarbon analysis with artificial intelligence-based handwriting analysis. Their findings, published in PLOS One, reveal that many scrolls are older than previously thought and shed new light on the evolution of ancient Jewish script styles.  
+ The study introduces Enoch , a machine-learning model trained on 24 newly radiocarbon-dated scroll fragments and handwriting features extracted from digitised images. By analysing ink-trace patterns and character shapes using a neural network (BiNet), Enoch can predict manuscript dates with an uncertainty of around 30 years -more accurate than standalone radiocarbon dating in this period. 
+
+ Until now, dating has largely relied on palaeography, the study of ancient handwriting, which lacks a solid empirical foundation due to the absence of securely dated reference materials. Most Dead Sea scrolls cannot be matched to documents with known dates, leaving a significant gap between the fifth–fourth centuries BCE and the first–second centuries CE. 
+
+ Thanks to support from the European Research Council , researchers in the project The Hands That Wrote the Bible have now filled this gap by combining physical radiocarbon dates with machine-learning-based style analysis. This provides, for the first time, a robust and objective framework for dating over a thousand manuscripts from the Dead Sea Scrolls collection.
+
+ Initial results show that the Hasmonaean and Herodian script styles emerged earlier than previously thought and may have coexisted from the late second century BCE -revising the timeline of writing traditions in ancient Judaea. The study also provides the first material evidence that two biblical scrolls, 4QDanielc and 4QQoheleta , originate from the same periods as their presumed authors in the second and third centuries BCE. 
+
+ Led by Professor and ERC grantee Mladen Popović, this work represents a major advance in manuscript studies and opens new avenues for research on literacy, religion and politics in the eastern Mediterranean during the Hellenistic and early Roman periods. The method can also be applied to other partially dated manuscript collections worldwide. 
+
+ ‘ It is very exciting to set a significant step into solving the dating problem of the Dead Sea Scrolls and also creating a new tool that could be used to study other partially dated manuscript collections from history. This would not have been possible without the collaboration between so many different scientific disciplines, a real team effort!’ says Professor Popović. 
+
+ Reference:  
+
+ Mladen Popović, Maruf A. Dhali, Lambert Schomaker, Johannes van der Plicht, Kaare Lund Rasmussen, Jacopo La Nasa, Ilaria Degano, Maria Perla Colombini, Eibert Tigchelaar, Dating ancient manuscripts using radiocarbon and AI-based writing style analysis - PLOS One  
+ Link to article  
+
+ Additional information: 
+
+ Material samples of the Dead Sea Scrolls for radiocarbon dating were kindly provided by the Israel Antiquities Authority (IAA). Digital images of the Dead Sea Scrolls and of the Great Isaiah Scroll were kindly provided by Brill Publishers and the IAA (the Leon Levy Dead Sea Scrolls Digital Library). 
+
+ Title
+
+ Press contacts
+
+ Body
+
+ Mladen Popović  
+Dean of the Faculty of Religion, Culture and Society, University of Groningen 
+T: +31-50-3635567 
+
+ Marcin Mońko 
+Head of Media and Content Sector
+T: +32 2 296 66 44
+
+ Title
+
+ Project information
+
+ Body
+
+ HandsandBible  
+
+ The Hands that Wrote the Bible: Digital Palaeography and Scribal Culture of the Dead Sea Scrolls  
+
+ Researcher:  Mladen Popovic 
+
+ Host institution:  Rijksuniversiteit Groningen 
+
+ Call details:  ERC-2014-STG 640497, Social sciences & humanities (SH), SH5 – Cultures & Cultural Production  
+
+ ERC funding: € 1 500 000 
+
+ Related links
+ See all 
+
+ Media image
+
+ 25 Jun 2026 
+
+ Study of ancient human relative reveals unexpected absence of male markers 
+
+ #ARCHEOLOGY 
+
+ #CHEMISTRY 
+
+ Host institution science news 
+
+ Media image
+
+ 23 Feb 2026 
+
+ Iron Age massacre targeted women and children, new research reveals 
+
+ #ARCHEOLOGY 
+
+ #CHEMISTRY 
+
+ Host institution science news 
+
+ Media image
+
+ 15 May 2025 
+
+ 355 million-year-old footprints rewrite the history of backboned land animals 
+
+ #ARCHEOLOGY 
+
+ Host institution science news 
+
+ Media image
+
+ 10 Apr 2025 
+
+ Denisovans, an extinct human species, once lived in East Asia, fossil shows 
+
+ #ARCHEOLOGY 
+
+ #ANTHROPOLOGY 
+
+ #CHEMISTRY 
+
+ Host institution science news 
+
+ Banner title 
+ Subscribe to our newsletter
+
+ Email 
+
+ Privacy notice 
+
+ Leave this field blank 
+
+ European Research Council
+
+ Established by the European Commission
+
+ RRSS Footer
+
+ Follow us on:
+
+ Linkedin 
+
+ Bluesky 
+
+ Instagram 
+
+ Youtube 
+
+ Whatsapp 
+
+ Twitter 
+
+ Facebook 
+
+ Footer
+
+ Accessibility 
+
+ Data protection 
+
+ Legal notice

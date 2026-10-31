@@ -1,0 +1,96 @@
+{
+ "name": "Revelation First field census: worked questions",
+ "compiled": "2026-10-30",
+ "editor": "Lee Sharks",
+ "note": "Each question is paired with the kind of evidence that can answer it and the census records that hold that evidence, by each record's own answers and does_not_answer fields. The gap is the part of the question no record in the census settles. The roles and gaps are readings.",
+ "questions": [
+  {
+   "id": "papyri-revelation-date",
+   "question": "Which papyri bear on the date of Revelation, and how is each one dated?",
+   "why": "A papyrus dates its copy, and the composition must come before it. Most early New Testament papyri are dated by handwriting alone, so the method of dating matters as much as the date.",
+   "resources": [
+    {
+     "slug": "csntm",
+     "role": "images of P47, the Chester Beatty papyrus of Revelation, and of P46 (Paul), with century dates as catalogued"
+    },
+    {
+     "slug": "oxyrhynchus-online",
+     "role": "the largest collection of papyri from the principal find-site of early Christian papyri"
+    },
+    {
+     "slug": "bodmer-lab",
+     "role": "the Bodmer papyri catalogue, in production"
+    },
+    {
+     "slug": "enoch-dss-dating",
+     "role": "a method that moves palaeographic dates earlier against radiocarbon anchors, on the Dead Sea Scrolls"
+    }
+   ],
+   "gap": "No record in this batch gives a sourced date and dating method for P47 or the other papyri of Revelation; the Münster Liste, which would, could not be read (pending)."
+  },
+  {
+   "id": "seen-or-edited",
+   "question": "Which manuscripts can be seen directly online, and which only through an edition?",
+   "why": "An image lets a reader check a reading; an edition reports one. The difference decides what a reader can verify without the editor.",
+   "resources": [
+    {
+     "slug": "csntm",
+     "role": "images of Greek New Testament manuscripts, searchable by type and century"
+    },
+    {
+     "slug": "dss-digital-library",
+     "role": "spectral images of Dead Sea Scroll fragments and 1950s negatives"
+    },
+    {
+     "slug": "bodmer-lab",
+     "role": "digitized Bodmer papyri"
+    },
+    {
+     "slug": "oxyrhynchus-online",
+     "role": "images and the published editions of the Oxyrhynchus papyri"
+    }
+   ],
+   "gap": "The Virtual Manuscript Room and the Codex Sinaiticus Project, the two largest image sources for the New Testament, could not be read from the build environment (pending)."
+  },
+  {
+   "id": "machine-dating",
+   "question": "What can machine dating of manuscripts establish, and what can it not?",
+   "why": "Machine dating is calibrated on a corpus. What it establishes holds for that corpus and that kind of evidence.",
+   "resources": [
+    {
+     "slug": "enoch-dss-dating",
+     "role": "style-based dates for the Dead Sea Scrolls trained on 24 radiocarbon samples, often older than palaeographic estimates"
+    },
+    {
+     "slug": "ithaca",
+     "role": "restoration, place and date for Greek inscriptions, within 30 years of ground truth"
+    },
+    {
+     "slug": "aeneas",
+     "role": "parallels for Latin inscriptions, the kind of evidence dependence arguments use"
+    },
+    {
+     "slug": "vesuvius-challenge",
+     "role": "machine reading of unopened Herculaneum scrolls"
+    }
+   ],
+   "gap": "None of the four dates a New Testament papyrus or a composition; each dates or reads copies within its own corpus."
+  },
+  {
+   "id": "ai-describes-rf",
+   "question": "How do AI systems describe Revelation First?",
+   "why": "A machine answer is now the first account many readers meet. The record of those answers is the evidence; the answers are not evidence that what they say is so.",
+   "resources": [
+    {
+     "slug": "capture-registry",
+     "role": "ten recorded addresses, June to October 2026, across Google, Perplexity and Grok, read against the thesis"
+    },
+    {
+     "slug": "ai-and-faith",
+     "role": "a network discussing AI and religion; no measurement of answers"
+    }
+   ],
+   "gap": "Signed-in and personalized answers are not recorded; the registry is the archive's own."
+  }
+ ]
+}

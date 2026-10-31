@@ -1,0 +1,72 @@
+{
+ "intf-ntvmr": {
+  "home": "https://ntvmr.uni-muenster.de/",
+  "liste": "https://ntvmr.uni-muenster.de/liste",
+  "intf": "https://www.uni-muenster.de/INTF/"
+ },
+ "csntm": {
+  "home": "https://www.csntm.org/",
+  "about": "https://www.csntm.org/about/",
+  "manuscripts": "https://manuscripts.csntm.org/",
+  "beatty": "https://www.csntm.org/tag/chester-beatty-biblical-papyri"
+ },
+ "codex-sinaiticus": {
+  "home": "https://www.codexsinaiticus.org/en/",
+  "project": "https://www.codexsinaiticus.org/en/project/",
+  "bl": "https://www.bl.uk/collection-items/codex-sinaiticus"
+ },
+ "papyri-info": {
+  "home": "https://papyri.info/",
+  "about": "https://papyri.info/docs/about"
+ },
+ "oxyrhynchus-online": {
+  "home": "http://www.papyrology.ox.ac.uk/POxy/"
+ },
+ "ldab": {
+  "home": "https://www.trismegistos.org/ldab/",
+  "about": "https://www.trismegistos.org/ldab/about.php"
+ },
+ "trismegistos": {
+  "home": "https://www.trismegistos.org/",
+  "about": "https://www.trismegistos.org/about.php"
+ },
+ "bodmer-lab": {
+  "home": "https://bodmerlab.unige.ch/",
+  "fondation": "https://www.fondationbodmer.ch/"
+ },
+ "dss-digital-library": {
+  "home": "https://www.deadseascrolls.org.il/",
+  "intro": "https://www.deadseascrolls.org.il/learn-about-the-scrolls/introduction"
+ },
+ "nt-gateway": {
+  "home": "https://www.ntgateway.com/"
+ },
+ "early-christian-writings": {
+  "home": "https://www.earlychristianwritings.com/",
+  "revelation": "https://www.earlychristianwritings.com/revelation.html"
+ },
+ "vesuvius-challenge": {
+  "home": "https://scrollprize.org/",
+  "overview": "https://scrollprize.org/prizes"
+ },
+ "ithaca": {
+  "home": "https://ithaca.deepmind.com/",
+  "nature": "https://www.nature.com/articles/s41586-022-04448-z"
+ },
+ "aeneas": {
+  "blog": "https://deepmind.google/discover/blog/aeneas-transforms-how-historians-connect-the-past/",
+  "site": "https://predictingthepast.com/"
+ },
+ "enoch-dss-dating": {
+  "erc": "https://erc.europa.eu/news-events/news/unlocking-timecode-dead-sea-scrolls",
+  "plos": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0323185",
+  "scimex": "https://www.scimex.org/newsfeed/are-the-dead-sea-scrolls-older-than-we-thought-enoch-the-ai-thinks-so"
+ },
+ "ai-and-faith": {
+  "home": "https://aiandfaith.org/",
+  "about": "https://aiandfaith.org/about-us/"
+ },
+ "llm-religious-text-emory": {
+  "etd": "https://etd.library.emory.edu/concern/etds/j9602216f"
+ }
+}

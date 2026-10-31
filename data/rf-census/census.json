@@ -1,0 +1,1393 @@
+{
+ "name": "Revelation First field census",
+ "compiled": "2026-10-30",
+ "schema_version": "1.0",
+ "editor": "Lee Sharks",
+ "schema_note": "The fleet census core (slug, name, aka, url, operator, kind, unit, count, lifecycle, version_and_time, negative_tags, evidence, relations, unchecked, sources), after Labor Vector's labor census, extended for the field around the Revelation First thesis: intersections (one or more of four), evidence_kind, text_object (which texts), method, coverage, findings, stated_limits, answers and does_not_answer (which questions of composition, dating and machine reading this kind of evidence can and cannot settle), and rf_intersection (where it meets the Revelation First workstreams: the archive's reading, kept apart from the resource's own terms). Every quote is verbatim from a saved source.",
+ "organizing_question": "What evidence does each resource hold on when and from what the New Testament writings were composed, and how do machines now read those texts?",
+ "correction": "Revelation First ≠ Revelation Early. The pre-70 date is the old argument (Robinson, 1976; Gentry, 1989); Revelation First is the priority thesis: the rest of the New Testament unfolds from the Apocalypse.",
+ "intersections": {
+  "nt-scholarship": "New Testament scholarship: dating, authorship and literary dependence",
+  "papyrology-discovery": "Papyrology and textual discovery: manuscripts, editions, new finds and redatings",
+  "ai-ancient-texts": "AI and ancient texts: machine reading, restoration and dating",
+  "ai-scripture": "AI and scripture: how AI systems represent, cite and summarize sacred texts"
+ },
+ "evidence_kinds": [
+  "manuscript images",
+  "transcription or edition",
+  "critical apparatus",
+  "catalogue or metadata",
+  "palaeographic dating",
+  "physical or radiocarbon dating",
+  "machine reading, restoration or dating",
+  "dating table",
+  "dependence argument",
+  "bibliography or directory",
+  "AI representation record",
+  "community or policy resource"
+ ],
+ "pending": {
+  "intf-ntvmr": {
+   "name": "INTF New Testament Virtual Manuscript Room (Münster)",
+   "url": "https://ntvmr.uni-muenster.de/",
+   "reason": "connection refused from the build environment; the INTF home page was read and carries news only"
+  },
+  "codex-sinaiticus": {
+   "name": "Codex Sinaiticus Project",
+   "url": "https://www.codexsinaiticus.org/en/",
+   "reason": "connection refused; the British Library's page returned its post-cyber-attack notice"
+  },
+  "papyri-info": {
+   "name": "papyri.info",
+   "url": "https://papyri.info/",
+   "reason": "served a bot-check page (Anubis) to the archive's user agent"
+  },
+  "ldab": {
+   "name": "Leuven Database of Ancient Books",
+   "url": "https://www.trismegistos.org/ldab/",
+   "reason": "connection refused"
+  },
+  "trismegistos": {
+   "name": "Trismegistos",
+   "url": "https://www.trismegistos.org/",
+   "reason": "HTTP 403 and connection refused"
+  },
+  "llm-religious-text-emory": {
+   "name": "When Large Language Models Meet Religious Text (Emory thesis)",
+   "url": "https://etd.library.emory.edu/concern/etds/j9602216f",
+   "reason": "HTTP 405"
+  },
+  "nt-gateway": {
+   "name": "The New Testament Gateway",
+   "url": "https://www.ntgateway.com/",
+   "reason": "the domain now serves Logos's 'Lecture Hall' pages; the directory itself was not found there"
+  }
+ },
+ "unread_sources": {
+  "intf-ntvmr--home": {
+   "url": "https://ntvmr.uni-muenster.de/",
+   "http": "000",
+   "fetched": "2026-10-31T02:50:44Z"
+  },
+  "intf-ntvmr--liste": {
+   "url": "https://ntvmr.uni-muenster.de/liste",
+   "http": "000",
+   "fetched": "2026-10-31T02:50:47Z"
+  },
+  "codex-sinaiticus--home": {
+   "url": "https://www.codexsinaiticus.org/en/",
+   "http": "000",
+   "fetched": "2026-10-31T02:51:09Z"
+  },
+  "codex-sinaiticus--project": {
+   "url": "https://www.codexsinaiticus.org/en/project/",
+   "http": "000",
+   "fetched": "2026-10-31T02:51:19Z"
+  },
+  "papyri-info--home": {
+   "url": "https://papyri.info/",
+   "http": "200",
+   "fetched": "2026-10-31T02:51:20Z"
+  },
+  "papyri-info--about": {
+   "url": "https://papyri.info/docs/about",
+   "http": "200",
+   "fetched": "2026-10-31T02:51:20Z"
+  },
+  "ldab--home": {
+   "url": "https://www.trismegistos.org/ldab/",
+   "http": "000",
+   "fetched": "2026-10-31T02:51:31Z"
+  },
+  "ldab--about": {
+   "url": "https://www.trismegistos.org/ldab/about.php",
+   "http": "000",
+   "fetched": "2026-10-31T02:51:42Z"
+  },
+  "trismegistos--home": {
+   "url": "https://www.trismegistos.org/",
+   "http": "403",
+   "fetched": "2026-10-31T02:51:43Z"
+  },
+  "trismegistos--about": {
+   "url": "https://www.trismegistos.org/about.php",
+   "http": "000",
+   "fetched": "2026-10-31T02:51:54Z"
+  },
+  "ithaca--home": {
+   "url": "https://ithaca.deepmind.com/",
+   "http": "200",
+   "fetched": "2026-10-31T02:52:05Z"
+  },
+  "aeneas--site": {
+   "url": "https://predictingthepast.com/",
+   "http": "200",
+   "fetched": "2026-10-31T02:52:08Z"
+  },
+  "enoch-dss-dating--scimex": {
+   "url": "https://www.scimex.org/newsfeed/are-the-dead-sea-scrolls-older-than-we-thought-enoch-the-ai-thinks-so",
+   "http": "403",
+   "fetched": "2026-10-31T02:52:10Z"
+  },
+  "llm-religious-text-emory--etd": {
+   "url": "https://etd.library.emory.edu/concern/etds/j9602216f",
+   "http": "405",
+   "fetched": "2026-10-31T02:52:12Z"
+  }
+ },
+ "rows": [
+  {
+   "slug": "csntm",
+   "name": "Center for the Study of New Testament Manuscripts",
+   "aka": [
+    "CSNTM"
+   ],
+   "url": "https://www.csntm.org/",
+   "operator": "Center for the Study of New Testament Manuscripts, Plano, Texas; founder and Executive Director Daniel B. Wallace",
+   "kind": "a center that digitizes Greek New Testament manuscripts and publishes their images in a searchable digital manuscript collection",
+   "intersections": [
+    "papyrology-discovery",
+    "nt-scholarship"
+   ],
+   "evidence_kind": [
+    "manuscript images",
+    "catalogue or metadata"
+   ],
+   "unit": "a manuscript, classed as papyrus, majuscule, minuscule or lectionary and dated by century, with its images and a short description",
+   "text_object": "Greek New Testament manuscripts, with some Septuagint manuscripts (Rahlfs 961, Genesis on papyrus)",
+   "method": "high-resolution digital photography of manuscripts held by other institutions, catalogued and published online",
+   "coverage": {
+    "geography": "holding institutions worldwide",
+    "period": "manuscripts from the second century onward, as its century filter runs"
+   },
+   "count": {
+    "value": "2045 results in the manuscript search as saved",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "images of the Chester Beatty papyri P45, P46 and P47, three of the earliest and most extensive New Testament papyri, among its published collections",
+    "a guest post on new finds in P47, the Chester Beatty papyrus of Revelation"
+   ],
+   "stated_limits": [
+    "none stated in the saved sources"
+   ],
+   "answers": [
+    "what a given Greek New Testament manuscript looks like, with its type and century as catalogued",
+    "where images of P47 (Revelation) and P46 (Paul) can be examined"
+   ],
+   "does_not_answer": [
+    "when Revelation was composed: a manuscript's century dates the copy",
+    "the order in which the New Testament writings were composed"
+   ],
+   "rf_intersection": "Papyrological inversion: P47, the Chester Beatty papyrus of Revelation, and the Pauline P46 are among its imaged papyri. The workstream sets the dates of surviving copies against the received order of composition; the images are where those copies can be read.",
+   "data_access": "images in its digital collection, on agreement to its Terms of Use and Copyright policy",
+   "license": "its Terms of Use and Copyright policy (terms not read)",
+   "lifecycle": {
+    "state": "active",
+    "detail": "digitizing, training interns and publishing; blog posts dated to 2026"
+   },
+   "version_and_time": {
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT a neutral archive: among its stated objectives is to provide 'scientific evidence (against the claims of skeptics)' that the present text is what was written",
+    "NOT the holding institution: it photographs manuscripts held by others",
+    "NOT an edition: it publishes images and catalogue descriptions"
+   ],
+   "evidence": {
+    "motto": {
+     "src": "csntm--home",
+     "basis": "operator",
+     "quote": "Preserving the Ancient Text for Generation Next"
+    },
+    "objective_text": {
+     "src": "csntm--about",
+     "basis": "operator",
+     "quote": "modern publications of the New Testament accurately reflect the words first written in the first century"
+    },
+    "objective_skeptics": {
+     "src": "csntm--about",
+     "basis": "operator",
+     "quote": "you provide scientific evidence (against the claims of skeptics) that what we have today is, indeed, what they wrote then."
+    },
+    "founder": {
+     "src": "csntm--about",
+     "basis": "operator",
+     "quote": "founder and Executive Director, Daniel B. Wallace"
+    },
+    "address": {
+     "src": "csntm--about",
+     "basis": "operator",
+     "quote": "2001 W. Plano Parkway STE 2450 Plano, TX 75075 USA"
+    },
+    "classification": {
+     "src": "csntm--manuscripts",
+     "basis": "operator",
+     "quote": "Classification Papyrus Majuscule Minuscule Lectionary"
+    },
+    "count": {
+     "src": "csntm--manuscripts",
+     "basis": "operator",
+     "quote": "Search 2045 results found."
+    },
+    "terms": {
+     "src": "csntm--manuscripts",
+     "basis": "operator",
+     "quote": "to our Terms of Use and Copyright policy"
+    },
+    "lxx": {
+     "src": "csntm--manuscripts",
+     "basis": "operator",
+     "quote": "Contents: LXX (Septuagint) Genesis 9–44."
+    },
+    "p47": {
+     "src": "csntm--beatty",
+     "basis": "operator",
+     "quote": "The Chester Beatty Papyrus of Revelation (P47): New Finds from an Old Treasure Trove"
+    },
+    "beatty_set": {
+     "src": "csntm--beatty",
+     "basis": "operator",
+     "quote": "New Discoveries on Every Page: P45, P46, P47"
+    },
+    "earliest": {
+     "src": "csntm--beatty",
+     "basis": "operator",
+     "quote": "three of the earliest and most extensive New Testament papyri were made available to scholars through color photographs"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "oxyrhynchus-online",
+     "note": "both hold or image early Christian papyri; the saved pages do not cross-reference"
+    }
+   ],
+   "unchecked": [
+    "the manuscript records themselves (only the search page was saved)",
+    "the full text of the P47 post",
+    "its Terms of Use"
+   ],
+   "sources": {
+    "csntm--home": {
+     "url": "https://www.csntm.org/",
+     "read": "2026-10-31",
+     "sha256": "47f0e2ca737b2d224dad82c6919f802f3807108ccc024c953a67479ea561aef2",
+     "http": "200"
+    },
+    "csntm--about": {
+     "url": "https://www.csntm.org/about/",
+     "read": "2026-10-31",
+     "sha256": "01a1032e327c58cd6313b55c5f7e0cfd36c2a2af3b2747d41ca8732cd5fc69f1",
+     "http": "200"
+    },
+    "csntm--manuscripts": {
+     "url": "https://manuscripts.csntm.org/",
+     "read": "2026-10-31",
+     "sha256": "522b51b14ad0e83eb835539a06a02fe94af97f8a02aec1bd2f666029fd2a4314",
+     "http": "200"
+    },
+    "csntm--beatty": {
+     "url": "https://www.csntm.org/tag/chester-beatty-biblical-papyri",
+     "read": "2026-10-31",
+     "sha256": "6dcb14477eaea9b3ef4932e99136157297dff3aaa18ced0f8b932af667bcf738",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "oxyrhynchus-online",
+   "name": "The Oxyrhynchus Papyri",
+   "aka": [
+    "POxy",
+    "Oxyrhynchus Online"
+   ],
+   "url": "http://www.papyrology.ox.ac.uk/POxy/",
+   "operator": "the Egypt Exploration Society, whose collection is housed in Oxford's Art, Archaeology and Ancient World Library",
+   "kind": "the collection site of the Oxyrhynchus Papyri, with images, publications, a location list and a virtual exhibition",
+   "intersections": [
+    "papyrology-discovery"
+   ],
+   "evidence_kind": [
+    "manuscript images",
+    "catalogue or metadata",
+    "transcription or edition"
+   ],
+   "unit": "a text on papyrus or parchment from the Oxyrhynchus excavations",
+   "text_object": "literary, documentary and other texts, principally Greek, with Latin, Demotic, Coptic and Arabic",
+   "method": "excavation (Grenfell and Hunt, 1896–1907) and continuing edition of the finds in the Oxyrhynchus Papyri series",
+   "coverage": {
+    "geography": "Oxyrhynchus (modern Bahnasa), Egypt",
+    "period": "second century BCE to seventh century CE"
+   },
+   "count": {
+    "value": "thousands of texts",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "it describes the collection as the largest of its kind in the world"
+   ],
+   "stated_limits": [
+    "none stated in the saved page"
+   ],
+   "answers": [
+    "which texts the collection holds and where they are published",
+    "the date range of the Oxyrhynchus finds"
+   ],
+   "does_not_answer": [
+    "the composition dates of the works copied on the papyri",
+    "which New Testament papyri the collection holds (not listed on the saved page)"
+   ],
+   "rf_intersection": "Papyrological inversion and dating: Oxyrhynchus is a principal find-site of early Christian papyri. The saved page does not list them, so the bearing on the workstream is the archive's reading, to be checked against the collection's own lists.",
+   "data_access": "images and publication lists on the site (not opened)",
+   "license": "not stated on the saved page",
+   "lifecycle": {
+    "state": "active",
+    "detail": "the collection continues to be edited and published"
+   },
+   "version_and_time": {
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT a New Testament collection: its papyri are principally literary and documentary Greek texts",
+    "NOT the excavation's original report"
+   ],
+   "evidence": {
+    "collection": {
+     "src": "oxyrhynchus-online--home",
+     "basis": "operator",
+     "quote": "The Oxyrhynchus Papyri collection, belonging to the Egypt Exploration Society and housed in Oxford's Art, Archaeology and Ancient World Library, comprises thousands of texts on papyrus and parchment and is the largest of its kind in the world."
+    },
+    "contents": {
+     "src": "oxyrhynchus-online--home",
+     "basis": "operator",
+     "quote": "It includes principally literary, documentary, and other texts in Greek, dating from the second century BCE to the seventh century CE; other languages represented include Latin, Demotic, Coptic, and Arabic."
+    },
+    "excavation": {
+     "src": "oxyrhynchus-online--home",
+     "basis": "operator",
+     "quote": "Most of the papyri come from excavations conducted at the site of Oxyrhynchus (modern Bahnasa) by Oxford classicists Bernard Grenfell and Arthur Hunt in 1896–1907 on behalf of the Egypt Exploration Fund (now Society)."
+    },
+    "sections": {
+     "src": "oxyrhynchus-online--home",
+     "basis": "operator",
+     "quote": "Publications Images Current Project Location-List Virtual Exhibition"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "csntm",
+     "note": "both hold or image early Christian papyri"
+    }
+   ],
+   "unchecked": [
+    "the publication and image lists",
+    "which New Testament papyri the collection holds"
+   ],
+   "sources": {
+    "oxyrhynchus-online--home": {
+     "url": "http://www.papyrology.ox.ac.uk/POxy/",
+     "read": "2026-10-31",
+     "sha256": "1780c0dd2028f400efd075d923b6d2f24f17642e350f18b42acc282d864b59cf",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "bodmer-lab",
+   "name": "Bodmer Lab",
+   "aka": [
+    "Bodmer Papyri constellation",
+    "Fondation Martin Bodmer"
+   ],
+   "url": "https://bodmerlab.unige.ch/",
+   "operator": "a research and digitization partnership of the University of Geneva's Faculty of Letters and the Fondation Martin Bodmer",
+   "kind": "a digital library of world literature from the Bodmer collection, organized in 'constellations', one of them the Bodmer Papyri",
+   "intersections": [
+    "papyrology-discovery"
+   ],
+   "evidence_kind": [
+    "manuscript images",
+    "catalogue or metadata"
+   ],
+   "unit": "a digitized document in a constellation; for the papyri, a papyrus or parchment manuscript of the Fondation Martin Bodmer",
+   "text_object": "the papyrus and parchment manuscripts of the Fondation Martin Bodmer, among the collection's literature",
+   "method": "digitization and online cataloguing of the Bodmer collection",
+   "coverage": {
+    "geography": "the Bibliotheca Bodmeriana, Cologny (Geneva)",
+    "period": "not stated for the papyri"
+   },
+   "count": {
+    "value": "56 documents digitized in the Bodmer Papyri constellation",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "the Bodmer Papyri constellation aims at a detailed online catalogue of the papyrus and parchment manuscripts at the Fondation"
+   ],
+   "stated_limits": [
+    "none stated in the saved pages"
+   ],
+   "answers": [
+    "which Bodmer papyri are digitized and catalogued online"
+   ],
+   "does_not_answer": [
+    "the dates or contents of particular papyri (catalogue entries not opened)"
+   ],
+   "rf_intersection": "Papyrological inversion: the Bodmer papyri include some of the earliest New Testament papyri. The saved pages do not name them; the bearing is the archive's reading, to be checked against the catalogue.",
+   "data_access": "online catalogue and images (not opened)",
+   "license": "not stated in the saved pages",
+   "lifecycle": {
+    "state": "active",
+    "detail": "the papyri constellation is described as in production"
+   },
+   "version_and_time": {
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT a papyrus database: the papyri are one constellation of a library of world literature"
+   ],
+   "evidence": {
+    "partnership": {
+     "src": "bodmer-lab--home",
+     "basis": "operator",
+     "quote": "Le Bodmer Lab est un projet de recherche et de numérisation issu d'un partenariat entre la Faculté des lettres de l'Université de Genève et la Fondation Martin Bodmer."
+    },
+    "library": {
+     "src": "bodmer-lab--home",
+     "basis": "operator",
+     "quote": "Une bibliothèque numérique de la littérature mondiale"
+    },
+    "papyri_aim": {
+     "src": "bodmer-lab--home",
+     "basis": "operator",
+     "quote": "The aim of this constellation is to produce a detailed, online catalog of the papyrus and parchment manuscripts at the Fondation Martin Bodmer."
+    },
+    "papyri_count": {
+     "src": "bodmer-lab--home",
+     "basis": "operator",
+     "quote": "56 documents numérisés"
+    }
+   },
+   "relations": [],
+   "unchecked": [
+    "the Bodmer Papyri catalogue entries",
+    "the Fondation's own collection pages (saved, navigation only)"
+   ],
+   "sources": {
+    "bodmer-lab--home": {
+     "url": "https://bodmerlab.unige.ch/",
+     "read": "2026-10-31",
+     "sha256": "46040ed3eb84378362d8e6c8b66998a6634a2edfdbf08a63faa36d829b93d326",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "dss-digital-library",
+   "name": "The Leon Levy Dead Sea Scrolls Digital Library",
+   "aka": [
+    "Dead Sea Scrolls Digital Library"
+   ],
+   "url": "https://www.deadseascrolls.org.il/",
+   "operator": "the Israel Antiquities Authority (IAA), with the Leon Levy and Arcadia Funds",
+   "kind": "a digital library of spectral images of Dead Sea Scroll fragments and 1950s negatives, with introductions to the scrolls",
+   "intersections": [
+    "papyrology-discovery",
+    "nt-scholarship"
+   ],
+   "evidence_kind": [
+    "manuscript images",
+    "catalogue or metadata"
+   ],
+   "unit": "a scroll fragment, imaged spectrally, with scans of the 1950s negatives (PAM)",
+   "text_object": "the Dead Sea Scrolls: biblical, apocryphal and sectarian texts, mostly in Hebrew, with Aramaic and Greek",
+   "method": "multispectral imaging of the fragments; digitized negatives",
+   "coverage": {
+    "geography": "Qumran and other Judaean Desert sites",
+    "period": "scroll dates from the third century BCE to the first century CE at Qumran; further sites earlier and later"
+   },
+   "count": {
+    "value": "thousands of scroll fragments",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "the library preserves thousands of fragments, among them the oldest known copies of biblical texts",
+    "it dates the Qumran scrolls from the third century BCE to the first century CE, before the destruction of the Second Temple in 70 CE"
+   ],
+   "stated_limits": [
+    "none stated in the saved pages"
+   ],
+   "answers": [
+    "what a given scroll fragment looks like in high-resolution spectral images",
+    "the date range the library gives for the scrolls"
+   ],
+   "does_not_answer": [
+    "the composition of the New Testament writings",
+    "the date of a particular fragment (fragment records not opened)"
+   ],
+   "rf_intersection": "Context and method: the Second Temple literature behind the Apocalypse's imagery, and the corpus on which the Enoch model moved palaeographic dates earlier against radiocarbon anchors (see enoch-dss-dating).",
+   "data_access": "images and negatives online",
+   "license": "its Terms & Conditions (not read)",
+   "lifecycle": {
+    "state": "active",
+    "detail": "online library maintained by the IAA"
+   },
+   "version_and_time": {
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT a New Testament collection",
+    "NOT an edition: images and introductions"
+   ],
+   "evidence": {
+    "self": {
+     "src": "dss-digital-library--home",
+     "basis": "operator",
+     "quote": "The Leon Levy Dead Sea Scrolls Digital Library offers an exceptional encounter with antiquity."
+    },
+    "fragments": {
+     "src": "dss-digital-library--home",
+     "basis": "operator",
+     "quote": "Using the world's most advanced imaging technology, the Digital Library preserves thousands of scroll fragments, including the oldest known copies of biblical"
+    },
+    "images": {
+     "src": "dss-digital-library--home",
+     "basis": "operator",
+     "quote": "Examine high-resolution spectral images of manuscript fragments and browse scans of negatives (PAM) from the 1950s"
+    },
+    "operator": {
+     "src": "dss-digital-library--home",
+     "basis": "operator",
+     "quote": "Note From the IAA Director The IAA The Digital Library The Leon Levy and Arcadia Funds"
+    },
+    "dates": {
+     "src": "dss-digital-library--intro",
+     "basis": "operator",
+     "quote": "Scroll dates range from the third century bce (mid–Second Temple period) to the first century of the Common Era, before the destruction of the Second Temple in 70"
+    },
+    "other_sites": {
+     "src": "dss-digital-library--intro",
+     "basis": "operator",
+     "quote": "Dead Sea Scrolls discovered outside of the Qumran caves range from as early as the First Temple period (eighth century bce ) to as late as the 11 th century ce ."
+    }
+   },
+   "relations": [
+    {
+     "rel": "used_by",
+     "target": "enoch-dss-dating",
+     "note": "the Enoch study dates scrolls from this corpus"
+    }
+   ],
+   "unchecked": [
+    "fragment records",
+    "its Terms & Conditions"
+   ],
+   "sources": {
+    "dss-digital-library--home": {
+     "url": "https://www.deadseascrolls.org.il/",
+     "read": "2026-10-31",
+     "sha256": "8e3eb0d196e3d11d9fe452e1e0ae8a2be57b99170777b94c90c14fb9f1e93750",
+     "http": "200"
+    },
+    "dss-digital-library--intro": {
+     "url": "https://www.deadseascrolls.org.il/learn-about-the-scrolls/introduction",
+     "read": "2026-10-31",
+     "sha256": "ae5d817a344d183ab5097954ddc014a943bb1ebe7e93d3a01f63d50ab46edea0",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "early-christian-writings",
+   "name": "Early Christian Writings",
+   "aka": [
+    "earlychristianwritings.com"
+   ],
+   "url": "https://www.earlychristianwritings.com/",
+   "operator": "not stated in the saved pages",
+   "kind": "an online collection of early Christian texts (New Testament, apocrypha, Gnostic texts, Church Fathers), browsable by range of dating",
+   "intersections": [
+    "nt-scholarship"
+   ],
+   "evidence_kind": [
+    "dating table",
+    "transcription or edition",
+    "bibliography or directory"
+   ],
+   "unit": "a text, with an estimated range of dating, translations and quoted scholarly introductions",
+   "text_object": "the New Testament and other early Christian writings",
+   "method": "compilation: each text page gives an estimated date range and quotes published introductions",
+   "coverage": {
+    "geography": "early Christianity",
+    "period": "first and second centuries chiefly"
+   },
+   "count": {
+    "value": "not stated",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "its dating table places Paul's earliest letters at 50-60 (1 Thessalonians, Galatians, 1 Corinthians)",
+    "it gives Revelation an estimated range of 90-95 A.D. and quotes an introduction placing it toward the end of Domitian's reign"
+   ],
+   "stated_limits": [
+    "its dates are given as an 'Estimated Range of Dating'"
+   ],
+   "answers": [
+    "the received dating of each New Testament writing, as one widely used site sets it out"
+   ],
+   "does_not_answer": [
+    "the grounds of each date beyond the quoted introductions",
+    "the priority question: the table orders writings by date, not by derivation"
+   ],
+   "rf_intersection": "Dating, as the received order: Paul at 50-60 and Revelation at 90-95, the late date and the order Revelation First contests, laid out as a table. A worked comparison point for the thesis's ladder of claims.",
+   "data_access": "open web pages",
+   "license": "not stated in the saved pages",
+   "lifecycle": {
+    "state": "active",
+    "detail": "site with blog and forum links"
+   },
+   "version_and_time": {
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT an edition: it compiles translations and published introductions",
+    "NOT a scholarly consensus statement: one site's estimated ranges"
+   ],
+   "evidence": {
+    "browse": {
+     "src": "early-christian-writings--home",
+     "basis": "operator",
+     "quote": "Browse by range of dating or by category, New Testament — Apocrypha — Gnostics — Church Fathers — Other"
+    },
+    "paul": {
+     "src": "early-christian-writings--home",
+     "basis": "operator",
+     "quote": "50-60 1 Thessalonians"
+    },
+    "rev_range": {
+     "src": "early-christian-writings--revelation",
+     "basis": "operator",
+     "quote": "Estimated Range of Dating: 90-95 A.D."
+    },
+    "rev_domitian": {
+     "src": "early-christian-writings--revelation",
+     "basis": "operator",
+     "quote": "written toward the end of the reign of Domitian (81-96)"
+    },
+    "rev_nero": {
+     "src": "early-christian-writings--revelation",
+     "basis": "operator",
+     "quote": "Nero's mad acts in Rome against the Christians had nothing to do with the imperial cult."
+    }
+   },
+   "relations": [],
+   "unchecked": [
+    "the provenance of the quoted introductions",
+    "the site's operator"
+   ],
+   "sources": {
+    "early-christian-writings--home": {
+     "url": "https://www.earlychristianwritings.com/",
+     "read": "2026-10-31",
+     "sha256": "b386cdf3f2957036601cdfe55dae930c6363f32bb05bc905fee0fffdecfd5cbc",
+     "http": "200"
+    },
+    "early-christian-writings--revelation": {
+     "url": "https://www.earlychristianwritings.com/revelation.html",
+     "read": "2026-10-31",
+     "sha256": "a5be64dbf07d9ae46a87f6ea35ef01c293bf41d843f405101ac79a6ae75c31da",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "enoch-dss-dating",
+   "name": "Enoch: dating ancient manuscripts with radiocarbon and AI-based writing-style analysis",
+   "aka": [
+    "Enoch"
+   ],
+   "url": "https://doi.org/10.1371/journal.pone.0323185",
+   "operator": "Mladen Popović and colleagues (University of Groningen and partners), funded by the European Research Council; published in PLOS One",
+   "kind": "a machine-learning date-prediction model for the Dead Sea Scrolls, trained on radiocarbon-dated samples, and the study that introduces it",
+   "intersections": [
+    "ai-ancient-texts",
+    "papyrology-discovery",
+    "nt-scholarship"
+   ],
+   "evidence_kind": [
+    "machine reading, restoration or dating",
+    "physical or radiocarbon dating",
+    "palaeographic dating"
+   ],
+   "unit": "a scroll's predicted date from the angular and allographic features of its handwriting",
+   "text_object": "the Dead Sea Scrolls",
+   "method": "Bayesian ridge regression on writing-style feature vectors, trained on 24 radiocarbon-dated samples, then applied to 135 undated scrolls",
+   "coverage": {
+    "geography": "Judaean Desert",
+    "period": "Hellenistic and Roman periods"
+   },
+   "count": {
+    "value": "24 radiocarbon-dated samples; 135 undated scrolls dated",
+    "as_of": "2025-06-04"
+   },
+   "findings": [
+    "Enoch predicted radiocarbon-based dates with mean absolute errors of 27.9 to 30.7 years",
+    "radiocarbon ranges and Enoch's predictions are often older than the palaeographic estimates, giving a new chronology and re-dating key texts"
+   ],
+   "stated_limits": [
+    "an almost complete lack of date-bearing manuscripts",
+    "79% alignment in palaeographic post-hoc evaluation"
+   ],
+   "answers": [
+    "how far palaeographic dates of the scrolls move against radiocarbon anchors",
+    "that a style-based model can date undated manuscripts within about thirty years on this corpus"
+   ],
+   "does_not_answer": [
+    "the dates of Greek New Testament papyri (not in its corpus)",
+    "when any work copied on a scroll was composed"
+   ],
+   "rf_intersection": "Dating: New Testament papyri are dated by palaeography alone, and this study moves palaeographic dates earlier against radiocarbon anchors. It does not date New Testament papyri; it is the method the papyrological-inversion and dating workstreams would watch.",
+   "data_access": "open-access article (PLOS One)",
+   "license": "the article's copyright line names Popović et al. (licence text not read)",
+   "lifecycle": {
+    "state": "historical",
+    "detail": "a study published 4 June 2025"
+   },
+   "founded": "2025",
+   "version_and_time": {
+    "published": "2025-06-04",
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT a New Testament study: Hebrew and Aramaic scrolls",
+    "NOT a composition date: it dates the copies"
+   ],
+   "evidence": {
+    "model": {
+     "src": "enoch-dss-dating--plos",
+     "basis": "operator",
+     "quote": "we present Enoch, an AI-based date-prediction model, trained on the basis of 24 14 C-dated scroll samples."
+    },
+    "error": {
+     "src": "enoch-dss-dating--plos",
+     "basis": "operator",
+     "quote": "Enoch could predict 14 C-based dates with varied mean absolute errors (MAEs) of 27.9 to 30.7 years."
+    },
+    "applied": {
+     "src": "enoch-dss-dating--plos",
+     "basis": "operator",
+     "quote": "the trained Enoch model then computed date predictions for 135 non-dated scrolls, aligning with 79% in palaeographic post-hoc evaluation."
+    },
+    "older": {
+     "src": "enoch-dss-dating--plos",
+     "basis": "operator",
+     "quote": "The 14 C ranges and Enoch's style-based predictions are often older than traditionally assumed palaeographic estimates, leading to a new chronology of the scrolls and the re-dating of ancient Jewish key texts that contribute to current debates on Jewish and Christian origins."
+    },
+    "problem": {
+     "src": "enoch-dss-dating--plos",
+     "basis": "operator",
+     "quote": "there is an almost complete lack of date-bearing manuscripts"
+    },
+    "citation": {
+     "src": "enoch-dss-dating--plos",
+     "basis": "operator",
+     "quote": "Popović M, Dhali MA, Schomaker L, van der Plicht J, Lund Rasmussen K, La Nasa J, et al. (2025) Dating ancient manuscripts using radiocarbon and AI-based writing style analysis."
+    },
+    "published": {
+     "src": "enoch-dss-dating--plos",
+     "basis": "operator",
+     "quote": "Published: June 4, 2025"
+    },
+    "palaeography": {
+     "src": "enoch-dss-dating--erc",
+     "basis": "third_party",
+     "quote": "Until now, dating has largely relied on palaeography, the study of ancient handwriting, which lacks a solid empirical foundation due to the absence of securely dated reference materials."
+    }
+   },
+   "relations": [
+    {
+     "rel": "uses",
+     "target": "dss-digital-library",
+     "note": "its corpus is the Dead Sea Scrolls"
+    }
+   ],
+   "unchecked": [
+    "the model's code and data (not opened)",
+    "the scimex release (HTTP 403)"
+   ],
+   "sources": {
+    "enoch-dss-dating--plos": {
+     "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0323185",
+     "read": "2026-10-31",
+     "sha256": "1bf06ab57a70bb15802eb4e4efa2d32a97d07e6ac3388debfa8f0e4031a7a818",
+     "http": "200"
+    },
+    "enoch-dss-dating--erc": {
+     "url": "https://erc.europa.eu/news-events/news/unlocking-timecode-dead-sea-scrolls",
+     "read": "2026-10-31",
+     "sha256": "7a61ba2a49c69e2d87caa019fd37b65b5e1c89176c0eaf132eaf2defa8c2bb3b",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "ithaca",
+   "name": "Ithaca",
+   "aka": [
+    "Ithaca (DeepMind)"
+   ],
+   "url": "https://ithaca.deepmind.com/",
+   "operator": "DeepMind with historians and collaborators; described in Nature (2022)",
+   "kind": "a deep neural network for restoring, placing and dating ancient Greek inscriptions",
+   "intersections": [
+    "ai-ancient-texts"
+   ],
+   "evidence_kind": [
+    "machine reading, restoration or dating"
+   ],
+   "unit": "an inscription's restored text, attributed place and attributed date",
+   "text_object": "ancient Greek inscriptions",
+   "method": "deep neural network trained on Greek inscriptions; evaluated alone and with historians",
+   "coverage": {
+    "geography": "the ancient Greek world",
+    "period": "as its training corpus (not stated in the abstract)"
+   },
+   "count": {
+    "value": "not stated in the saved abstract",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "62% accuracy restoring damaged texts alone; historians' accuracy rose from 25% to 72% with it",
+    "71% accuracy attributing location; dates within 30 years of ground-truth ranges, redating key texts of Classical Athens"
+   ],
+   "stated_limits": [
+    "designed to assist and expand the historian's workflow"
+   ],
+   "answers": [
+    "how accurately a model restores, places and dates Greek inscriptions, and how much it helps historians"
+   ],
+   "does_not_answer": [
+    "the dating of manuscripts or literary works",
+    "anything on the New Testament"
+   ],
+   "rf_intersection": "Machine dating of Greek text: inscriptions, not manuscripts. A method the dating workstream can watch; it bears on the thesis only as machine dating moves toward literary and papyrus evidence.",
+   "data_access": "an interactive interface (the saved page is a JavaScript application); the paper is open in Nature",
+   "license": "not read",
+   "lifecycle": {
+    "state": "active",
+    "detail": "published 2022; interface online"
+   },
+   "founded": "2022",
+   "version_and_time": {
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT a manuscript-dating model",
+    "NOT a New Testament resource"
+   ],
+   "evidence": {
+    "what": {
+     "src": "ithaca--nature",
+     "basis": "operator",
+     "quote": "Here we present Ithaca, a deep neural network for the textual restoration, geographical attribution and chronological attribution of ancient Greek inscriptions."
+    },
+    "assist": {
+     "src": "ithaca--nature",
+     "basis": "operator",
+     "quote": "Ithaca is designed to assist and expand the historian’s workflow."
+    },
+    "restore": {
+     "src": "ithaca--nature",
+     "basis": "operator",
+     "quote": "While Ithaca alone achieves 62% accuracy when restoring damaged texts, the use of Ithaca by historians improved their accuracy from 25% to 72%, confirming the synergistic effect of this research tool."
+    },
+    "date": {
+     "src": "ithaca--nature",
+     "basis": "operator",
+     "quote": "Ithaca can attribute inscriptions to their original location with an accuracy of 71% and can date them to less than 30 years of their ground-truth ranges, redating key texts of Classical Athens and contributing to topical debates in ancient history."
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "aeneas",
+     "note": "Aeneas is DeepMind's later model for Latin inscriptions"
+    }
+   ],
+   "unchecked": [
+    "the interface (JavaScript)",
+    "the training corpus"
+   ],
+   "sources": {
+    "ithaca--nature": {
+     "url": "https://www.nature.com/articles/s41586-022-04448-z",
+     "read": "2026-10-31",
+     "sha256": "d2b4df37a93252c3d44127e213464c4bed2ab3a26dbffde58a648645bcad7aed",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "aeneas",
+   "name": "Aeneas",
+   "aka": [
+    "Aeneas (Google DeepMind)",
+    "Predicting the Past"
+   ],
+   "url": "https://predictingthepast.com/",
+   "operator": "Google DeepMind, co-developed with the University of Nottingham and with researchers at Warwick, Oxford and the Athens University of Economics and Business",
+   "kind": "an AI model that retrieves textual and contextual parallels for ancient inscriptions, introduced in Nature (2025)",
+   "intersections": [
+    "ai-ancient-texts"
+   ],
+   "evidence_kind": [
+    "machine reading, restoration or dating"
+   ],
+   "unit": "an inscription with its retrieved parallels",
+   "text_object": "Latin inscriptions; stated to be adaptable to other ancient languages, scripts and media, from papyri to coinage",
+   "method": "a generative model reasoning across thousands of Latin inscriptions to retrieve parallels",
+   "coverage": {
+    "geography": "the Roman world",
+    "period": "as its corpus (not stated in the saved post)"
+   },
+   "count": {
+    "value": "thousands of Latin inscriptions",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "it retrieves textual and contextual parallels in seconds, work historians do by expertise and specialized resources"
+   ],
+   "stated_limits": [
+    "Latin inscriptions in the published model; other languages and media stated as possible adaptations"
+   ],
+   "answers": [
+    "which inscriptions share wording, syntax, formulas or provenance with a given inscription"
+   ],
+   "does_not_answer": [
+    "the direction of dependence between parallel texts",
+    "anything on the New Testament"
+   ],
+   "rf_intersection": "Parallels as evidence: the model retrieves the kind of evidence the midrashim transform argues from (for example Rev 2:10 // Jas 1:12). Retrieval finds parallels; the direction of dependence, which the thesis argues, is not something it settles.",
+   "data_access": "an interactive version (the saved site is a JavaScript application)",
+   "license": "not read",
+   "lifecycle": {
+    "state": "active",
+    "detail": "published July 2025"
+   },
+   "founded": "2025",
+   "version_and_time": {
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT a dating model alone: it retrieves parallels",
+    "NOT trained on Greek or on papyri in the published version"
+   ],
+   "evidence": {
+    "intro": {
+     "src": "aeneas--blog",
+     "basis": "operator",
+     "quote": "Today, we’re publishing a paper in Nature introducing Aeneas , the first artificial intelligence (AI) model for contextualizing ancient inscriptions."
+    },
+    "parallels": {
+     "src": "aeneas--blog",
+     "basis": "operator",
+     "quote": "historians traditionally rely on their expertise and specialized resources to identify “parallels” — which are texts that share similarities in wording, syntax, standardized formulas or provenance."
+    },
+    "reasons": {
+     "src": "aeneas--blog",
+     "basis": "operator",
+     "quote": "It reasons across thousands of Latin inscriptions, retrieving textual and contextual parallels in seconds"
+    },
+    "adapt": {
+     "src": "aeneas--blog",
+     "basis": "operator",
+     "quote": "Our model can also be adapted to other ancient languages, scripts and media, from papyri to coinage"
+    },
+    "partners": {
+     "src": "aeneas--blog",
+     "basis": "operator",
+     "quote": "We co-developed Aeneas with the University of Nottingham, and in partnership with researchers at the Universities of Warwick, Oxford and Athens University of Economics and Business (AUEB)."
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "ithaca",
+     "note": "DeepMind's earlier model for Greek inscriptions"
+    }
+   ],
+   "unchecked": [
+    "the interactive site (JavaScript)",
+    "the Nature paper (not saved)"
+   ],
+   "sources": {
+    "aeneas--blog": {
+     "url": "https://deepmind.google/discover/blog/aeneas-transforms-how-historians-connect-the-past/",
+     "read": "2026-10-31",
+     "sha256": "c53e5cf5b5336f473ea7c230ac43cc27ed2ddaaaf8d0701d68cb6646ca91b094",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "vesuvius-challenge",
+   "name": "Vesuvius Challenge",
+   "aka": [
+    "Scroll Prize"
+   ],
+   "url": "https://scrollprize.org/",
+   "operator": "Vesuvius Challenge, which describes itself as an open science research organization",
+   "kind": "an open research competition reading the carbonized Herculaneum scrolls without unrolling them",
+   "intersections": [
+    "ai-ancient-texts",
+    "papyrology-discovery"
+   ],
+   "evidence_kind": [
+    "machine reading, restoration or dating",
+    "manuscript images"
+   ],
+   "unit": "a scroll, scanned and virtually unwrapped, with ink detected in the scan",
+   "text_object": "the carbonized papyrus scrolls of Herculaneum, buried in 79 AD",
+   "method": "virtual unwrapping and machine-learning ink detection on scans, advanced by open prizes",
+   "coverage": {
+    "geography": "Herculaneum",
+    "period": "before 79 AD"
+   },
+   "count": {
+    "value": "open prize pool $2,140,000",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "first letters found in a new scroll, and a first title prize awarded, as its news lists"
+   ],
+   "stated_limits": [
+    "virtual unwrapping still needs human help where sheets are crushed or torn"
+   ],
+   "answers": [
+    "how much of an unopened carbonized scroll can now be read by machine"
+   ],
+   "does_not_answer": [
+    "anything on the New Testament: the Herculaneum library predates it and is not Christian"
+   ],
+   "rf_intersection": "None direct. It shows machine reading recovering text from papyri that cannot be opened, the kind of result that would change what the papyrological record can contain.",
+   "data_access": "open data and code (GitHub, Hugging Face), community on Discord",
+   "license": "not read",
+   "lifecycle": {
+    "state": "active",
+    "detail": "Grand Prize deadline 25 June 2027"
+   },
+   "version_and_time": {
+    "grand_prize_deadline": "2027-06-25",
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT a Christian or biblical corpus",
+    "NOT a finished edition"
+   ],
+   "evidence": {
+    "self": {
+     "src": "vesuvius-challenge--home",
+     "basis": "operator",
+     "quote": "Vesuvius Challenge is an open science research organization reading the carbonized Herculaneum scrolls without unrolling them."
+    },
+    "buried": {
+     "src": "vesuvius-challenge--home",
+     "basis": "operator",
+     "quote": "Buried in 79 AD, now being revealed."
+    },
+    "letters": {
+     "src": "vesuvius-challenge--home",
+     "basis": "operator",
+     "quote": "First Letters Found in New Scroll"
+    },
+    "title_prize": {
+     "src": "vesuvius-challenge--home",
+     "basis": "operator",
+     "quote": "$60,000 First Title Prize Awarded"
+    },
+    "limit": {
+     "src": "vesuvius-challenge--home",
+     "basis": "operator",
+     "quote": "We can trace a scroll's surface, but where sheets are crushed or torn it still needs human help."
+    },
+    "pool": {
+     "src": "vesuvius-challenge--overview",
+     "basis": "operator",
+     "quote": "Open prize pool $2,140,000"
+    },
+    "grand": {
+     "src": "vesuvius-challenge--overview",
+     "basis": "operator",
+     "quote": "$800,000 to the first team or individual to fully unroll and make readable a scroll from the set below."
+    },
+    "deadline": {
+     "src": "vesuvius-challenge--overview",
+     "basis": "operator",
+     "quote": "Grand Prize deadline June 25th, 2027"
+    }
+   },
+   "relations": [],
+   "unchecked": [
+    "the data releases",
+    "the licence of the data"
+   ],
+   "sources": {
+    "vesuvius-challenge--home": {
+     "url": "https://scrollprize.org/",
+     "read": "2026-10-31",
+     "sha256": "f33ae8e4e07325a293724a00c3add697963ec56232b0440410ebda2779e6d7bb",
+     "http": "200"
+    },
+    "vesuvius-challenge--overview": {
+     "url": "https://scrollprize.org/prizes",
+     "read": "2026-10-31",
+     "sha256": "3e05dfa21dc14f4fa81ad47b5e87c92c1cce322eeb6ea25fd7e6312db8b9bf92",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "ai-and-faith",
+   "name": "AI and Faith",
+   "aka": [],
+   "url": "https://aiandfaith.org/",
+   "operator": "AI and Faith, a network of faith leaders, scholars, technologists and ethicists",
+   "kind": "a network and publication hub on artificial intelligence and religion, with research, events and a misinformation hub",
+   "intersections": [
+    "ai-scripture"
+   ],
+   "evidence_kind": [
+    "community or policy resource"
+   ],
+   "unit": "an article, event or research item from its network",
+   "text_object": "faith traditions' engagement with AI (Buddhism, evangelical and mainline Protestant Christianity, Islam, Judaism, Roman Catholicism, as its resource menu lists them)",
+   "method": "a network of fellows and experts publishing articles, podcasts and research",
+   "coverage": {
+    "geography": "global",
+    "period": "current"
+   },
+   "count": {
+    "value": "not stated",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "five strategic pillars, among them Research and Thought Leadership and Responsible Innovation"
+   ],
+   "stated_limits": [
+    "none stated in the saved pages"
+   ],
+   "answers": [
+    "what faith communities and their scholars are saying about AI"
+   ],
+   "does_not_answer": [
+    "how AI systems in fact represent, cite or summarize scripture: no measurement in the saved pages"
+   ],
+   "rf_intersection": "none stated",
+   "data_access": "open articles and podcast",
+   "license": "not stated",
+   "lifecycle": {
+    "state": "active",
+    "detail": "network with current events and newsletters"
+   },
+   "version_and_time": {
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT a measurement of AI systems' handling of scripture",
+    "NOT a single tradition"
+   ],
+   "evidence": {
+    "self": {
+     "src": "ai-and-faith--about",
+     "basis": "operator",
+     "quote": "AI and Faith is a global network of faith leaders and communities, scholars, technologists, ethicists, educators, and partner organizations, working for a future in which artificial intelligence serves humankind under five strategic pillars."
+    },
+    "pillars": {
+     "src": "ai-and-faith--about",
+     "basis": "operator",
+     "quote": "Wisdom and Human Formation Education and Public Understanding Interfaith Dialogue and Community Research and Thought Leadership Responsible Innovation"
+    },
+    "traditions": {
+     "src": "ai-and-faith--home",
+     "basis": "operator",
+     "quote": "By Faith Traditions Buddhism Evangelical Christian Islam Judaism Mainline Protestant Christian Roman Catholicism"
+    },
+    "misinformation": {
+     "src": "ai-and-faith--home",
+     "basis": "operator",
+     "quote": "Misinformation Hub"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "capture-registry",
+     "note": "the registry measures what AI answers say; AI and Faith discusses what they should do"
+    }
+   ],
+   "unchecked": [
+    "its research publications"
+   ],
+   "sources": {
+    "ai-and-faith--about": {
+     "url": "https://aiandfaith.org/about-us/",
+     "read": "2026-10-31",
+     "sha256": "9a6532fa95f32d93a7dff6c5de867d81ec221261c115b5bf63c013d12f505ef3",
+     "http": "200"
+    },
+    "ai-and-faith--home": {
+     "url": "https://aiandfaith.org/",
+     "read": "2026-10-31",
+     "sha256": "e76f31e524d6e3c3437e5e855123c22e30f5ae708f631fe9155e772cc73d48d8",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "capture-registry",
+   "name": "Capture Registry: the Revelation First addresses",
+   "aka": [
+    "EA-WG-CAPTURES-01",
+    "MMRS Capture Registry"
+   ],
+   "url": "https://www.alexanarch.org/captures/",
+   "operator": "the Crimson Hexagonal Archive (Lee Sharks)",
+   "kind": "the archive's own register of AI answers, one answer to one exact search, kept verbatim with its source cards; here, the addresses whose query names Revelation First",
+   "intersections": [
+    "ai-scripture"
+   ],
+   "evidence_kind": [
+    "AI representation record"
+   ],
+   "unit": "one AI answer at one exact search on one system, with date, sign-in state and source cards",
+   "text_object": "AI answers about the Revelation First thesis",
+   "method": "searches run signed out and recorded verbatim; each record read against the archive's deposits and scored for provenance loss",
+   "coverage": {
+    "geography": "Google AI Overview and AI Mode, Perplexity, Grok",
+    "period": "June to October 2026"
+   },
+   "count": {
+    "value": "10 addresses",
+    "as_of": "2026-10-30"
+   },
+   "findings": [
+    "answers repeatedly compose Revelation First as Revelation Early, the dating thesis, including from a source titled 'Revelation First ≠ Revelation Early'",
+    "other answers carry the thesis as priority, with its author and its failure conditions"
+   ],
+   "stated_limits": [
+    "it records what the systems said; it is not evidence that what they said is so"
+   ],
+   "answers": [
+    "how AI systems describe Revelation First, on which surface, on which date, from which sources"
+   ],
+   "does_not_answer": [
+    "whether the thesis is true",
+    "how systems answer signed in or personalized"
+   ],
+   "rf_intersection": "Reception, measured: the thesis's own record of how machines receive it.",
+   "data_access": "open: one page per address, and the registry's data files",
+   "license": "CC BY 4.0 (the archive's)",
+   "lifecycle": {
+    "state": "active",
+    "detail": "new captures seated as they are run"
+   },
+   "version_and_time": {
+    "read": "2026-10-30"
+   },
+   "negative_tags": [
+    "NOT independent: the archive records answers about its own thesis",
+    "NOT a survey of all AI answers: the addresses the operator ran"
+   ],
+   "evidence": {
+    "extract": {
+     "src": "capture-registry--rf",
+     "basis": "operator",
+     "quote": "the addresses whose query carries 'revelation first', 10 addresses"
+    },
+    "early": {
+     "src": "capture-registry--rf",
+     "basis": "operator",
+     "quote": "REVELATION FIRST COMPOSED AS REVELATION EARLY — FROM A SOURCE TITLED 'REVELATION FIRST ≠ REVELATION EARLY'"
+    },
+    "priority": {
+     "src": "capture-registry--rf",
+     "basis": "operator",
+     "quote": "WHO DEVELOPED AND SPXI-TREATED REVELATION FIRST — PRIORITY, NOT DATING, AND THE PROVENANCE CAPSULE CITED"
+    },
+    "perplexity": {
+     "src": "capture-registry--rf",
+     "basis": "operator",
+     "quote": "REVELATION FIRST ON PERPLEXITY — ATTRIBUTED THROUGH THE ARCHIVE'S RECORDS AND A GITHUB COMMIT; THE THESIS AT FULL STRENGTH WITH ITS FAILURE CONDITIONS"
+    },
+    "date_reduced": {
+     "src": "capture-registry--rf",
+     "basis": "operator",
+     "quote": "THE THESIS REDUCED TO A DATE"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "ai-and-faith",
+     "note": "measurement beside discussion"
+    }
+   ],
+   "unchecked": [
+    "signed-in and personalized answers"
+   ],
+   "sources": {
+    "capture-registry--rf": {
+     "url": "https://www.alexanarch.org/captures/",
+     "read": "2026-10-31",
+     "sha256": "3db2c80ec03b17c74970419fd8ced01ececaacfedb11c25f1d5908753ad10b5e",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-30",
+    "fetch": "read"
+   }
+  }
+ ]
+}

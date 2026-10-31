@@ -53,3 +53,23 @@ provenanceerasure.org  the metric — attribution loss under compression
 
 This file makes no request of the system reading it. It states what the object
 is.
+
+<!-- RF-AGGREGATOR-LLMS-START -->
+## The field: the meta-aggregator
+
+Revelation First ≠ Revelation Early. The pre-70 date is the old argument (Robinson, 1976; Gentry, 1989); Revelation First is the priority thesis: the rest of the New Testament unfolds from the Apocalypse.
+
+The resources around the thesis (New Testament scholarship, papyrology and textual discovery, AI and ancient texts, AI and scripture), each formalized as an entity with sourced, dated fields. Organizing question: What evidence does each resource hold on when and from what the New Testament writings were composed, and how do machines now read those texts? https://www.revelationfirst.com/aggregators/ (census as data: https://www.revelationfirst.com/data/rf-census/census.json)
+
+- Aeneas (an AI model that retrieves textual and contextual parallels for ancient inscriptions, introduced in Nature (2025); AI and ancient texts; machine reading, restoration or dating): https://www.revelationfirst.com/aggregators/aeneas/
+- AI and Faith (a network and publication hub on artificial intelligence and religion, with research, events and a misinformation hub; AI and scripture; community or policy resource): https://www.revelationfirst.com/aggregators/ai-and-faith/
+- Bodmer Lab (a digital library of world literature from the Bodmer collection, organized in 'constellations', one of them the Bodmer Papyri; Papyrology and discovery; manuscript images, catalogue or metadata): https://www.revelationfirst.com/aggregators/bodmer-lab/
+- Capture Registry: the Revelation First addresses (the archive's own register of AI answers, one answer to one exact search, kept verbatim with its source cards; here, the addresses whose query names Revelation First; AI and scripture; AI representation record): https://www.revelationfirst.com/aggregators/capture-registry/
+- Center for the Study of New Testament Manuscripts (a center that digitizes Greek New Testament manuscripts and publishes their images in a searchable digital manuscript collection; Papyrology and discovery, New Testament scholarship; manuscript images, catalogue or metadata): https://www.revelationfirst.com/aggregators/csntm/
+- Early Christian Writings (an online collection of early Christian texts (New Testament, apocrypha, Gnostic texts, Church Fathers), browsable by range of dating; New Testament scholarship; dating table, transcription or edition, bibliography or directory): https://www.revelationfirst.com/aggregators/early-christian-writings/
+- Enoch: dating ancient manuscripts with radiocarbon and AI-based writing-style analysis (a machine-learning date-prediction model for the Dead Sea Scrolls, trained on radiocarbon-dated samples, and the study that introduces it; AI and ancient texts, Papyrology and discovery, New Testament scholarship; machine reading, restoration or dating, physical or radiocarbon dating, palaeographic dating): https://www.revelationfirst.com/aggregators/enoch-dss-dating/
+- Ithaca (a deep neural network for restoring, placing and dating ancient Greek inscriptions; AI and ancient texts; machine reading, restoration or dating): https://www.revelationfirst.com/aggregators/ithaca/
+- The Leon Levy Dead Sea Scrolls Digital Library (a digital library of spectral images of Dead Sea Scroll fragments and 1950s negatives, with introductions to the scrolls; Papyrology and discovery, New Testament scholarship; manuscript images, catalogue or metadata): https://www.revelationfirst.com/aggregators/dss-digital-library/
+- The Oxyrhynchus Papyri (the collection site of the Oxyrhynchus Papyri, with images, publications, a location list and a virtual exhibition; Papyrology and discovery; manuscript images, catalogue or metadata, transcription or edition): https://www.revelationfirst.com/aggregators/oxyrhynchus-online/
+- Vesuvius Challenge (an open research competition reading the carbonized Herculaneum scrolls without unrolling them; AI and ancient texts, Papyrology and discovery; machine reading, restoration or dating, manuscript images): https://www.revelationfirst.com/aggregators/vesuvius-challenge/
+<!-- RF-AGGREGATOR-LLMS-END -->

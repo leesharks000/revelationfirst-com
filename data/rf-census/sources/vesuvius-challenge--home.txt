@@ -1,0 +1,137 @@
+Vesuvius Challenge — Reading the Herculaneum Scrolls with AI 
+
+ Skip to main content 
+
+ Vesuvius Challenge Prizes Problems Tutorials & In-depth Virtual Unwrapping 
+ Spiral Fitting 
+ Winding Constraints 
+ Ink Detection 
+
+ Data Milestones Community Discord 
+ 𝕏 
+ Substack 
+ GitHub 
+ Hugging Face 
+ Weights & Biases 
+
+ Press Donate 
+ Join Discord Get Started 
+
+ Resurrecting an ancient library from the ashes of a volcano.
+ Buried in 79 AD, now being revealed.
+ Vesuvius Challenge is an open science research organization reading the carbonized Herculaneum scrolls without unrolling them. Anyone can help : we run a $2M competition , with prizes every month.
+ Get Started Join Discord 
+
+ News ​ 
+ More on Substack 
+ $60,000 First Title Prize Awarded May 5 February Prizes and Updates March 12 New Prizes and Progress Update February 27 First Letters Found in New Scroll February 5 
+
+ Open problems & prizes ​ 
+ All prizes and rules 
+
+ Virtual Unwrapping
+ We can trace a scroll's surface, but where sheets are crushed or torn it still needs human help. Help us make it fully automatic.
+ Win the $1,000,000 Grand Prize 
+
+ Learn about the current path 
+
+ Ink Detection
+ We can see ink in some scrolls, but models trained on one rarely transfer to the next. Help us make them work on every scroll.
+ Win the $500,000 First Letters Prizes 
+
+ Learn how to find a letter 
+
+ Our story ​ 
+ All milestones 
+ 79 AD 1750 2015 2023 2026 
+ ‹ Vesuvius erupts, burying a villa and its library of papyrus scrolls under twenty meters of ash.
+ The scrolls are carbonized by the heat, but also preserved. For centuries, as almost every other ancient text decays, the library of the Villa of the Papyri waits underground, intact.
+
+ › 
+
+ Team ​ 
+ Led by
+ Paul Henderson Technical Lead 
+ Federica Nicolardi Papyrology Lead 
+
+ Created by
+ Nat Friedman Instigator, Director & Founding Sponsor 
+ Daniel Gross Founding Sponsor 
+ Brent Seales Principal Advisor 
+
+ Technical Team
+ Sean Johnson Research Scientist 
+ Hendrik Schilling Research Scientist 
+ Elian Rafael Dal Prá Research Assistant 
+ Johannes Rudolph Platform Engineer 
+
+ Papyrology Team
+ Federica Nicolardi Associate Professor, University of Naples Federico II 
+ Marzia D'Angelo Postdoctoral Fellow, University of Naples Federico II 
+ Kilian Fleischer Research Director and Papyrologist, University of Tübingen 
+ Alessia Lavorante Postdoctoral Fellow, University of Naples Federico II 
+ Michael McOsker Researcher, University of Oxford 
+ Maria Chiara Robustelli Postdoctoral Fellow, University of Naples Federico II 
+ Claudio Vergara Postdoctoral Fellow, University of Naples Federico II 
+ Rossella Villa Research Assistant, University of Salerno 
+
+ Annotation Team
+ David Josey Team Lead 
+ Kendra Brown Annotation Specialist 
+ Laura Trojak Annotation Specialist 
+
+ Advisors & Alumni ▾ Papyrology Advisors ▾ EduceLab Team (Partners) ▾ 
+ JP Posma Project Lead 
+ Stephen Parsons Project Lead 
+ Giorgio Angelotti Project & Tech Team Lead 
+ Youssef Nader Machine Learning Researcher 
+ Ben Kyles Segmentation Team Lead 
+ Julian Schilliger Software Engineer 
+ Forrest McDonald Software Engineer 
+ Adrionna Fey Annotation Specialist 
+ Cooper Miller Annotation Specialist 
+ Eric Thvedt Annotation Specialist 
+ Konrad Rosenberg Annotation Specialist 
+ Raymond Gasper Annotation Specialist 
+ Sarah Morejohn Annotation Specialist 
+ Sergei Pnev Annotation Specialist 
+ Techjays Annotation Services 
+ Daniel Havíř Machine Learning 
+ Ian Janicki Design 
+ Chris Frangione Prizes 
+ Garrett Ryan Classics 
+ Dejan Gotić 3D Animator 
+ Jonny Hyman 2D Animator 
+
+ Daniel Delattre Emeritus Research Director and Papyrologist, CNRS and IRHT 
+ Gianluca Del Mastro Professor of Papyrology, l'Università della Campania «L. Vanvitelli» 
+ Robert Fowler Fellow of the British Academy; Professor Emeritus of Classics, Bristol University 
+ Richard Janko Fellow of the American Academy of Arts and Sciences; Professor of Classics, University of Michigan 
+ Tobias Reinhardt Corpus Christi Professor of the Latin Language and Literature, Oxford 
+
+ Brent Seales Principal Investigator, Professor of Computer Science 
+ Seth Parker Assistant Research Professor 
+ Christy Chapman Research & Partnership Manager 
+ Mami Hayashida Research Staff 
+ James Brusuelas Associate Professor of Classics 
+ Beth Lutin College Business Analyst 
+ Roger Macfarlane Professor of Classical Studies 
+
+ Sponsors ​ 
+ Make a donation 
+ Nat Friedman $2,750,000 Musk Foundation $2,084,000 Alex Gerko $450,000 Joseph Jacks $250,000 Daniel Gross $225,000 Matt Mullenweg $150,000 John & Patrick Collison $125,000 Emergent Ventures $100,000 Eugene Jhong $100,000 Julia DeWahl & Dan Romero $100,000 Anonymous $100,000 Bastian Lehmann $75,000 Tobi Lutke $75,000 Arthur Breitman $50,000 Guillermo Rauch $50,000 Matt Huang $50,000 Anonymous $50,000 Anonymous $50,000 Aaron Levie $25,000 Akshay Kothari $25,000 Alexa McLain $25,000 Anjney Midha $25,000 franciscosan.org $25,000 John O'Brien $25,000 Mark Cummins $25,000 Jamie Cox & Gary Wu $15,000 Mike Mignano $15,000 Aravind Srinivas $10,000 Brandon Reeves $10,000 Brandon Silverman $10,000 Chet Corcos $10,000 Ivan Zhao $10,000 Katsuya Noguchi $10,000 Matias Nisenson $10,000 Maya & Taylor Blau $10,000 Mikhail Parakhin $10,000 Neil Parikh $10,000 Raymond Russell $10,000 Sahil Chaudhary $10,000 Shariq Hashme $10,000 Stephanie Sher $10,000 Vignan Velivela $10,000 Alex Petkas $5,000 Amjad Masad $5,000 Conor White-Sullivan $5,000 Will Fitzgerald $5,000 
+ Show more ▾ 
+
+ Partners ​ 
+
+ Discord 
+ GitHub 
+ Hugging Face 
+ Weights & Biases 
+ Substack 
+ 𝕏 
+ Jobs 
+
+ Copyright © 2026 Vesuvius Challenge · Content licensed CC BY-NC 4.0 unless otherwise specified
+
+ Ask Philodemus Ask
