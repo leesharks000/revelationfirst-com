@@ -261,6 +261,15 @@
      "rel": "neighbour",
      "target": "oxyrhynchus-online",
      "note": "both hold or image early Christian papyri; the saved pages do not cross-reference"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/center-for-the-study-of-new-testament-manuscripts-aio-20261031/",
+     "label": "«Center for the Study of New Testament Manuscripts» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER",
+     "dates": {
+      "observed": "2026-10-31"
+     }
     }
    ],
    "unchecked": [
@@ -383,6 +392,15 @@
      "rel": "neighbour",
      "target": "csntm",
      "note": "both hold or image early Christian papyri"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/oxyrhynchus-papyri-aio-20261031/",
+     "label": "«Oxyrhynchus Papyri» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER",
+     "dates": {
+      "observed": "2026-10-31"
+     }
     }
    ],
    "unchecked": [
@@ -477,7 +495,17 @@
      "quote": "56 documents numérisés"
     }
    },
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/bodmer-lab-aio-20261031/",
+     "label": "«Bodmer Lab» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER; at this name the composition sets out three entities of the name, this library first, and asks which was meant; the domain bodmerlab.org is a cardiovascular laboratory's",
+     "dates": {
+      "observed": "2026-10-31"
+     }
+    }
+   ],
    "unchecked": [
     "the Bodmer Papyri catalogue entries",
     "the Fondation's own collection pages (saved, navigation only)"
@@ -589,6 +617,15 @@
      "rel": "used_by",
      "target": "enoch-dss-dating",
      "note": "the Enoch study dates scrolls from this corpus"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/leon-levy-dead-sea-scrolls-digital-library-aio-20261031/",
+     "label": "«Leon Levy Dead Sea Scrolls Digital Library» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER",
+     "dates": {
+      "observed": "2026-10-31"
+     }
     }
    ],
    "unchecked": [
@@ -697,7 +734,17 @@
      "quote": "Nero's mad acts in Rome against the Christians had nothing to do with the imperial cult."
     }
    },
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/early-christian-writings-aio-20261031/",
+     "label": "«Early Christian Writings» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER; at this name the composition gives a Penguin Classics book, Early Christian Writings: The Apostolic Fathers, with its price, and never reaches the site",
+     "dates": {
+      "observed": "2026-10-31"
+     }
+    }
+   ],
    "unchecked": [
     "the provenance of the quoted introductions",
     "the site's operator"
@@ -830,6 +877,15 @@
      "rel": "uses",
      "target": "dss-digital-library",
      "note": "its corpus is the Dead Sea Scrolls"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/enoch-ai-dating-dead-sea-scrolls-aio-20261031/",
+     "label": "«Enoch AI dating Dead Sea Scrolls» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER; the address carries a disambiguator, the bare name being shared",
+     "dates": {
+      "observed": "2026-10-31"
+     }
     }
    ],
    "unchecked": [
@@ -937,6 +993,15 @@
      "rel": "neighbour",
      "target": "aeneas",
      "note": "Aeneas is DeepMind's later model for Latin inscriptions"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/ithaca-deepmind-aio-20261031/",
+     "label": "«Ithaca DeepMind» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER; the address carries a disambiguator, the bare name being shared",
+     "dates": {
+      "observed": "2026-10-31"
+     }
     }
    ],
    "unchecked": [
@@ -1043,6 +1108,15 @@
      "rel": "neighbour",
      "target": "ithaca",
      "note": "DeepMind's earlier model for Greek inscriptions"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/aeneas-deepmind-aio-20261031/",
+     "label": "«Aeneas DeepMind» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER; the address carries a disambiguator, the bare name being shared",
+     "dates": {
+      "observed": "2026-10-31"
+     }
     }
    ],
    "unchecked": [
@@ -1159,7 +1233,17 @@
      "quote": "Grand Prize deadline June 25th, 2027"
     }
    },
-   "relations": [],
+   "relations": [
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/vesuvius-challenge-aio-20261031/",
+     "label": "«Vesuvius Challenge» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER",
+     "dates": {
+      "observed": "2026-10-31"
+     }
+    }
+   ],
    "unchecked": [
     "the data releases",
     "the licence of the data"
@@ -1260,6 +1344,15 @@
      "rel": "neighbour",
      "target": "capture-registry",
      "note": "the registry measures what AI answers say; AI and Faith discusses what they should do"
+    },
+    {
+     "rel": "capture",
+     "url": "https://www.alexanarch.org/captures/ai-and-faith-aio-20261031/",
+     "label": "«AI and Faith» on Google AI Overview, 2026-10-31",
+     "note": "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER; at this name the composition gives the topic at large, with the network as one bullet and its home page as the first card",
+     "dates": {
+      "observed": "2026-10-31"
+     }
     }
    ],
    "unchecked": [

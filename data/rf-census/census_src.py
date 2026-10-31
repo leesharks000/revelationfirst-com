@@ -56,6 +56,30 @@ PENDING = {
                    "reason": "the domain now serves Logos's 'Lecture Hall' pages; the directory itself was not found there"},
 }
 
+# the composition layer's account of each resource at its common name, run by the operator and seated in the Capture Registry
+# (intake rebuild/capture-registry/intake-20261031-rf-census/, received 2026-10-31 00:04 EDT), with its dimensional PER
+CAPTURE = {"csntm": "Center for the Study of New Testament Manuscripts", "oxyrhynchus-online": "Oxyrhynchus Papyri", "bodmer-lab": "Bodmer Lab",
+           "dss-digital-library": "Leon Levy Dead Sea Scrolls Digital Library", "early-christian-writings": "Early Christian Writings",
+           "enoch-dss-dating": "Enoch AI dating Dead Sea Scrolls", "ithaca": "Ithaca DeepMind", "aeneas": "Aeneas DeepMind",
+           "vesuvius-challenge": "Vesuvius Challenge", "ai-and-faith": "AI and Faith"}
+HOMONYM = {"bodmer-lab": "sets out three entities of the name, this library first, and asks which was meant; the domain bodmerlab.org is a cardiovascular laboratory's",
+           "early-christian-writings": "gives a Penguin Classics book, Early Christian Writings: The Apostolic Fathers, with its price, and never reaches the site",
+           "ai-and-faith": "gives the topic at large, with the network as one bullet and its home page as the first card"}
+DISAMBIG = {"enoch-dss-dating", "ithaca", "aeneas"}
+for r in ROWS:
+    q = CAPTURE.get(r["slug"])
+    if not q:
+        continue
+    cslug = re.sub(r"[^a-z0-9]+", "-", q.lower()).strip("-") + "-aio-20261031"
+    note = "the composition layer's account of the resource at its common name, signed out, seated in the Capture Registry with its dimensional PER"
+    if r["slug"] in HOMONYM:
+        note += f"; at this name the composition {HOMONYM[r['slug']]}"
+    if r["slug"] in DISAMBIG:
+        note += "; the address carries a disambiguator, the bare name being shared"
+    r.setdefault("relations", []).append(
+        {"rel": "capture", "url": f"https://www.alexanarch.org/captures/{cslug}/", "label": f"«{q}» on Google AI Overview, 2026-10-31",
+         "note": note, "dates": {"observed": "2026-10-31"}})
+
 # ---------------------------------------------------------------- write
 def norm(s): return re.sub(r"\s+", " ", s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')).strip()
 problems = []
