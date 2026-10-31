@@ -76,9 +76,11 @@ for r in ROWS:
         note += f"; at this name the composition {HOMONYM[r['slug']]}"
     if r["slug"] in DISAMBIG:
         note += "; the address carries a disambiguator, the bare name being shared"
-    r.setdefault("relations", []).append(
+    r.setdefault("relations", []).extend([
         {"rel": "capture", "url": f"https://www.alexanarch.org/captures/{cslug}/", "label": f"«{q}» on Google AI Overview, 2026-10-31",
-         "note": note, "dates": {"observed": "2026-10-31"}})
+         "note": note, "dates": {"observed": "2026-10-31"}},
+        {"rel": "non_row", "url": f"https://www.alexanarch.org/non/{r['slug']}/", "label": "its NonWiki article (EA-NEGONT-02 v0.9, equal case)",
+         "note": "composed 2026-10-31 against its own pages, its Wikipedia article or its absence, the capture's cards and the archive"}])
 
 # ---------------------------------------------------------------- write
 def norm(s): return re.sub(r"\s+", " ", s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')).strip()

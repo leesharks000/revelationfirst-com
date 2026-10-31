@@ -18,7 +18,7 @@ INTER = D["intersections"]
 SHORT = {"nt-scholarship": "New Testament scholarship", "papyrology-discovery": "Papyrology and discovery", "ai-ancient-texts": "AI and ancient texts", "ai-scripture": "AI and scripture"}
 KINDS = D["evidence_kinds"]
 REL = {"part_of": "Part of", "has_part": "Has part", "neighbour": "Neighbours", "uses": "Uses", "used_by": "Used by", "sibling": "Sibling record",
-       "capture": "Captures: the composition layer's account", "non_row": "The /non row"}
+       "capture": "Captures: the composition layer's account", "non_row": "NonWiki: the article, sourced"}
 HEAD = '<link rel="stylesheet" href="/assets/type.css"><link rel="stylesheet" href="/assets/rf.css">'   # the site's own faces (assets/type.css), its own palette (rf.css)
 NAV = [("The thesis", "/"), ("The field", "/aggregators/"), ("Questions", "/aggregators/#questions"), ("Captures", "https://www.alexanarch.org/captures/")]
 
@@ -181,7 +181,7 @@ def page(r):
 <meta name="citation_title" content="{e(r["name"])} — Revelation First meta-aggregator record"><meta name="citation_editor" content="Lee Sharks"><meta name="citation_date" content="{D["compiled"]}"><meta name="citation_public_url" content="{BASE}{r["slug"]}/">
 <script type="application/ld+json">{jsonld(r)}</script>{HEAD}</head><body>{topbar("The field")}<div class="wrap">
 <div class="crumb"><a href="/aggregators/">Revelation First meta-aggregator</a> / {e(SHORT.get(r["intersections"][0], r["intersections"][0]))}</div><p class="corr">{e(D["correction"])}</p><h1>{e(r["name"])}</h1>{chips(r)}<div class="kernel">{e(kernel(r))}</div>
-<div class="act"><a class="btn" href="{e(r["url"])}">{("Its page ↗ (" + e(r["lifecycle"]["state"]) + ")") if r["lifecycle"]["state"] in ("ended", "paused") else ("Visit " + e(r["name"]) + " ↗")}</a>{''.join(f'<a class="btn ghost" href="{e(x["url"])}">The /non row</a>' for x in r.get("relations", []) if x["rel"] == "non_row")}<a class="btn ghost" href="/">The thesis</a><button class="btn ghost" type="button" data-copy="cite">Copy citation</button></div>
+<div class="act"><a class="btn" href="{e(r["url"])}">{("Its page ↗ (" + e(r["lifecycle"]["state"]) + ")") if r["lifecycle"]["state"] in ("ended", "paused") else ("Visit " + e(r["name"]) + " ↗")}</a>{''.join(f'<a class="btn ghost" href="{e(x["url"])}">Its NonWiki article</a>' for x in r.get("relations", []) if x["rel"] == "non_row")}<a class="btn ghost" href="/">The thesis</a><button class="btn ghost" type="button" data-copy="cite">Copy citation</button></div>
 {ownq}
 
 <h2>What it records</h2><table>{tbl(REC)}</table><p class="legend">op the resource's own statement · 3p a third-party account · obs our observation · rd our reading. Hover a tag for its quote; each opens below with its source.</p>
