@@ -4,6 +4,7 @@
 
 ## What is here
 
+- /literary-genealogy/ — the article "Revelation First: Literary Genealogy and the Missing Ancestors of the Epistles" (Johannes Sigil and Damascus Dancings, Provenance: Journal of Forensic Semiotics, 2026; Alexanarch #1735), in full: the ancestry test, absolute, corpus and generative priority kept apart, the seven-church corpus and the crown of life.
 - /unfolding/ — the derivations run downstream: eight named rules emitting the
   structural skeleton of the Epistle of James, and the heptad across all seven
   letters, graded.
