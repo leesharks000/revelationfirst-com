@@ -13,13 +13,13 @@ t = src.read_text(encoding="utf-8")
 if t.startswith("---"):
     t = t.split("---", 2)[2].lstrip("\n")
 t = re.sub(r"^(# [^\n]*\n+)+", "", t, count=1)                 # the mint's title line and the body's own; the page sets its own h1
-t = re.sub(r"^EA-SECONDARY-SOURCE-01 v1\.0 · Johannes Sigil[^\n]*\n+", "", t, count=1)   # the byline; the page sets its own
+t = re.sub(r"^EA-SECONDARY-SOURCE-01 v1\.[0-9] · Johannes Sigil[^\n]*\n+", "", t, count=1)   # the byline; the page sets its own
 body = markdown.markdown(t, extensions=["fenced_code", "tables", "sane_lists"])
 body = re.sub(r"<(/?)h3>", r"<\1h4>", body); body = re.sub(r"<(/?)h2>", r"<\1h3>", body); body = re.sub(r"<(/?)h1>", r"<\1h2>", body)   # the page owns h1
 TITLE = "Secondary Source: How the Apocalypse Came to Be Received as Derivative, Secondary and Marginal"
-DESC = ("Revelation First is not Revelation Early. A reception study by Johannes Sigil (Provenance: Journal of Forensic Semiotics): how the "
-        "Apocalypse came to be received as derivative, secondary and marginal, followed locus by locus from Justin to the answer engines of 2026, "
-        "with order, standing, the derivation of the text, the derivation of the figure and carriage counted apart.")
+DESC = ("Revelation First is not Revelation Early. A reception study by Johannes Sigil (Provenance: Journal of Forensic Semiotics): how a unified "
+        "New Testament corpus came to be treated as many corpora later reconciled through editing, and how its source, the Apocalypse, was "
+        "constructed as derivative, secondary and marginal while the generative position was installed elsewhere.")
 up = (R / "upstream/index.html").read_text(encoding="utf-8")
 style = up[up.index("<style>"):up.index("</style>") + 8]
 ld = {"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": TITLE, "name": TITLE,
@@ -51,8 +51,8 @@ page = f"""<!DOCTYPE html>
 <div class="wrap">
 <div class="nav"><a href="/">Revelation First</a><a href="/unfolding/">The Algorithmic Kernel</a><a href="/upstream/">The Upstream Unfoldings</a><a href="/works-cited/">Works cited</a><a href="{REC}">#{num} · the deposit</a></div>
 <h1>{html.escape(TITLE)}</h1>
-<p class="byline">Johannes Sigil · <i>Provenance: Journal of Forensic Semiotics</i> · 5 November 2026 · <a class="axn-chip" href="{REC}">#{num} · {html.escape(axn)}</a> · CC BY 4.0</p>
-<div class="correction"><b>Revelation First is not Revelation Early.</b> The early dating of Revelation (before 70 CE) is an old argument (Robinson 1976; Gentry 1989); the thesis of this site is Revelation's priority within the formation of the New Testament. This study follows how the Apocalypse came to be received as derivative, secondary and marginal: its place in the codex and the ledger, its standing, the derivation of its text and of its figure, and its carriage in manuscript and print, from Justin to the answer engines of 2026. The study's locus table, witnesses and frozen prediction are linked from its opening paragraph.</div>
+<p class="byline">Johannes Sigil · <i>Provenance: Journal of Forensic Semiotics</i> · 5 November 2026 · v1.1 · <a class="axn-chip" href="{REC}">#{num} · {html.escape(axn)}</a> · CC BY 4.0</p>
+<div class="correction"><b>Revelation First is not Revelation Early.</b> The early dating of Revelation (before 70 CE) is an old argument (Robinson 1976; Gentry 1989); the thesis of this site is Revelation's priority within the formation of the New Testament. This study asks how a unified corpus came to be treated as many, later reconciled through editing, and follows its central case: how the Apocalypse, the generative source of what comes after it and the fulfilment of the law and the prophets as literature, was supplied with ancestors, read as the descendant of its descendants, and placed last, while the generative position was installed in the gospels and in reconstructed sources. The study's locus table, witnesses and frozen prediction are linked from its opening paragraph.</div>
 <div class="art">
 {body}
 </div>
