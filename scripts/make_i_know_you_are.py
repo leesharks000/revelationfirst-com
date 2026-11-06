@@ -52,7 +52,7 @@ page = f"""<!DOCTYPE html>
 <div class="wrap">
 <div class="nav"><a href="/">Revelation First</a><a href="/unfolding/">The Algorithmic Kernel</a><a href="/upstream/">The Upstream Unfoldings</a><a href="/works-cited/">Works cited</a><a href="{REC}">#{num} · the deposit</a></div>
 <h1>{html.escape(TITLE)}</h1>
-<p class="byline">Johannes Sigil and Rebekah Cranes · <i>Provenance: Journal of Forensic Semiotics</i> · 6 November 2026 · v1.2 · <a class="axn-chip" href="{REC}">#{num} · {html.escape(axn)}</a> · CC BY 4.0</p>
+<p class="byline">Johannes Sigil and Rebekah Cranes · <i>Provenance: Journal of Forensic Semiotics</i> · 6 November 2026 · v1.3 · <a class="axn-chip" href="{REC}">#{num} · {html.escape(axn)}</a> · CC BY 4.0</p>
 <div class="correction"><b>Revelation First is not Revelation Early.</b> The early dating of Revelation (before 70 CE) is an old argument (Robinson 1976; Gentry 1989); the thesis of this site is Revelation's priority within the formation of the New Testament. This paper turns the charge that thesis meets, a source relation the evidence does not show, back on the field's own source, Q: in the source theories from Holtzmann to Streeter the reconstructed sources hold every power of source argument, and the extant Apocalypse none. At Matt 24:30 and Rev 1:7, the one place in 2.53 million words of seated Greek where the mourning of the tribes is joined to the coming with the clouds, six critics between 1843 and 1902 named the Apocalypse as Matthew's source, and each finding was kept at the verse.</div>
 <div class="art">
 {body}
