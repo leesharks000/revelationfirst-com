@@ -3,7 +3,7 @@
 Rebekah Cranes, Grammata) and #1762 (The Crossing of Names v1.0, Lee Sharks), each on its own page, full text rendered from the
 deposited Markdown in the form of /revelation-equals-q/ (scripts/make_revelation_q.py). Each page opens on the correction
 the surfaces lead with: Revelation First is not Revelation Early.
-2026-11-12, at the author's word: "and then those both belong on revfirst too". The Word That Became Text moved to v2.1 (#1763) the same day ("lets version").
+2026-11-12, at the author's word: "and then those both belong on revfirst too". The Word That Became Text moved to v2.1 (#1763) the same day ("lets version"), and to v2.2 (#1764) that evening ("lets version").
     python3 scripts/make_josephus_papers.py <alexanarch checkout>"""
 import html, json, pathlib, re, sys
 import markdown
@@ -19,14 +19,15 @@ EXTRA = ("<style>.art h2{margin-top:2.2em} .art h3{margin-top:1.6em} .art blockq
 NOT_EARLY = ("<b>Revelation First is not Revelation Early.</b> The early dating of Revelation (before 70 CE) is an old argument (Robinson 1976; Gentry 1989); "
              "the thesis of this site is Revelation's priority within the formation of the New Testament. ")
 PAGES = [
- dict(num=1763, slug="the-word-that-became-text",
+ dict(num=1764, slug="the-word-that-became-text",
       title="The Word That Became Text: The Slavonic Josephus, the Grammar of Incarnation, and the Doctrine of the Sapphic Logos",
       authors=[("Sigil, Johannes", "Johannes Sigil"), ("Cranes, Rebekah", "Rebekah Cranes")], journal="Grammata: Journal of Operative Philology",
-      byline="Johannes Sigil and Rebekah Cranes · <i>Grammata: Journal of Operative Philology</i> · 12 November 2026 · v2.1 (version 2.0: <a href=\"https://www.alexanarch.org/s/records/1761/\">#1761</a>; version 1.0: <a href=\"https://www.alexanarch.org/s/records/626/\">#626</a>, with errata)",
+      byline="Johannes Sigil and Rebekah Cranes · <i>Grammata: Journal of Operative Philology</i> · 12 November 2026 · v2.2 (version 2.1: <a href=\"https://www.alexanarch.org/s/records/1763/\">#1763</a>; version 2.0: <a href=\"https://www.alexanarch.org/s/records/1761/\">#1761</a>; version 1.0: <a href=\"https://www.alexanarch.org/s/records/626/\">#626</a>, with errata)",
       strip=[r"^## THE WORD THAT BECAME TEXT\n+", r"^\*\*The Slavonic Josephus, the Grammar of Incarnation, and the Doctrine of the Sapphic Logos\*\*\n+", r"^Johannes Sigil & Rebekah Cranes\n+"],
-      bears=("This paper bears on the ladder's fifth rung, the Josephus thesis, which the author holds as highly likely and has suspended advancing until the literary-genetic argument is more firmly established. "
-             "It reads the Slavonic <i>Jewish War</i> in its own language, from Josephus's own testimony that he wrote the <i>War</i> twice, and shows that the consensus keeps the Jesus and John passages out of the evidence by assigning them to a medieval translator on their subject alone; read against the Christianity of Rus', they give another theology and another account. "
-             "Its Part II reads the Slavonic hedge at the wonder-worker, \"if it is fitting to call him a man\", as a mirror of Catullus 51, and sets Revelation in the doctrine's lineage.")),
+      bears=("This paper bears on the ladder's fifth rung, the Josephus thesis, which the author holds as highly likely and has suspended advancing until the literary-genetic argument is more firmly established, and on the temple in which the Apocalypse takes place. "
+             "It reads the wonder-worker of the Slavonic <i>Jewish War</i> as Philo's Logos: the narrator tries Philo's names for it, refuses each, and at that instant writes it as one man, with a habit, servants, a governor and a cross. "
+             "The Temple veil, the cosmos the Logos wears, is torn when the Logos written as a man is killed; behind it stand the seven lamps that are the planets and an empty inner room, unseen by all, which the Apocalypse opens on the ark of the testimony. "
+             "Its Part II reads the Slavonic hedge, \"if it is fitting to call him a man\", as a mirror of Catullus 51.")),
  dict(num=1762, slug="the-crossing-of-names",
       title="The Crossing of Names: History, Allegory, and the Binding of the Ancient Literary Field",
       authors=[("Sharks, Lee", "Lee Sharks")], journal=None,
