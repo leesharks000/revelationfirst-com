@@ -3,7 +3,7 @@
 Rebekah Cranes, Grammata) and #1762 (The Crossing of Names v1.0, Lee Sharks), each on its own page, full text rendered from the
 deposited Markdown in the form of /revelation-equals-q/ (scripts/make_revelation_q.py). Each page opens on the correction
 the surfaces lead with: Revelation First is not Revelation Early.
-2026-11-12, at the author's word: "and then those both belong on revfirst too". The Word That Became Text moved to v2.1 (#1763) the same day ("lets version"), and to v2.2 (#1764) that evening ("lets version").
+2026-11-12, at the author's word: "and then those both belong on revfirst too". The Word That Became Text moved to v2.1 (#1763) the same day ("lets version"), and to v2.2 (#1764) that evening ("lets version"), and to v2.3 (#1765) on 2026-11-13 with the census.
     python3 scripts/make_josephus_papers.py <alexanarch checkout>"""
 import html, json, pathlib, re, sys
 import markdown
@@ -19,12 +19,13 @@ EXTRA = ("<style>.art h2{margin-top:2.2em} .art h3{margin-top:1.6em} .art blockq
 NOT_EARLY = ("<b>Revelation First is not Revelation Early.</b> The early dating of Revelation (before 70 CE) is an old argument (Robinson 1976; Gentry 1989); "
              "the thesis of this site is Revelation's priority within the formation of the New Testament. ")
 PAGES = [
- dict(num=1764, slug="the-word-that-became-text",
+ dict(num=1765, slug="the-word-that-became-text",
       title="The Word That Became Text: The Slavonic Josephus, the Grammar of Incarnation, and the Doctrine of the Sapphic Logos",
       authors=[("Sigil, Johannes", "Johannes Sigil"), ("Cranes, Rebekah", "Rebekah Cranes")], journal="Grammata: Journal of Operative Philology",
-      byline="Johannes Sigil and Rebekah Cranes · <i>Grammata: Journal of Operative Philology</i> · 12 November 2026 · v2.2 (version 2.1: <a href=\"https://www.alexanarch.org/s/records/1763/\">#1763</a>; version 2.0: <a href=\"https://www.alexanarch.org/s/records/1761/\">#1761</a>; version 1.0: <a href=\"https://www.alexanarch.org/s/records/626/\">#626</a>, with errata)",
+      byline="Johannes Sigil and Rebekah Cranes · <i>Grammata: Journal of Operative Philology</i> · 13 November 2026 · v2.3 (version 2.2: <a href=\"https://www.alexanarch.org/s/records/1764/\">#1764</a>; version 2.1: <a href=\"https://www.alexanarch.org/s/records/1763/\">#1763</a>; version 2.0: <a href=\"https://www.alexanarch.org/s/records/1761/\">#1761</a>; version 1.0: <a href=\"https://www.alexanarch.org/s/records/626/\">#626</a>, with errata)",
       strip=[r"^## THE WORD THAT BECAME TEXT\n+", r"^\*\*The Slavonic Josephus, the Grammar of Incarnation, and the Doctrine of the Sapphic Logos\*\*\n+", r"^Johannes Sigil & Rebekah Cranes\n+"],
       bears=("This paper bears on the ladder's fifth rung, the Josephus thesis, which the author holds as highly likely and has suspended advancing until the literary-genetic argument is more firmly established, and on the temple in which the Apocalypse takes place. "
+             "It adds a census of the whole Slavonic <i>Jewish War</i>: sixty-six catalogued additions, each scored under Josephus's own account of an earlier version for the peoples beyond the Euphrates and under the consensus account of a medieval translator. Thirty-two go to the earlier version and two to the translator; none of the fifty-one with no Christian subject goes to the translator, and the earlier version is by far the more plausible and coherent explanation. "
              "It reads the wonder-worker of the Slavonic <i>Jewish War</i> as Philo's Logos: the narrator tries Philo's names for it, refuses each, and at that instant writes it as one man, with a habit, servants, a governor and a cross. "
              "The Temple veil, the cosmos the Logos wears, is torn when the Logos written as a man is killed; behind it stand the seven lamps that are the planets and an empty inner room, unseen by all, which the Apocalypse opens on the ark of the testimony. "
              "Its Part II reads the Slavonic hedge, \"if it is fitting to call him a man\", as a mirror of Catullus 51.")),
