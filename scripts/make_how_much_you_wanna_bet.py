@@ -13,8 +13,9 @@ t = src.read_text(encoding="utf-8")
 if t.startswith("---"):
     t = t.split("---", 2)[2].lstrip("\n")
 t = re.sub(r"^(# [^\n]*\n+)+", "", t, count=1)                 # the mint's title line and the body's own; the page sets its own h1
-t = re.sub(r"^\*\*SEVP-VAL-003 v1\.0 · [^\n]*\n+\*\*Rex Fraction · [^\n]*\n+", "", t, count=1)   # the version line and byline; the page sets its own
+t = re.sub(r"^\*\*SEVP-VAL-003 v1\.\d+ · [^\n]*\n+\*\*Rex Fraction · [^\n]*\n+", "", t, count=1)   # the version line and byline; the page sets its own
 body = markdown.markdown(t, extensions=["fenced_code", "tables", "sane_lists"])
+body = body.replace('src="/data/attachments/', 'src="https://www.alexanarch.org/data/attachments/')   # the record's illustration, served from the archive (v1.1)
 body = re.sub(r"<(/?)h3>", r"<\1h4>", body); body = re.sub(r"<(/?)h2>", r"<\1h3>", body); body = re.sub(r"<(/?)h1>", r"<\1h2>", body)   # the page owns h1
 TITLE = "How Much You Wanna Bet? The Value of a Recovery, from Both Ends: Revelation First under the Valuation Protocol"
 DESC = ("Revelation First is not Revelation Early. SEVP-VAL-003 values the recovery of the Apocalypse as the source of the New Testament corpus "
@@ -58,7 +59,7 @@ page = f"""<!DOCTYPE html>
 <div class="wrap">
 <div class="nav"><a href="/">Revelation First</a><a href="/unfolding/">The Algorithmic Kernel</a><a href="/upstream/">The Upstream Unfoldings</a><a href="/works-cited/">Works cited</a><a href="{REC}">#{num} · the deposit</a></div>
 <h1>{html.escape(TITLE)}</h1>
-<p class="byline">Rex Fraction · Lee Sharks · Johannes Sigil · Damascus Dancings · Sen Kuro · <i>Transactions of the Semantic Economy Institute</i> · 25 November 2026 · SEVP-VAL-003 v1.0 · <a class="axn-chip" href="{REC}">#{num} · {html.escape(axn)}</a> · CC BY 4.0</p>
+<p class="byline">Rex Fraction · Lee Sharks · Johannes Sigil · Damascus Dancings · Sen Kuro · <i>Transactions of the Semantic Economy Institute</i> · 25 November 2026 · SEVP-VAL-003 v1.1 · <a class="axn-chip" href="{REC}">#{num} · {html.escape(axn)}</a> · CC BY 4.0</p>
 <div class="correction"><b>Revelation First is not Revelation Early.</b> The early dating of Revelation (before 70 CE) is an old argument (Robinson 1976; Gentry 1989); the thesis of this site is Revelation's priority within the formation of the New Testament. This dossier values the recovery of that priority, the Apocalypse restored to the position of source, from both ends: the least that must be re-grounded to admit it, the reach and the open expansion it would bring, the nested revaluation of every downstream text and material dependency its acceptance would require, and the debt it names. It issues no valid monetary valuation. Its one number, <b>$7.2 × 10²⁶ — a deliberately invalid monetary commensuration, preserved as an artifact; not an estimate of the recovery's value</b>, is audited to failure in its §9a. The same dossier stands at the <a href="https://www.semanticeconomy.org/how-much-you-wanna-bet">Semantic Economy Institute</a>.</div>
 <div class="art">
 {body}
