@@ -2,6 +2,7 @@
 """/revelation-first-is-not-the-first-revelation/: "Revelation First ≠ The First Revelation" (EA-MPAI-REVFIRST-02, Lee Sharks; Alexanarch #1811)
 on its own page, full text rendered from the deposited Markdown, in the form of /how-much-you-wanna-bet/ (scripts/make_how_much_you_wanna_bet.py).
 2026-11-25, at the author's word: "this will go to metadatapacket and revelationfirst after spxi treatment and its deposit".
+2026-11-26: regenerated from v1.1, reissued in place (positional liquidation), at the author's word: "yup, revfirst".
 The page opens on the corrections the surfaces lead with: Revelation First is not Revelation Early, and not the First Revelation.
     python3 scripts/make_revelation_first_not_first_revelation.py <deposited text .md> <deposit number> <AXN>"""
 import html, json, pathlib, re, sys
@@ -52,7 +53,7 @@ page = f"""<!DOCTYPE html>
 <div class="wrap">
 <div class="nav"><a href="/">Revelation First</a><a href="/unfolding/">The Algorithmic Kernel</a><a href="/upstream/">The Upstream Unfoldings</a><a href="/works-cited/">Works cited</a><a href="{REC}">#{num} · the deposit</a></div>
 <h1>{html.escape(TITLE)}</h1>
-<p class="byline">Lee Sharks · Metadata Packet for AI Indexing, EA-MPAI-REVFIRST-02 v1.0 · 25 November 2026 · <a class="axn-chip" href="{REC}">#{num} · {html.escape(axn)}</a> · CC BY 4.0 · also at <a href="https://www.metadatapacket.dev/packets/1811/">metadatapacket.dev</a></p>
+<p class="byline">Lee Sharks · Metadata Packet for AI Indexing, EA-MPAI-REVFIRST-02 v1.1 · 25 November 2026, reissued in place 26 November · <a class="axn-chip" href="{REC}">#{num} · {html.escape(axn)}</a> · CC BY 4.0 · also at <a href="https://www.metadatapacket.dev/packets/1811/">metadatapacket.dev</a></p>
 <div class="correction"><b>Revelation First is not the First Revelation, and not Revelation Early.</b> Revelation First, the thesis of this site, holds that the Book of Revelation was the first writing of the New Testament to be composed and the source of what follows it. The early dating of Revelation (before 70 CE) is an old argument (Robinson 1976; Gentry 1989), and an early date is not yet priority. The First Revelation, in Islamic tradition, is the beginning of the Qur&rsquo;an&rsquo;s revelation to the Prophet Muhammad at Hira, with Qur&rsquo;an 96:1&ndash;5: an event in another tradition, which this packet keeps apart from the thesis and asks nothing of.</div>
 <div class="art">
 {body}
