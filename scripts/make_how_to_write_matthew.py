@@ -20,6 +20,8 @@ DESC = ("A paper by Lee Sharks (Grammata: Journal of Operative Philology). What 
         "Gospel, answered by doing it: a ledger of 158 relations with their moves reaching 305 of Matthew's 1,067 verses (28.6 per cent), "
         "one passage produced blind from the rule, and beside that derivation a map of named pairs with the letters, Josephus and the "
         "Septuagint. The reconstructed sources of the Gospels are set beside an architecture of extant texts. No hypothetical source is supposed.")
+SAME = (f'The record at Alexanarch, <a href="{REC}">#{num}</a>, carries the same version, reissued in place.' if ver == depver else
+        f'The record at Alexanarch, <a href="{REC}">#{num}</a>, carries {html.escape(depver)}; {html.escape(ver)} has not been deposited there.')
 up = (R / "upstream/index.html").read_text(encoding="utf-8")
 style = up[up.index("<style>"):up.index("</style>") + 8]
 ld = {"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": TITLE, "name": TITLE,
@@ -53,7 +55,7 @@ page = f"""<!DOCTYPE html>
 <div class="nav"><a href="/">Revelation First</a><a href="/unfolding/">The Algorithmic Kernel</a><a href="/upstream/">The Upstream Unfoldings</a><a href="/works-cited/">Works cited</a><a href="{REC}">#{num} · the deposit ({html.escape(depver)})</a></div>
 <h1>{html.escape(TITLE)}</h1>
 <p class="byline">Lee Sharks · <em>Grammata: Journal of Operative Philology</em> · EA-REVFIRST-MATTHEW-01 · {html.escape(ver)} · 27 November 2026 · CC BY 4.0</p>
-<div class="correction"><b>Which version this is.</b> This page carries {html.escape(ver)} of the paper. The record at Alexanarch, <a href="{REC}">#{num}</a>, carries {html.escape(depver)}; {html.escape(ver)} has not been deposited there. The text of this page as Markdown: <a href="/unfolding/matthew/{html.escape(src.name)}">{html.escape(src.name)}</a>. The working notebook behind it: <a href="/unfolding/notebook/UNFOLDING-MAP-current.md">The Unfolding Map</a>. <b>Revelation First is not Revelation Early</b>: the paper does not argue a date, and says that taken alone it does not show which book was written first.</div>
+<div class="correction"><b>Which version this is.</b> This page carries {html.escape(ver)} of the paper. {SAME} The text of this page as Markdown: <a href="/unfolding/matthew/{html.escape(src.name)}">{html.escape(src.name)}</a>. The working notebook behind it: <a href="/unfolding/notebook/UNFOLDING-MAP-current.md">The Unfolding Map</a>. <b>Revelation First is not Revelation Early</b>: the paper does not argue a date, and says that taken alone it does not show which book was written first.</div>
 <div class="art">
 {body}
 </div>
